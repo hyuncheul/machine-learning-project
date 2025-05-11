@@ -1,0 +1,415 @@
+Did you know there was an official Super 
+Famicom expansion with two cartridge slots,  
+and all its games could connect to each other? 
+Similar to Pokemon with a Link Cable, you could  
+trade and fight with friends, and even steal their 
+characters in battle, for keeps. You could also  
+transfer your characters in one game over to its 
+sequels. And every game had a universal currency  
+you could move from cartridge to cartridge, 
+to buy the best unlockables at in-game stores.  
+It was one of the most clever add-ons of its 
+time... but unfortunately, ‘time’ was also its  
+biggest impediment to success. It hit Japanese 
+stores less than a week after the Nintendo 64,  
+and thus was doomed to be overshadowed from 
+the very start. Despite its ambitious goals  
+and potential, the add-on had an incredibly 
+short lifespan. At less than a hundred days,  
+it was shorter even than the Virtual Boy. More 
+than half its games ultimately got canned,  
+and nowadays it's mostly forgotten, even 
+in Japan. Search online in any language,  
+and you'll only find a few paragraphs -- 
+and a lot of it's not even accurate. So we  
+dug up some old Japanese magazines to learn its 
+history, and today we're gonna look at the rise,  
+fall, and why things turned out the way they did . 
+This... is the full story... of the SuFami Turbo .
+The SuFami Turbo was made by Bandai and officially 
+licensed by Nintendo -- in fact, SuFami is short  
+for Super Famicom: The marketing angle's that it 
+takes a Famicom that’s already ‘super,’ and kicks  
+it up a notch to ‘turbo.’ In our recent videos 
+on the Satellaview, SNES CD drive, and Nintendo  
+Power, we talked about how in part, all three 
+systems were made in response to the skyrocketing  
+manufacturing costs of Super Famicom cartridges. 
+By 1996, hundred dollar games'd become the norm,  
+with some retailing for one-twenty, one-thirty -- 
+even a-hundred-fifty dollars. All those systems  
+were built around alternate methods of delivering 
+software -- whether it was beaming games down from  
+satellites, putting 'em on CDs, or installing 
+kiosks all over Japan for downloading games  
+onto reusable flash carts. The Turbo was designed 
+to tackle the same problem, but with a different  
+solution... mini-cartridges. With a three-pronged 
+strategy, Bandai'd figured out how to cut costs in  
+half. For starters, they took some components 
+that're in normal Super Famicom carts , like  
+the lock-out chip , and stuck 'em in the Turbo 
+instead, along with a quarter megabyte of storage  
+that held a text font and other basic data.
+You might not think a font'd take up a lotta  
+space, but that's over 4000 Japanese characters 
+stored as sprites... which adds up. By putting all  
+that stuff in the add-on itself, none of it needed 
+to be in each individual mini-cart. Storage was  
+expensive back then, so the second cost-cutting 
+measure was limiting Turbo games to being,  
+at most, only one megabyte. That's less than a 
+lotta Super Famicom games coming out in 1996,  
+but still more than enough in the hands of 
+experienced developers. Early-generation  
+titles like Super Mario World, Final Fantasy IV, 
+and Zelda: A Link to the Past had all been made  
+with less than a megabyte. In other words, just 
+because storage is low, doesn't mean a game has  
+to be small -- if you know what you're doing. And 
+third, Bandai dedicated themselves to efficient  
+development cycles -- for example, by making quick 
+sequels to their best games, instead of building  
+'em all from scratch. The most famous example 
+of that strategy's how Ocarina of Time took  
+four years to make, while its sequel Majora's Mask 
+only took one year, with a fraction of the budget. 
+Turbo series would do the same. By combining 
+all these savings, Bandai could sell games for  
+only 40 bucks. The Turbo itself, also sold for 
+40 bucks. A lot of games you could get bundled  
+with the add-on for the low low price of just 
+68 dollars -- meaning a Turbo and 2 games cost  
+less than just one normal Super Famicom title. 
+That was the Turbo's promise when it was first  
+teased in early '96. On April 2nd, Bandai 
+threw a big coming-out party for the system,  
+where Japanese press got to play a few games, and 
+hear some big announcements. Bandai had the rights  
+to major IP, including Dragon Ball, Sailor Moon, 
+Ultraman, Gundam, and lots more popular anime and  
+manga franchises. They'd already made dozens of 
+Super Famicom games based on those properties,  
+and now they were bringing a lot of 'em to Turbo 
+-- plus some original IP -- with a goal of 30  
+exclusives by the end of the year.The release 
+date was revealed as June 28th -- exactly five  
+days after the Nintendo 64 hit store shelves. 
+By the way, the N64 only ended up getting ten  
+games by the end of the year. 16 bit projects 
+were quicker to make though, and Bandai had the  
+development capacity, experience, and the IP 
+rights to make it happen. Japanese magazines  
+were pretty excited, and Famitsu speculated it 
+could spark a new boom for the Super Famicom. 
+To put all this in historical context -- the 
+Turbo was sort of a sequel to a Famicom add-on  
+Bandai made 4 years earlier: the Datach Joint ROM 
+System, which also used inexpensive mini- carts:  
+The two add-ons even had some of the 
+same franchises, like Gundam, Ultraman,  
+and Crayon Shin-chan. Datach's main gimmick was 
+its card scanner for adding content to its games,  
+like a Game Boy Advance e-Reader. The 
+Turbo, however, had a different gimmick:  
+two cartridge slots, that when combined, allowed 
+for some interesting ideas -- some of which felt  
+like Pokemon Link Cable shenanigans dialed 
+up to 11. Gimmicks get a bad rap, by the way,  
+but aren't necessarily a bad thing -- 
+the DS's dual screens were a gimmick,  
+and you could say the Switch's hybrid format is 
+too. Done right, gimmicks can be awesome, and a  
+lot more interesting than just improving graphics, 
+or adding more storage capacity. The SD Gundam:  
+Generation games were the Turbo's main attraction, 
+and also made best use of its gimmick -- so I'll  
+sum up the series real quick, then explain 
+how they utilized the double cartridge slots. 
+There were six Gundam games, each based on a 
+different era of the anime. The first was based  
+on the original Mobile Suit Gundam from 1979, 
+the second on Zeta Gundam from 1985, and so on,  
+with the sixth ending on 1994's G Gundam. 
+They're all grid-based tactics RPGs that play  
+kinda like a mix between Fire Emblem and Advance 
+Wars, where victory's achieved by destroying  
+all your opponent's units, or capturing their 
+headquarters. Cities can be captured for money,  
+which you can spend to buy new Gundams. 
+And you can capture enemy units as well,  
+in a "prisoner of war" system that makes 'em 
+permanent additions to your army. Units can level  
+up with experience points, change classes, and all 
+the kinds of stuff you'd expect in a tactics game,  
+plus a little more. If you only had one Gundam 
+cartridge, you'd play it like any other game...  
+but if you had two, you could transfer mechs you 
+raised in the first, over to the second. Kinda  
+like carrying your Gen 1 Pokemon over to Gen 2. 
+You didn't have to play Gundam games in order,  
+by the way -- you could skip around if you wanted. 
+Another use for the double slot was two friends  
+could go head-to-head using the armies they'd 
+built in their own campaigns -- similar to Pokemon  
+link battles. And if you destroyed your friend's 
+battleships, you could capture their Gundams as  
+prisoners of war, and keep 'em forever. If that's 
+too cut-throat though, friends could simply trade  
+with each other, for the purposes of collecting 
+and battling throughout their adventures. There  
+were also a couple fighting games available 
+at launch, based on Ultraman and Ultraseven. 
+If you had one game and your friend the other, you 
+could combine them to double the fighter roster,  
+and by battling you could learn each others' 
+special moves, that otherwise were version  
+exclusives. Another interesting mechanic 
+was that every Turbo game had an in-game  
+currency -- Turbo Coins -- which you earned by 
+beating levels, achieving high scores, and so on.  
+Then you could transfer coins from one game 
+to another -- which was especially useful,  
+since buying the best stuff like Gundams 
+and the most powerful Ultra attacks could  
+get pretty expensive. For some games it didn't 
+really make sense to have a store, so for those,  
+you couldn't spend Turbo Coins -- but you could 
+earn 'em, then send 'em to games where they could  
+be spent. Like in another launch title, Poi Poi 
+Ninja World -- an original IP that played a lot  
+like Bomberman, but supported up to five players 
+if you had a multi-tap. You could make custom maps  
+and play on 'em with friends, or combine you and 
+your friend's maps into hybrid levels. Poi Poi  
+didn't have a store, but you could rack up cash 
+and transfer it to other games. So basically,  
+all that together's what Turbo was all about.
+Games at a fraction of the price, with interesting  
+ways to link 'em together. Although I should 
+mention, there were four games that didn't link  
+to anything else, except for coin transfers. The 
+first was Gegege no Kitaro: Yokai Donjara, which  
+featured characters from an iconic 1960's manga 
+of the same name. Here you'll find 'em playing a  
+board game similar to mahjong -- called donjara -- 
+plus a couple more mini-games. Just like Poi Poi,  
+if you had a multi-tap, five friends could play 
+at once. Another was Gekisou Sentai Car Ranger,  
+which is basically the original Japanese version 
+of Power Rangers, adapted here into sort of a Mega  
+Man-like melee sidescroller. All five rangers 
+have a different abilities, like double-jumps,  
+stronger attacks, and running faster. Sailor 
+Moon: Fuwa Fuwa Panic 2's a puzzle game with  
+three game modes -- story, versus, and puzzle. 
+It's a sequel to the original Fuwa Fuwa Panic  
+that'd come out as a standard Super Famicom cart 
+the year before. Then there was Crayon Shin-chan:  
+Rain Boots Splash, an action puzzle game 
+based on an irreverent 5 year old from  
+manga and anime popular in the 90's. It 
+plays kinda similar to Bomberman as well.  
+These four games were all standalone, but 
+could still connect for currency exchange.
+So for example, you could earn some coins beating 
+levels in a Gundam game, transfer it over and  
+gamble on donjara -- double your money -- then 
+send it back and purchase some top tier Gundams,  
+or over to Ultraman to buy some new special 
+attacks. Bandai did their best to make the Turbo  
+a hit -- hosting giveaways for a hundred free 
+systems, and running magazine and TV ads all over  
+the country: Every week there was a new excl--... 
+wait hold on... What was that?... Well. Anyway,  
+games were coming out at a rate of one a week, 
+Bandai on track for their goal of 30 exclusives  
+by the end of the year. But unfortunately, 
+they ran into some problems. For starters,  
+the add-on quickly got a reputation for 
+erasing save data if you weren't careful  
+inserting and removing cartridges. Also... the 
+games felt kinda low-budget. Even the Turbo's  
+crown jewel -- the Gundam games -- were all 
+pretty samey,with their main differences boiling  
+down to just the units and maps. Samey-ness 
+was inevitable though, considering how fast  
+Bandai was pumping 'em out. That was, after all, 
+kinda the point of the system. But even still,  
+releasing half a dozen Gundam titles over 2 months 
+is... kind of a lot. But Ultraman was even more  
+egregious. You could easily reach the end-credits 
+in under 20 minutes, and Ultraseven was basically  
+a copy-paste job of the same game,just with 
+different fighters and stages. Each game only had  
+3 fighters and 3 stages anyway, so they probably 
+should've just been combined into one game. Maybe  
+you could argue that, like Pokemon, you weren't 
+supposed to buy both, your friend was meant to  
+buy one, so you could link 'em together. But even 
+granting that consideration -- I mean yeah, mini-  
+carts were less than half-price... but a lot of 
+'em felt like less than half a game. The Japanese  
+magazines who were initially excited for Turbo... 
+quickly lost enthusiasm after playing its games. 
+  
+The Gundam series fared best, averaging 
+5-and-a-half outta 10 from Famitsu magazine.  
+In their review, they heaped praise on the 
+inventive link mechanics, and some of the  
+tactical innovations like prisoners of war. But 
+complained that all six games were too similar,  
+and the graphics looked last-gen. The Ultra games 
+they gave 4 outta 10, saying they were too light  
+on content, the combat too simplistic -- and felt 
+they should've been bundled in as free pack-in  
+titles. The rest of the library got 4s and 5s 
+as well, with Famitsu citing sub-par graphics,  
+short run- times, and an overall feeling of 
+cheapness. Now, to be fair, Famitsu is a bit  
+stingier than Western outlets. In their 40 
+year history reviewing thousands of games,  
+they've only scored a couple dozen as 10 outta 
+10's. Electronic Gaming Monthly gave Super Mario  
+All-Stars a 9 for example, but Famitsu only gave 
+it an 8. IGN heralded Pokemon as a perfect 10,  
+but Famitsu said it's a 7. Point being, a Famitsu 
+5 doesn't mean a game's horrible -- just that it's  
+average. And that sums up how reviewers felt 
+about Turbo games in general... that at best,  
+they were mid. Maybe if the add-on came out a 
+few years earlier, these games might've looked  
+better compared to what else was on the market 
+in, say, 1993. But releasing a week after N64  
+was just not the best time for budget Super 
+Famicom titles. They were also competing with  
+Nintendo's own add-on, the Satellaview, which 
+also struggled to find a player base in 96. And  
+it didn't help that Pokemon landed a few months 
+before, and was currently taking over Japan. 
+By the way -- we keep comparing Turbo link 
+mechanics to Pokemon, but to be clear,  
+Bandai'd been working on it before Pokemon 
+even came out. So despite the similarities,  
+they weren't ripping off Game Freak's ideas. 
+Earlier in the year, Bandai spoke about making a  
+linkable RPG series that continued cart to cart, 
+similar to how the Gundam games functioned. It  
+never ended up getting made, but does sound 
+a bit like how Pokemon generations ended up  
+working years later. Technically speaking, 
+an actual Pokemon game could've been made  
+for Turbo -- a 16 bit version where you use the 
+double cartridge slot instead of a Link Cable.  
+Game Freak was unlikely to ever make that 
+game, or license out the rights... but it's  
+interesting to imagine if the Turbo'd gone 
+more in that direction. Another fun thought  
+experiment is how things might've gone if they 
+managed to borrow some of Nintendo's IP. Mario  
+or Zelda launch titles would've been ideal 
+of course, but thinking more realistically,  
+a smaller series like F-Zero might've been 
+enough to establish a foothold. One of the  
+concepts Bandai teased at launch was a racing 
+game where you can design your own cars, and  
+race 'em against friends with their custom cars. 
+Making an F-Zero Turbo in that style would've  
+attracted some much-needed interest to the system. 
+That's just wishful thinking on our part though,  
+'cause fact is, Turbo just never got any 
+must-have titles to draw in a big enough audience.  
+The Gundam games were decent, but there's only 
+so many Gundam fans who wanna play tactics games.
+The series only appealed to a niche inside a 
+niche, when what the Turbo really needed was  
+something with broader appeal. Even the Datach's 
+Dragon Ball Z fighter made a bigger splash than  
+Gundam, and that add-on was kind of a flop too. If 
+you wanna hear more about the Datach by the way,  
+check out our recent video covering NES & Famicom 
+expansions. Bandai never released Turbo sales  
+numbers, but we can get a rough idea from Famitsu 
+sales charts. Every week they tracked video games  
+sold across Japan, and published the 30 best- 
+sellers. When the first 2 Gundam games came out,  
+they barely made the chart, coming in at 27 and 
+28. The next week they disappeared from the top  
+30, and never returned. The third and fourth 
+Gundams ranked 27 and 30 in their launch week,  
+then fell off too. No other Turbo game ever made 
+the top 30, which means sales had to be pretty  
+poor. Bandai pulled advertising soon after, 
+and cancelled all future releases. The last  
+games came out on September 27th, 1996 -- just 92 
+days after the Turbo's launch. Meaning its entire  
+library only amounted to 13 games. The ones you 
+heard about it earlier... that was it. The initial  
+goal was 30 new games by the end of the year, 
+and presumably more were planned into the future.  
+Little's known about what games were supposed to 
+come after those first 13 -- though Bandai still  
+had Dragon Ball and lots more IP they could've 
+pulled from. Before launch they'd announced a  
+port of Tetris 2 + Bombliss, which released as 
+a standard $85 Super Famicom cart a few years  
+before, but now was gonna be a $38 mini-cart. 
+Bandai had dozens of Super Famicom titles they  
+could've ported over, if they wanted to let Turbo 
+fans get 'em half-price. But ports don't appear to  
+have been included in that count of 30, and to be 
+clear, the only one they ever announced was Tetris  
+Bombliss. Japanese websites claim a seventh Gundam 
+entry based on Gundam Wing was in the works,  
+along with two more Ultra games. None of them cite 
+sources though, and 90's magazines like Famitsu  
+and Famimaga never mentioned 'em. Searching the 
+Japanese internet doesn't yield any reliable  
+sources either, so we can't say for a fact 
+if those claims are true or not. That said,  
+we wouldn't be surprised if more Gundam and 
+Ultraman were in the cards, since they were  
+the add-on's 2 main franchises. Now's probably 
+a good time to mention that info about the Turbo  
+is super sparse online, even in Japanese.
+The Japanese Wikipedia page for example,  
+is so short it'd fit on a single sheet of paper, 
+and cites zero sources. English Wikipedia's even  
+thinner, and doesn't have sources either. And 
+a lot of it's wrong -- like most of the games'  
+titles, how linking them worked, and which games 
+were available as pack-ins. It never even mentions  
+Turbo Coins. Pretty much all other coverage 
+online is more-or-less copy-pasted from those two  
+Wikipedia pages. Info and footage for the games is 
+pretty bare bones as well, which is what made us  
+wanna dig up old magazines, record some gameplay, 
+and make this video. That and the fact it's just a  
+super cool premise for a console expansion. Two 
+slots for competitively priced mini-cartridges,  
+with games that connect to each other, and 
+have a universal currency system. It's an  
+awesome hardware concept. Unfortunately all that 
+potential was wasted, 'cause Bandai half-assed  
+making games for it, then immediately gave up, 
+instead of fighting to get it on the right track.  
+Nowadays the Turbo's been mostly forgotten, 
+and you can find 'em on Japanese auction sites,  
+selling for even cheaper than they were 30 years 
+ago. You wanna know the saddest part of the whole  
+story? The cute little mascot who appeared on 
+all the box art and advertisements... no one  
+even remembers his name. Though to be honest, I'm 
+not sure Bandai ever bothered to give him one...
+If you enjoyed this video, check out our 
+recent mini-documentaries about the Super  
+Nintendo CD and Satellaview add-ons. They 
+were awesome hardware concepts too but,  
+yet again, ended in failure. We've 
+got more expansions coming up as well,  
+so subscribe if that sounds up your alley. 
+Special thanks to our translator Jacob,  
+GoodTofuFriday for tech consultation, and 
+especially Eurasia M for recording footage  
+of every Turbo game for us. And of course, 
+thank you for watching. See ya next time.

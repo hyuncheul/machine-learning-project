@@ -1,0 +1,754 @@
+The Nintendo Switch 2 is on the horizon,
+and anticipation is skyhigh, not just
+for the new games, but for what it means
+to hackers and homebrew enthusiasts. The
+original Switch became infamous in
+hacking circles for how quickly it fell
+to exploits, leading to a thriving
+homebrew scene and rampant piracy early
+in its life. Now, the big question is,
+will history repeat with the Switch 2,
+or will Nintendo lock this system down
+tight? In this overview, we'll dive into
+everything we know about the Switch 2's
+hardware and OS. its expected security
+features, the homebrew community's early
+analysis, and how Nintendo might counter
+the inevitable cat and mouse game of
+exploits and piracy. Hey everyone, my
+name is you and this is Better Gaming.
+Locking it down, Switch 2 security
+versus the original Nintendo learned
+hard lessons from the original Switch
+security failings. The 2017 Switch was
+famously cracked wide open within its
+first year on the market, thanks largely
+to a flaw in the Nvidia's Tigra X1 chips
+food ROM. This was the exploit code
+named Fusy Jali. Essentially a hardware
+bug that allowed hackers to run unsigned
+code via USB recovery mode and it was
+unpatchable via software. Only a new
+hardware revision could fix it. For
+context, that hack revealed in early
+2018 gave permanent jailbreak ability to
+millions of Switch units and kicked off
+a homebrew gold rush. Nintendo scrambled
+to release a revised Switch internally
+called Marico in 2019 to finally close
+the hole. So, with that history in mind,
+expect the Switch 2 to be far more
+secure from day one. Both Nintendo and
+Nvidia surely focused on tightening
+every obvious crack. Here are the key
+security improvements and differences we
+anticipate. No more easy boot ROM bucks.
+It's virtually certain that the new
+Nvidia sock in Switch 2 has an ironclad
+boot process. Nintendo won't want a
+repeat of Fus Jali. The Tigra X1's
+bootloader mistake was a one ina million
+oversight. Odds are Nvidia's newer chip,
+possibly based on the orange family, has
+undergone insane security review. In the
+later Marico Switch units, for example,
+the boot ROM was updated to glitch
+attacks by initializing memory with an
+infinite loop instruction, so any errand
+jumps would just hang. A strategy that
+Switch hackers says M praised as super
+good. The switch to boot ROM will likely
+include similar or even more advanced
+protections to prevent glitching or
+injection at startup. In short, no more
+paperclip tricks to get into recovery,
+even if you can enter a recovery mode.
+It probably won't accept unsigned
+payloads. Changes to RCM recovery access
+on the original switch entering the
+vulnerable RCM. The recovery mode was as
+simple as shorting a pin on the Joy-Con
+rail with a jig, hence the famous paper
+clip hack. Put your micro SD into your
+Switch. Take the right Joycon out and
+slide the RCM jig inside. Hold the
+volume up button and click once on power
+on. Connect your Switch with your PC,
+then click on inject with Tigra RCM.
+Congrats, your Switch is jailbroken.
+With the Switch 2 design showing
+magnetic JoyCons, attachments, and
+different connectors, that specific
+hardware entry point may be gone
+entirely. JoyCons now use a physical
+plug or wireless connection that won't
+expose the equivalent of that pin
+typically used for RCM. The old short
+pin 10 to ground method is likely
+extinct on Switch 2. Even if a recovery
+mode exists, it might require a
+different button combo that isn't as
+easily hijacked. And without a buck like
+TGAS recovery might be locked on signed
+code only stronger OS kernel and
+firmware security. The Switch operating
+system horizon was actually quite
+secure. Most of the major exploits early
+on were in the bootloadader or Nvidia's
+libraries not the Nintendo OS itself.
+Hacker Sers AM who helped create the
+atmosphere custom firmware even stated
+he believes the Switch secure monitor
+micro kernel had zero security bugs.
+That's a testament to Nintendo software
+security prowess. For Switch 2, we
+expect Nintendo to double down, likely
+using an updated OS with modern
+mitigations like hypervisor or
+virtualization to isolate processes.
+Rumors of Horizon OS 2.0 suggest a
+design where even if a game or old
+Switch title running in backwards combat
+mode is compromised, it can't easily
+break out into the systems layer. The OS
+will also enforce code signing and
+integrity checks at every stage.
+Basically, the firmware will be at least
+as hardened as the later Switch
+versions, which to this day have had no
+publicly known software jailbreak
+without a mode chip, encrypted and
+authenticated everything. Expect all
+content on the Switch 2, from the
+firmware to game cartridges to save data
+to be encrypted and tied to the
+hardware. The original Switch already
+did this in an extent. It uses encrypted
+storage and per game encryption keys.
+The Switch 2 will likely use an advanced
+security co-processor. Nvidia's Tigra
+line includes a security engine for
+cryptographic operations. This means
+things like the NAND internal storage
+being encrypted so you can't just clone
+a disc image to another switch and
+bootloadader storage is verified by
+digital signatures. The goal is to leave
+no easy avenue for hackers, no loose
+file systems to pro at, no debug
+interfaces left open, and certainly no
+forgotten beast mode debug keys looking
+at you 3DS and Wii days. Hardware
+exploits will be tough. The agreement in
+the homebrew community is that if when
+Switch 2 gets hacked, it won't be as
+simple as a software exploit. Save money
+is on a mode chip. That implies needing
+a hardware attack like glitching the CPU
+or messing with voltages timings to
+bypass security, similar to how hackers
+eventually hacked patched switch units
+with MO chips that perform fault
+injection. The Switch 2's design might
+include counter measures against this.
+For example, chips could be packed in
+epoxy or have sensors to detect
+tempering. Even if glitch hack is
+possible, it requires significant skill
+and hardware. Far from the days of
+sliding a jig and running a program,
+nothing is unhackable in theory. But
+Nintendo will aim to make their barrier
+to entry extremely high. The Switch 2 is
+expected to launch more like the
+PlayStation 5 and Xbox Series consoles
+with robust security that could take
+hackers years to fully crack, if ever.
+Nintendo and Nvidia have had nearly
+eight years since designing Tigra X1 to
+improve their approach. All known
+vulnerabilities from the Switch era will
+be patched or mitigated in the new
+hardware. This doesn't mean the Switch 2
+will be sealed forever. History shows
+dedicated hackers will eventually find a
+way, but day one exploits or freebies
+like Fusy Jelly are highly unlikely. The
+cat and mouse game will enter a new more
+difficult phase for the modding
+community, hacker and homebrew
+community.
+But despite the expected security
+upgrades, the homebrew community is
+already a buzz with speculations and
+plans for the Switch 2. These are the
+folks who live for their challenge of
+cracking consoles, and the Switch 2 is
+the shiny new target on the horizon.
+Here's what prominent voices and
+community members are saying. Nothing is
+unhackable, much less unmodable. It
+depends on the willpower of those who
+are capable. This quote from a veteran
+member on GBA sums up their sentiment.
+Hackers are confidently that eventually
+an exploit will be found for the Switch,
+too. It's more a question of when and
+how. There's an almost traditional
+belief in the console hacking scene that
+given enough time and talent, every
+system fails. So, enthusiasm remaining
+high even if patience will be needed.
+Likely path: mode chips or
+glitches. Many in the community predict
+that hardware mode chip solution will be
+the first viable route into the Switch
+2, if not the only route, at least early
+on. This mirrors what happened with the
+later model switches, Marico and OLED
+models where hacker couldn't soft them
+easily and instead resorted to glitching
+hardware mods like the half mode chip.
+On forums, people are already discussing
+possibly glitch attacks, vectors for
+switch 2, for instance, exploiting the
+faster NVME based SD card interface or
+other subsystems. One speculative idea
+is that if the Switch 2 supports micro
+SD Express PCIe interface, maybe a
+crafted device could manipulate that to
+execute code. It's all theory crafting
+at this stage, but it shows the
+community is thinking hardware. In
+general, the expectations is if you want
+homerew on switch 2, you might
+eventually be soldering a chip or using
+some hardware hack, not just running an
+app. Respected hackers views Cyrus M,
+one of the lead developers of
+atmosphere, custom firmware and a key
+figure in switch hacking, has expressed
+both admiration for Nintendo security
+and doubt that easy flaws will exist in
+the new hardware. As mentioned, he
+believed the original Switch secure
+monitor had no vulnerabilities to begin
+with, and he didn't expect a software
+exploit for the patched switches. It
+will surprise me if we manage to hack
+Mario, he once said, and rewitched the
+switch hacking Discord community. There
+has been chatter that Cyrus isn't
+planning a day one pursuit of switch to
+hacking. Partly because it might be
+fruitless until a flaw is discovered and
+also perhaps due to burnout from
+carrying the Switch scene for years.
+This means the baton might pass to a new
+generation of hackers or groups when it
+comes to Switch 2. Still, you can bet
+Cyrus M and veteran hackers will be
+analyzing the system under the hood,
+poking at the OS, looking for any
+mistakes Nintendo made this time, and
+sharing insights, even if they hold back
+any exploits until it's safe to release.
+Community
+coordination. Back in the Switch version
+one days, multiple teams re-switched,
+fail overflow, Team Executor, etc. were
+all finding bugs and sometimes stepping
+on each other toes. For Switch 2, the
+landscapes is a bit different. Team
+Executor, the more piracy focused Mochip
+team, was dismantled by law
+enforcements. More on that later, and
+researched members are less formally
+organized. Now, there are smaller groups
+and lone wolves on forums already
+starting ground work. Don't be surprised
+if an underground private exploit is
+found but kept secret for a long while.
+With modern consoles, hackers sometimes
+sit on vulnerabilities to avoid them
+being patched too quickly, as happened
+with the PlayStation 5, where hackers
+quietly enjoyed kernel exploits for
+years before disclosure. The Switch 2
+might see a similar approach. If someone
+finds a soft exploit, they might only
+release it publicly once Nintendo has a
+patch for a new hardware revision so
+that early adopters can have a permanent
+hack. Interest in emulation and
+homebrew. The homebrew crowd is very
+excited at the prospect of a more
+powerful switch purely from a homebrew
+software perspective. Imagine custom
+emulators and media players on a Switch
+to that's as strong as a PlayStation 4.
+retro emulation, 4K video playbacks,
+maybe even running PC indie games via
+Linux. However, community members temper
+that excitement with realism. Without a
+hack, none of that is possible. There is
+also the topic of Switch 2 emulation on
+PC. Ironically, if the Switch 2 is
+intact, people can't dump the system
+files necessary for emulators to support
+it. So, the PC emulation scene Yuzu Rio
+Jinx is indirectly dependent on hackers
+extracting keys, firmwares from a switch
+to at some point. It's a weird dynamic
+where both pirates and preservationists
+are waiting for the first shoe to drop.
+In other words, the first vulnerability
+to really start tinkering with the
+platform. In essence, the hacking
+community's mindset is challenge
+accepted, Nintendo. They know the Switch
+2 will be harder to crack, but that only
+makes it more intriguing. The tone is a
+mix of respect for Nintendo's expected
+security. They will probably do a good
+job locking it down, and determination
+will find a way in eventually, though.
+As one GBA attemp user put it, much like
+in 2017, I said it then and I will say
+it now. Nothing is truly unhackable. It
+just might not be publicly shared. The
+cat and mouse continues quietly for now
+until the console is in hand and tools
+can be unleashed. The Switch One versus
+Switch 2, a tale of two jailbreaks. It's
+worth looking at how quickly the
+original Switch was jailbroken and what
+allowed it versus what's likely
+different this time around. The Nintendo
+Switch launched in March 2017.
+Remarkably, by Mind 2018, hackers had
+achieved full arbitrary code execution
+on it. In fact, multiple groups found
+exploits around the same time, and that
+was just funny. The critical one was the
+Tigra X1 boot bug fusali disclosed by
+Kate Tenkin from re-switched and also
+utilized by fail overflow. They called
+it Schoff L2. This exploit was made
+publicly in April 2018. because it was a
+hardware flaw. Every Switch manufactured
+up to that point was vulnerable forever.
+Hackers didn't even need to find a
+software hole in the Switch OS. The keys
+to the kingdom were essentially handed
+to them via Nvidia's mistake. This feels
+almost unreal to compare. Previous
+consoles like the PlayStation 3 took 3
+to four years to fully crack and some
+Xbox One never had a public full exploit
+in their prime. The Switch was analy. As
+a result, by summer 2018, the community
+had custom firmware atmosphere in
+development, homebrew launching, and
+yes, piracy in the form of
+NSP/XCI files. Nintendo was not ready
+for that timeline. Nintendo's response
+to Nintendo's credit, they acted as
+swiftly as hardware company can. In June
+2018, they quietly started shipping
+updated Switch units with eye patch
+fuses to block that specific USB RCM
+vulnerability, the so-called Fusy Jelly
+patch units. Though those were still
+bypassable by other means for a while.
+The big move was the Marico revision
+2019 which used a new Tigra X1 Plus chip
+with the boot bug fixed in Silicon.
+Along with that, newer firmware titaned
+OS security. From that point on, no soft
+hacks existed for new switches. It then
+took until 2020 to 2021 for hackers to
+devolve glitching mode chips to crack
+Marica units, meaning the window of
+unpatchable hack was roughly mid 2018 to
+mid 2020. After which anyone who wanted
+to jailbreak a new bot switch had to
+physically mod it. So Nintendo did close
+the barn door eventually, but the horse
+had long bolted. The Switch 2 will
+launch in the position that the original
+Switch only reached after 3 years and a
+hardware update. that is, it will likely
+have no known easy exploits and possibly
+require hardware mods from the start.
+So, we might see a reverse scenario.
+Instead of a soft hack first, then hard
+mods later, the Switch 2 could see hard
+mods if someone decaps the chip or uses
+advanced glitching before any software
+exploits is ever found. It could be a
+situation more akin to the Xbox 360 era
+which requires mode chips or DVD drive
+hacks early on or the PlayStation 5
+which as of 2025 only has some limited
+software exploits on old firmware and
+nothing widespread. If the Switch 2
+security is closer to modern Sony
+Microsoft consoles, we might not see a
+public jailbreak for years. And if one
+does emerge, Nintendo can patch it via
+firmware if it's softwarebased since
+there's presumably no unpatchable boot
+bug this time. It's always possible that
+the Switch 2's fancy new features
+introduces an unexpected vulnerability.
+For example, some have speculated about
+the new backwards compatibility layer.
+If Switch 2 indeed runs older Switch
+games in a sandbox, maybe an exploit in
+an old game, something like an old
+WebKit exploit or a game specific bug
+could be used to break out the sandbox,
+similar to how the Wii mode on Wii U was
+exploited. Nintendo's likely aware of
+this and will secure the sandbox, but we
+won't know until people poke at it.
+Also, new hardware interfaces, say the
+dual USBC or the faster SD interface
+could have exploitable firmware. Hackers
+will surely inspect the Switch 2 system
+for any overlooked debug modes or
+manufacturer back doors. While the
+expected scenario is a clean, secure
+lounge, the hacking scene will probing
+everything, hoping for a lucky break. If
+by some chances the Switch 2 has a
+vulnerability on the level of Yuzi Jali,
+it would be Christmas come early for the
+homebrew crowd and a nightmare repeat
+for Nintendo. But betting on that would
+be
+unwise. I I can't stop laughing. Oh my
+god. Timeline
+expectations. With the original Switch
+within weeks of release hacked found
+entry points, there was a WebKit browser
+exploit for 3.00 firmware by summer
+2017, though it was userland only. Fall
+2017, they had kernel exploits on all
+the firmwares. By spring 2018, the
+Budron Bach made all that irrelevant by
+opening everything. or switch to a
+realistic optimistic scenario for
+hackers might be no substantial progress
+publicly for at least several months.
+Perhaps by 6 to 12 months in someone
+might announce a basic userland exploit
+or hint they got code running in some
+capacity. A full jailbreak custom
+firmware running could easily take 1 to
+two years if not more. Again, assuming
+no trivial bug, it's possibly the Switch
+2 won't be truly cracked until mid to
+late in its life cycle, which was
+actually the norm for older consoles. In
+other words, the PlayStation 2 took a
+few years, 3DS took a couple of years
+for a convenient software hack, etc. The
+Switch One was an outlier in how fast
+and wide open it was. To put it another
+way, Switch One hacking was a sprint.
+Switch to hacking will be a marathon.
+For those eager to run emulators on the
+Switch 2 or rip their games, you might
+be waiting a while. And that's exactly
+what Nintendo wants. Nintendo's
+antipiriracy plans for Switch 2. It's no
+secret that Nintendo has been one of the
+most aggressive companies in the world
+when it comes to fighting piracy with
+the Switch to expect Nintendo to bring
+an even bigger arsenal of both
+technology and legal muscle to deter
+hacking and illegal game sharing. Here's
+how Nintendo is likely to combat piracy
+on the Switch, too. Softwarebased
+counter
+measures. The Switch's online
+infrastructure already has what Cyrus M
+called extremely strong antipiriracy
+measure. Notably, Nintendo can detect
+pirated games when a console goes online
+by checking for valid tickets, licenses,
+and unique game card certificates.
+Nintendo actually perfectly prevents
+online piracy here. Cyrus M wrote
+explaining that for digital games, the
+console verifies that the game's ticket,
+a sort of encrypted license, matches the
+console's unique ID and the user's
+account. If anything doesn't match, bam,
+instab in the physical game case, each
+cartridge has a unique certificate. And
+if two consoles try to use the same
+certificate online, Nintendo can detect
+that and ban offenders, you can be sure
+the Switch 2 will continue this
+approach. Even legitimate game, digital
+or physical, will be cryptographically
+tied to your system or account. If you
+try to play a pirated copy online,
+Nintendo servers will know. This doesn't
+stop offline piracy, but it's heavily
+discourages it because going online is
+basically suicide for a hacked console.
+Many Switch hackers from the first
+generation kept their modded units
+completely offline to avoid Nintendo's
+banhammer or just block the servers from
+Nintendo. Nintendo has even gone a step
+further by partnering with a third party
+DRM solution. In 2022, it was announced
+that Denu, a controversial anti-temper
+DRM used on PC games, is now authorized
+middleware on the Switch. Specifically,
+a product called Nintendo Switch
+emulator protection became available for
+developers to use, aiming to prevent
+Switch games from being easily emulated
+on PC. This means some Switch and likely
+Switch 2 games might come with extra DRM
+that runs checks to ensure the game
+isn't being run on unofficial hardware
+or in modified state. If companies adopt
+this, even if you dump a Switch to game,
+it might refuse to run on an emulator or
+hacked unit without significant reverse
+engineering. It's unclear how many games
+will actually use the Nuvo on Switch 2.
+The Nuvo can impact performance, which
+is critical on a console, but the very
+fact Nintendo allowed it shows they're
+exploring every angle to corp piracy and
+even the emulation of their new system.
+Robust firmware update and banning
+policy. Like the Switch and 3DS before
+it, the Switch 2 will likely require
+regular firmware updates that not only
+add features, but patch any security
+holes. Nintendo will vigorously push
+updates and may even require a system to
+be on the latest firmware to access
+online services as they do now. If an
+exploit is found and made public,
+Nintendo will aim to patch it ASAP and
+might even use telemetry to see if
+consoles are exploiting it. Expect
+instant console bans for things like
+connecting to Nintendo network with
+unauthorized software or modified game
+data. The original Switch saw waves of
+bans for people with custom firmware who
+dared to go online, especially if they
+cheated in games or accessed things they
+shouldn't. The Switch 2's ban policy
+will be just as strict, if not stricter,
+since Nintendo wants to nip piracy into
+but secure hardware supply
+chain. Nintendo has also taken steps to
+secure the hardware itself from
+tempering at the factory level. We saw
+this with the Switch Light and OLED
+models. they came with different chips
+and even tiny changes like removing
+debug pins, etc. For Switch 2, Nintendo
+might include measures like silicon
+unique IDs that ensure each conso's keys
+can be used on another, making cloning
+hard, or even onchip mechanisms that
+detect glitch attempts. Some secure
+processors can detect abnormal voltage
+spikes or timings and lock up if an
+attack is sensed. While details are
+under wraps, the idea is Nintendo will
+try to make sure that mass production
+leaks or hardware troans are minimized.
+They don't want to repeat of someone
+leaking the boot code or keys like what
+happened with the Nvidia leak that
+reveals the NVN API of the new hardware.
+So you can be sure every step from
+manufacturing to retail will have
+security in mind, legal enforcement and
+deterrence. Beyond the tech, Nintendo's
+legal team, sometimes dubbed the
+Nintendo Ninjas, will continue to play
+hard ball. We've seen them take down
+drum sites, sue individual distributing
+hacks, and even put hackers in jail. A
+famous example is Gary Bozer, no
+relation to Mario's Bozer, ironically,
+of Team Executor, who was part of
+selling Switch mode chips, he was
+arrested, sentenced to 40 months in
+prison and hit with an astonishing 14.5
+million in fines. With Switch 2, if any
+group tries to sell Mochips or piracy
+enabling devices, Nintendo will come
+after them aggressively. So, the era of
+openly selling something like SX Pro for
+Switch 2 is likely over. Any such
+operations would be deeply underground.
+Basically, piracy on Switch to will
+carry serious risk, not just of bans,
+but potentially legal consequences if
+you're involved in distributing hacks or
+illicit
+copies. Online service integration.
+There's speculation that Nintendo will
+further integrate the Switch 2 with
+online services in a way that encourage
+legitimate use. For example, they might
+expand Nintendo's works online to
+include more cloud-based features that
+are hard to replicate on a hacked
+system. Perhaps cloud saves that verify
+game legitimacy or a requirement to sign
+in for certain big games. Though an
+always online requirement for games
+would be very un Nintendo, so that's
+unlikely for single player content.
+Still, the idea is to make being online
+legend attractive and being offline and
+pirating isolating. If Switch 2 launches
+alongside a robust online account
+system, which they already hinted, your
+Nintendo account carries over to Switch
+2, then your purchases, friends, and
+cloud saves all tie into that. Losing
+access due to a ban becomes a big
+deterrent because you would lose all
+your eShop purchases and multiplayer
+access. Nintendo basically says, "Go
+ahead, heck for homerew if you want, but
+you will be playing alone with whatever
+you can get working, and you will never
+connect to our services again."
+antipiriracy and cartridges. There could
+also unseen improvements in the physical
+media security. Switch cartridges game
+cards had some built-in security unique
+certificates as mentioned and encrypted
+per title. It's possible the new game
+cards for Switch 2 have improved
+encryption or authentication that hasn't
+been broken yet. Maybe they'll use a new
+encryption algorithm or larger key sizes
+now that the hardware is newer. This
+would make dumping and decrypting games
+harder until keys are found. If backward
+compatibility is supported via one slot,
+the new cards might physically look
+similar but have different protocols.
+Some rumors suggest higher transfer
+speeds. If Nintendo uses something like
+an updated key management, we know
+Switch One keys were eventually
+extracted. It might take a while for
+hackers to dump the new keys needed to
+decrypt Switch 2 game data. To wrap up,
+Nintendo's approach with Switch 2 is
+likely a multi-layered defense, secure
+hardware design, strong software online
+checks, and relentless legal pressure.
+The goal is to delay the widespread
+piracy that hurt the Switch software
+sales. Nintendo hates that some people
+just download hundreds of games on
+modded Switches. If they can delay a
+public hack for even two to three years,
+that's a huge win in terms of preventing
+piracy during the crucial early sales
+period of the console. And if a hack
+never fully materializes, like how the
+Xbox Series consoles remain essentially
+unhacked as of 2025, Nintendo would be
+overjoyed, though the homebrew fans
+would be disappointed. Nintendo hasn't
+even toed to investors how they plan to
+migrate users to the new system using
+Nintendo accounts partly as an
+antipiriracy user retention measure. The
+Switch to present a tough choice. Enjoy
+the new hardware and games with a
+Nintendo's wallet garden or hold out
+hope for a crack and risk it all to run
+unsight code. Nintendo's clearly hoping
+most people choose the former and
+they're stacking the deck to make sure
+piracy on the new console is as
+inconvenient and unrewarding as
+possible. It's entering a scene very
+different from the wild west days of the
+original Switch launch. Nintendo is
+bringing it a game insecurity to protect
+this new console from its fate of its
+predecessor. On the other side, the
+conso's hacking community is rallying
+its best and brightest excited by the
+challenge and the possibilities that a
+more powerful Switch offers. It's the
+classic cat and mouse scenario. As
+Nintendo builds a higher wall, the
+hackers sharpen their tools to climb it.
+For at least the initial months or even
+years of the Switch 2's life, expect a
+relative quiet on the hacking front. I
+got code running in standby mode, one
+might say, to a flurry of speculation.
+Meanwhile, Nintendo will be monitoring
+every system update and server lock like
+hawks for any suspicious activity. It's
+a highstakes tech arms race. In the end,
+who wins? If history is any guide,
+homebrew will find a way. But Nintendo's
+goal is to ensure that by the time hacks
+emerge, the console will have already
+sold tens of millions of units and a
+huge library of games, minimizing the
+impact of piracy on their bottom line.
+For sure enthusiasts, it means we might
+have to exercise something not often
+associated with modern tech. Patience.
+Enjoy the Switch 2 for what it offers
+officially and keep an ear to the ground
+for the breakthrough. The moment someone
+yells, "Hack achieved," you can bet I
+will send shock waves through the
+community. Until then, it's kind of
+exciting, isn't it? The mystery, the
+suspense, the gradual unrevealing of a
+new system secrets, it's likely a grand
+puzzle for the brightness minds in this
+scene. Whether you're a hardcore
+homebrew coder or just an intrigued
+observer, the Switch 2's launch and the
+subsequent hacking attempts will be a
+drama to follow, one thing for sure, the
+Switch 2 will not make it easy. The days
+of simple exploits are likely over, at
+least for this generation. So, don't go
+bending your paper clips just yet. You
+might be in for a long wait, but as the
+saying goes, console security is a
+marathon, not a sprint. And the race is
+about to begin. Grab some popcorn or a
+screwdriver, depending on your
+inclinations. And let's see how this
+next chapter in this eternal Nintendo
+versus Hacker Saga plays out. Don't you
+ever forget to smile. I hope I'll see
+you in the next video. My name is you.
+Peace.
+up. Up.
+[Music]

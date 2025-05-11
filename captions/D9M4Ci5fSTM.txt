@@ -1,0 +1,787 @@
+Hello everyone. I am Christopher. I hope
+you guys are all doing well. It's my
+first video back as a married
+man. And today I want to go over how to
+mod your Nintendo Switch for the latest
+firmware
+19.0.1. A lot of my old videos are
+outdated due to the fact that the
+sources I give got DMCA, so they're no
+longer available. So, here I am again to
+provide you guys with the new method on
+how to mod your Nintendo Switch. And as
+always, I'll provide my sources where
+you can download the mods yourself. So,
+if there ever is another firmware
+update, these mods will update along
+with them, keeping this video up to
+date, as long as they don't get DMCA as
+well. Now, please don't let the length
+of this video deter you guys as I do
+cover a lot of information in this
+video. We're going to be going over how
+to mod your Nintendo Switch, how to
+install Android, how to install
+Tinfoil, how to back up your saves using
+JKSV, and how to update your Emunand if
+you've modded your Switch in the past
+and would like to update to the latest
+firmware. Now, before we can start
+modding our Nintendo Switch, we need a
+few things. One, we're going to need a
+unpatched version of the Nintendo
+Switch. Typically, the version one. If
+you have an OLED or a Switch Light, you
+cannot do this tutorial. I am sorry that
+you've come this far, but it's time to
+close out. For those of you who do have
+a version one unpatched Twitch, you're
+also going to need an RCM jig. You'll
+also need a micro SD card, preferably at
+least 128 or more GB. You'll also need a
+micro SD reader
+adapter and a USBC cable. I recommend
+using a high transfer rate USBC cable
+cuz if you use any cheap
+USBC, you may have issues trying to mod
+your Switch. I forgot to mention for
+those of you who prefer to download just
+a mod pack instead of creating your own
+from the sources that I list, I'll have
+that readily available in my Discord in
+the description down below. So, enough
+of this intro. Let's get straight into
+it. We're going to start off with is my
+Switch patched. You're going to want to
+select the prefix and select which
+prefix matches your serial number, which
+you can find at the bottom of your
+Nintendo Switch. Or you can go into your
+system settings and find your serial
+information there. Once you have that,
+you're going to want to input your first
+six digits of your serial number and
+then select check. And if you get this
+green message, you can continue with
+this tutorial because your Switch isn't
+patched. If you get a yellow message
+like this, that means your Switch may or
+may not be patched. And the only way to
+find out for sure would be to continue
+with this tutorial and see if it works
+for you. If you get a red message like
+this, then sadly your Switch is patched
+and you won't be able to follow this
+tutorial. I've included a chart I found
+on NH Switch Guide showing serial
+numbers and whether or not they're
+patched. You can pause and look for your
+serial number here.
+Now that we know our Switch is not
+patched, let's continue with downloading
+the files we need. We're going to start
+with Hate, and the current version is
+6.2.2. So, we're going to scroll down to
+the download section, and we're going to
+download Hekhat 6.2.2 zip file. Next,
+we're going to download Atmosphere
+1.8.0 and again, scroll to the bottom
+and we're going to download the zip
+file. Then, we're going to download the
+Fuse or Fuzzy.bin file, whatever it's
+called. Next, we're going to download
+Tegra RCM. And for this, you can choose
+to download the installer or the
+portable zip, but I'm going to do the
+installer. Next, we're going to need a
+format or SD card. So, we can download
+GUI format by selecting the photo and it
+should be good to download. Or if that
+doesn't work for you, we can download
+Ease US Partition Master free. So, we're
+going to select free download. And we
+don't have to input our email. We can
+exit out of that and just select
+download again. and it should begin the
+download. Next, we're going to download
+the SIG patches from the GBA temp form.
+We're going to select this file right
+here under the attachment tab. And then
+we're going to download SIS patch CIS
+module
+1.5.5. Next, we're going to download
+some mods. So, we're going to download
+Gold Leaf NRO and we're going to
+download NX Shell
+NRO. Then we're going to download NX
+themes installer NRO and we're going to
+download FTPD Pro and make sure you
+download the NRO version. Next, we're
+going to download
+JKSV and we're going to download the
+NRO. Next, from NH Switch Guide, we're
+going to download the boot logo zip file
+and the emu MMC text
+file. Now, to get things started, we're
+going to access our downloads. I'm just
+going to drag the GUI format and ease
+partition installers onto my desktop so
+that way I can show you how each one of
+them installs. Actually, before we do
+that, let's back up any of our files on
+our Nintendo Switch SD card onto our
+computer. That way, we don't lose
+anything when we format our SD card. So,
+once that's finished, we're going to
+format our SD card using GUI format. And
+there is no installer. It should just
+load up right away. and you can select
+which drive you'd like to format. Make
+sure you select the Switch SD card and
+not your main hard drives. You can
+verify which one is which by looking at
+the total gigabytes on each drive. Then
+we're going to leave the allocation size
+as 32. And if you'd like to add a label
+to your SD card, you can do so now. And
+we're going to do a quick format and
+select
+start. If you get an error, just try
+again. If you get an error where it says
+the SD card is in use, make sure that
+you don't have the folder open and exit
+out of that. And if that doesn't work,
+try ejecting the SD card and then
+putting it back into your computer. And
+if that doesn't work, you can try
+restarting your computer and seeing if
+that'll help. Now, here's an example of
+GUI format formatting with no
+issues. Now, if GUI format isn't working
+for you, we can install Ease US
+Partition Master Installer. So, we're
+going to run the installation, and once
+it installs, we're going to select done.
+And it should load right up. And you're
+going to want to select your SD card
+drive, and we're going to select format
+in the top right. And you can add a
+label to it as well. Select FAT 32. And
+we're going to select 32 KB. Once done,
+select okay. And we're going to select
+yes, and execute the task. Select apply.
+And it'll format your SD card. Once
+done, we can exit out. And now we can
+start installing files into our SD card.
+So we're going to start with
+atmosphere. We're going to open the
+folder and drag all its contents into
+the SD
+card. Then we're going to do
+HICE and just drag the bootloadader into
+the root of our SD card.
+And what you're going to want to do with
+the bin file is just drag that somewhere
+onto your desktop or wherever you plan
+to have Tegra RCM inject from. So, we're
+going to put it on our desktop for
+now. If you want, you can add these boot
+logos into your SD card so you have
+nicer looking loadouts when you run your
+Switch. So, we'll just open that and
+drag it into our SD
+card. Now, we'll add our SIG patches to
+our SD card. We're going to open up the
+folder and drag and drop that into the
+root of our SD
+card. Next, we'll do SIS patch
+1.5.5 and drag it into the root of our
+SD
+card. Okay, now that we have that done,
+we're going to open up
+bootloadaders, select payloads. We're
+going to drag fusy.bin into our
+payloads. We're going to go back once
+and we're going to edit our heate
+ipl.ini INI file. We're going to rename
+it and remove the template. It's going
+to ask us if we want to change the file
+extension. We're going to select yes. If
+you're unable to see or edit file
+extensions on any of your files, you're
+going to want to go to your search menu
+and write show file extension. And under
+file explorer, you're going to want to
+turn on show file extensions. Now, this
+method is for Windows 10 and 11. If you
+have an older version of Windows, you
+can Google search how to show file
+extensions of files. Now, back to the
+tutorial. Once you've done that, we can
+go back to the root of our SD card and
+in our atmosphere folder, we're going to
+create a new folder and we're going to
+label it host all
+lowercase and we're going to drag our
+emu MMC text file into that folder. Now,
+we're going to go back to the root of
+our SD card and we're going to create a
+new text file.
+and we're going to label it exosphere
+and we're going to change it
+toi and we're going to select yes and
+we're going to open up the file and
+we're going to copy and paste the text
+in my description for exosphere and
+paste it into this note document. Once
+you've done that, you're going to want
+to select save. Now we can close out.
+And now we're going to go into our
+Switch folder of our SD card. And we're
+going to drag all those mods that we
+downloaded earlier into our Switch
+folder. And now we can go back to the
+root of our SD card. And we can eject
+our SD
+card. Now we're going to install Tegra
+RCM. So we're going to open up the
+installer. Select next. It should say
+install for you guys, but I for me it
+says
+modify. Once you finish the installer,
+select finish. and Tegra RCM should open
+up. Now, once it opens, you're going to
+want to go to settings and install the
+driver. It's going to say we're missing
+it. So, we're going to select
+yes, and it's going to take us to the
+installation wizard. You're just going
+to want to follow the instructions and
+select finish. Then, you're going to
+return to the payload tab and select
+your payload. In order to do that, you
+need to select the folder with the
+magnifying glass. And if you remember
+the hicc.bin in file we dragged onto our
+desktop. We're going to select that as
+our payload. Once you have your payload
+selected, we're going to put our switch
+into RCM mode. And in order to put your
+switch into RCM mode, we're going to
+connect our switch to our computer and
+make sure it's completely turned off.
+Then you want to grab your RCM
+jig and slide it with the pins facing
+down on the right Joy-Con
+slot. Then press the power and plus
+volume button at the same time.
+You'll know you did this correctly by
+hearing your computer make the USB
+connection noise along with the switch
+icon at the bottom of Tegra RCM go from
+red no RCM to green RCM. Okay. Then
+we're going to select inject payload.
+And you should know everything went well
+by reading the message at the bottom
+that says smash the stack with a 0x7,000
+byte setup. This is the only message
+that you need to see. This is the only
+message that you need to see when you
+inject your switch. When you inject your
+switch and you get any other message, it
+means it failed. For example, if you get
+a message that says smash the stack with
+0
+by000000 byt setup. Those of you who are
+potentially patched, here is your
+confirmation that your switch is in fact
+patched. You can no longer continue with
+this tutorial. Once you've successfully
+modded your switch, you'll load up in
+Hakate and you can enter your date and
+time. Press okay. And now at our home
+menu, we will select tools, partition SD
+card. Press okay. And to create an emu
+MMC, slide the red slider to 29 gigs. If
+you'd like to add Android onto your
+Switch, slide the Android slider to 16
+or more
+gigs. Since I will be installing Android
+15 in this tutorial, I will select
+dynamic. If you plan on installing
+Android 10 or 11, make sure you select
+legacy. Then press
+start. Press power to
+continue. Once finished, press
+okay. Now close out and return
+home and select emu MMC and create an
+emu
+MMC. We will then select SD partition
+and select part one. Now let it do its
+thing and this will take around 10
+minutes. Then we can close out and
+return to the home menu.
+then select launch and we can launch our
+emu MMC. And to verify we did it
+correctly, we can go into our system
+settings and scroll down to system. And
+as you can see, I'm on
+19.0.1 running atmosphere 1.8 and
+running on my
+emuan. And I didn't forget, once you're
+done with all of that, you can grab your
+Nintendo folder and drag it back into
+your SD card. restoring all your files
+that you had before you started modding
+your
+Switch. Now, in this section, I'm going
+to demonstrate how to install Android
+15. We're going to start off by setting
+up ADB and fast boot. First, we're going
+to download the Windows zip from
+Google. Once that's downloaded, we're
+going to open up the platform tools zip
+file in our downloads and extract it to
+our desktop. Now, depending on which
+Windows operating system you have, your
+steps may be a little different. Since I
+have Windows 11, we will be following
+the Windows 10/11
+directions. We're going to open up the
+Start menu and type advanced system
+settings. Then, select view advanced
+system settings. Click on the advanced
+tab and open up the environment
+variables window. Now we're going to
+select path variable under system
+variables and click the edit
+button. Now click the new button and
+insert the red text on the site in the
+field. Then we'll close out by pressing
+okay, okay, and
+okay. Next, we're going to download USB
+drivers. This will take us to a
+different website where we will download
+the Google USB driver zip. This will
+open up the terms and conditions. just
+accept and the download will
+begin. And in our downloads, we're going
+to open up the USB driver and drag it
+onto our desktop. Now, in order to set
+all of this up, we're going to need to
+connect our Switch to our computer's USB
+port. And from the Windows Explorer,
+type device
+manager. Once we have the device manager
+open, we're going to want to locate our
+switch. It can either be in your
+Universal Serial Bus controllers or
+Universal Serial Bus devices. If not,
+you can check your portable devices or
+other devices depending on which you
+see. Now, since I did this before, my
+Switch no longer shows up as a USB
+device and shows up as an Android
+device, as you can see. But the steps
+are still the same. Once you locate your
+Switch, you're going to want to
+rightclick the name and then select
+update driver. In the hardware update
+wizard, you want to select browse my
+computer. For driver software, you're
+going to want to click browse and then
+locate the USB driver. For me, I dragged
+it into my desktop. Once you've located
+your driver, you're going to click next
+to install the
+driver. Next, we're going to want to
+download our build. We're going to
+download Lineage 22.1, boot image,
+recovery image, BL31,
+BL33.bin,
+Bootstr, and NXPlat. Once you have all
+of these downloaded, we're going to go
+into the root of our SD card and create
+a new folder and label it switch
+route. Open it up and create a new
+folder and label it
+install. Open the folder and we're going
+to drag boot recovery and NXPlat into
+the install
+folder. Now we're going to go back once
+and create a new folder. Label it
+Android.
+Inside this folder, we're going to drag
+BL31 and 33 along with bootcr into this
+folder. Next, we're going to open up
+these image links in my description and
+save these two images. We're going to
+save this image and this white square
+image as well. They should save
+automatically as a BMP file. Do not
+rename them. Now, drag these images into
+the Android
+folder. And now we can go back to the
+root of our SD card and open up the
+bootloadader folder and open up the INI
+folder. Inside this folder, we're going
+to create a new text document and label
+it
+android.ini. Select yes and open up the
+text doc. Now we're going to copy and
+paste the text in my description into
+this note file. Then save and
+quit. Now we're all set. we can eject
+our SD card and reinject it into our
+switch. Now, before we move on to our
+Switch, we're going to download ARM
+64. We are going to download the Mind
+the Gaps 15 zip file. Now, back on our
+Switch, we should be on the Hkhate menu.
+We are going to select Nick settings.
+We're going to dump our Joy-Con
+Bluetooth so our JoyCons can work with
+Android. Then, we'll press okay and
+close out and return to the home menu.
+Now select
+tools, partition SD
+card, select flash Android 13 plus, and
+hit
+continue. Then press continue again,
+which should bring us to the Android
+setup. Select factory reset, format
+data, factory reset, then press format
+data. Don't worry, this does not affect
+our Switch SD card, so we won't lose
+anything there. Now, before moving
+forward, if you've disconnected your
+Switch from your PC, make sure your
+switch is connected to your PC. Once
+connected, we can press
+back and select apply update and select
+apply from ADB. We're going to open the
+platform tools folder and drag and drop
+the lineage and mind the gap zip files
+into the platform tools folder.
+Now, back on the platform tools folder
+in the explorer bar, we're going to type
+cmd. This will open up our command
+prompt. And now we can type adb
+sideload and copy the lineage name
+entirely, including the
+extension.zip, and paste it into our cmd
+like so. Then press
+enter. If you get a security alert,
+press allow.
+And it should look something like this.
+Now, let's let this finish doing the
+installation. Once finished, back on our
+switch, we're going to press apply,
+update again, and apply from ADB. And
+again, we're going to write in our cmd
+ADB sideload, and copy and paste the
+mind the gaps folder entirely, including
+the extension, and press enter.
+Now on our Android, we're going to get
+stopped midway asking about the
+signature verification failure. Press
+yes and let it
+finish. Once finished, press reboot
+system.
+Now, now this should load us back into
+AATE. We're going to select more
+configs, then launch Lineage OS. The
+very first initial loadup will take a
+long time, so I'm going to speed through
+it. Now, this will bring us to the setup
+process, and we're going to select
+start. If you'd like to set up from
+another device, you can, but for this
+tutorial, I'm going to select skip. And
+you could connect to Wi-Fi if you'd
+like. You're also given the option to
+sign into a Google account if you have
+one. And again, I'm going to skip this.
+Then, it gives us the terms and
+conditions. We're going to select
+accept. And I'm going to skip setting up
+a PIN.
+And I'm also going to skip the
+restoration. Then we select
+next. Next. You can also select whether
+you want a dark or a light
+[Music]
+themed. You can also select the type of
+navigation style you prefer. Then we'll
+press next and select start. This will
+boot us into Android on our Nintendo
+Switch.
+Now we can go to our settings. And in
+our settings, we're going to slide on
+the left until we find about
+tablet and select about tablet. Tap the
+build number seven times and it should
+unlock developer
+[Music]
+options. Next, we can go to the switch
+configuration where you can mess with
+the performance settings. You can toggle
+performance mode on or off. A warning
+will appear telling you about
+potentially damaging the battery if you
+turn this on. So, the decision is up to
+you. Then, if we scroll down, you can
+turn off the external display when you
+have your Switch docked running Android.
+And that's pretty much it. We can reboot
+back to Aate from Android. All you would
+have to do is restart the Android and
+hold minus down while it restarts.
+Now, in this section, I'm going to
+demonstrate how to install Tinfoil and
+use Nut to install games. So, we're
+going to go to Tinfoil.io and scroll
+down to download Tinfoil 19
+self-installer. Then, select download
+self-installer. Next, we're going to
+download NUT. This will open up GitHub.
+So, you're going to download Nut.exe
+along with Tinfoil Driver. .exe. Now, in
+our downloads, we're going to want to
+have our Switch SD card opened up and
+open Tinfoil Installer and drag the
+Switch folder into our SD
+card. We're going to eject our SD card
+and repeat the injection
+process. Now, to verify I'm running
+19.01 EMAND, we're going to go to system
+and verify my firmware. And as you can
+see, I'm running 19.0.1 0.1 and I am in
+fact on an emoan. Now we will open up
+our mod folder and select tinfoil
+installer. This will install tinfoil
+onto our
+switch. Now back to our PC. You're going
+to want to select the nut driver and run
+the installation. Once you finish the
+installation, you can run
+nut.exe. Now at this point, we want to
+connect our switch back to our PC using
+our USBC cable.
+On the top right of nut, you should see
+it go from disconnected to connected.
+This is where I mean having a quality
+USBC cable comes into play. If you use
+any old USBC cable, you may have issues
+with your Switch being detected. Now,
+we're going to select filters. This is
+where we can set our preferences for
+what we want to install in our Switch.
+I'm going to include updates. Then, we
+can go to local scan paths. We're going
+to select browse and we're going to look
+for wherever we have our ROMs located.
+Once you found them, you're just going
+to select the folder. You do not have to
+open it. Now, we can go back to the
+files tab and select scan. All our ROMs
+should appear as a list. Make sure your
+Switch is still connected. And on
+Tinfoil, you're going to select file
+browser USB and you should see all your
+ROMs here. Select whatever you want to
+download and run the install. If you get
+a NA signature verification failure,
+your game won't install. But don't
+worry. To fix this, all you have to do
+is go back to the menu and scroll down
+to options and go to the install section
+and select install unassigned code. Here
+you want to enter this code. Up, up,
+down, down, left, right, left, right, ba
+plus. Now we can go back to the file
+browser and select USB and try to
+download our game again. This time we
+have no
+issue. And as you can see, we have a
+progress bar on nut.exe and on our tin
+foil. Once the game is finished
+downloading, we can close out of Tinfoil
+and we can select the game and it should
+run like
+[Music]
+normal. And there we go. It's up and
+running. Now you have Tinfoil to use to
+install games on your Nintendo Switch.
+Now in this section, I'm going to
+demonstrate how to use JKSV to back up
+your Nintendo Switch save files and to
+transfer them between other Nintendo
+Switches and between your PC if you use
+emulation. I'm going to demonstrate how
+to use the JKSV app by showing my Tears
+of the Kingdom save file on my wife's
+Switch. Notice the amount of hearts and
+the type of inventory on this save file.
+Now, let's compare it to my Yuzu save
+file on my PC. Notice how I have the
+duplicated Master Sword along with more
+hard containers and I have glitched buff
+foods in my
+inventory. Now, I'm going to show how to
+use JKSV to transfer the save files
+between PC and/or consoles.
+First, on our Switch, we're going to
+want to open up a game title while
+holding the R bumper, and it should open
+up our homebrew
+menu. Next, we're going to select the
+JKSV
+app. Once that's loaded, you're going to
+want to select the profile save file you
+want to back up. Then, you can choose to
+rename the file or not. It's up to you.
+But for this tutorial demonstration,
+we're going to name it tutorial.
+Then we let JKSV back up our save. And
+once it's
+done, we can access our SD card on our
+PC. And you'll notice the folder named
+JKSV on your SD card. Select it and then
+open the titles folder. There you'll see
+your backup save folder. Now, this
+hasn't happened to me before where it
+saves as a zip. Normally, it just saves
+as a folder, but if it does save as a
+zip for you, all you have to do is
+extract it into the same folder and
+delete the zip file and open up the
+folder that we just
+extracted. Now, if you're going to
+transfer a save file from Yuzu to your
+Twitch, you're going to want to open up
+Yuzu. Then, select the game title whose
+save you want to use and open up the
+save data location folder. and we're
+going to copy and paste the files from
+our Yuzu folder into our JKSV folder on
+our Switch SD
+card. If you're trying to do Switch to
+Yuzu, then it would just be vice
+versa. Then you're going to eject the SD
+card and put it back into your Switch.
+Now, back on our Switch, we're going to
+open up a game title and hold down the R
+bumper again and open up JKSV.
+Now, we're going to select your game
+title again. And this time, instead of
+creating a save point, we're going to
+restore a save file by pressing Y. It's
+going to ask us if we're sure we want to
+restore this save. We're going to press
+and hold
+A. Now, we just wait for JKSV to restore
+our save. And once that's finished, we
+can open up our game title normally. And
+there you go. Now, we have our Yuzu save
+file on our Nintendo Switch.
+And to verify that it's from Yuzu, you
+can see I have the duplicated Master
+Sword along with the glitched buff food
+items on my Nintendo
+Switch. Now, you shouldn't get banned
+from transferring save files between
+Nintendo Switches and your emulators on
+your PC. The only way you may get banned
+is if you use hacked save files, so I
+don't recommend doing that. And in this
+section, I'm going to demonstrate how to
+update your Emunan to the latest
+firmware using Daybreak and Tegra
+Explorer. So on NH Switch Guide, we're
+going to download Tegra Explorer. So
+we'll click Tegra
+Explorer, and we're going to download
+Tegra Explorer.bin. Now on our Switch,
+I'll show you how to connect to your
+computer without having to eject your SD
+card. We're going to start a title while
+holding R. And this should open up our
+homebrew menu. And we're going to scroll
+all the way to USB file transfer. And
+from there, we're going to connect our
+we're going to connect our Switch to our
+computer. Now we can access our SD card
+remotely without having to remove
+it. And now we're going to open up our
+downloads and we'll open up the
+bootloadader folder. and we'll go into
+the payloads folder and we'll drag
+explorer into our payloads. Now we'll go
+back to our home room menu and we'll
+reboot to payload. We'll press minus to
+confirm. So once we're on the home
+screen of our Hikate menu, we're going
+to select payloads and then we're going
+to select Tegra
+Explorer.bin and it'll take us to where
+we can dump our CISn firmware. So,
+whatever current firmware your CISAN is
+at, this will make a copy of that
+firmware so that you can update your
+Emunand using your CISAN firmware. So,
+we're going to scroll down to scripts
+and select firmware dump. Then, we're
+going to select dump sis MMC and we're
+going to press A to dump the firmware.
+Now, this will take a couple of minutes,
+so let's just speed it up. Once it's
+finished, we can press any key to get
+back to the main menu. Now, back at the
+main menu, we're going to scroll up to
+reboot bootloadader update.bin and
+select A. And this will bring us back to
+Kate. And now we can launch into our emu
+MMC. And we're going to open up a title
+while holding R. And this will bring us
+to our homebrew menu. And we're going to
+select
+Daybreak. And we're going to select
+install. And we're going to scroll down
+and look for Tegra
+Explorer. Once you find it, open up that
+folder and select
+firmware. Then you're going to select
+whichever firmware you backed up. As of
+right now, it's
+19.01. Then we're going to select
+continue and we're going to preserve our
+settings. If you see the message warning
+XFAT firmware is missing or corrupt, you
+likely don't have the XFAT drivers
+installed on your CIS MMC. So just press
+continue if this is the case. But if it
+is available, you want to choose install
+FAT32 plus XFAT. Otherwise, you can just
+install FAT32 and press continue. But in
+this case, I'm already on 19.01, so I'm
+not going to press continue. Then wait
+until Daybreak completes installing the
+dumped firmware. And once it's complete,
+it will ask you to reboot. And once
+rebooted, launch into your Emu MMC and
+verify if your system works. And you can
+verify if your system was properly
+updated by going into your settings and
+system. And that's everything we're
+going to cover for this modding
+tutorial. If you've come this far, thank
+you guys so much for watching my video.
+Whether you skimmed through it or you
+watched its entirety, again, thank you
+so much. It means a lot to me. If this
+video has helped you guys at all, please
+leave a like, comment, and subscribe.
+And I hope to see you guys in my next
+video. And as always, take it easy.
+[Music]

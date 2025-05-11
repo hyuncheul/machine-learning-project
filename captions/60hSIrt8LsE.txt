@@ -1,0 +1,1426 @@
+Hey, greetings dear viewer. Today we're
+going to be talking about itemization
+and in particular how to create optimal
+item sets. And for this particular
+challenge, we have a special guest today
+uh the head coach of Nord Esports coming
+in from a beautiful victory versus Los
+Ratons. And uh this is John. Say hi. Hey
+guys, excited to get excited to get into
+it. Yeah, congratulations on your recent
+victory. And uh I over mentioned that
+we've been working together a little bit
+uh trying to get some good data for the
+guys in Nord esports uh optimizing their
+item builds a little bit and that's the
+topic that we're going to be talking
+about today. Um and just as a basic
+guideline of what we're doing, we're
+going to be creating for a couple of
+champions an item set from scratch. And
+I'm going to be trying to explain my
+thought process where I'm creating
+items. The reason why I want to talk
+about this is because I've gotten a lot
+of questions about my item set in my
+videos because I have a very particular
+way of organizing item sets and I think
+there's a lot to be optimized in terms
+of game play where you've kind of made
+the strategic choices beforehand and
+then when it comes to time to actually
+play the game, you can just execute on
+your pre-made choices. You have a couple
+of different paths and then you have
+some situational options. So that's what
+we're going to be doing today. I would
+like to start maybe by asking John if if
+the the professional players that you've
+worked with use item sets at all or is
+it mostly just a player kind of head
+information where they remember their
+builds? Yeah, they don't generally. I
+know some people do but in general we
+don't and we don't use it like you were
+just showing there which I think is
+really really useful. So from a coaches
+coaching point of view, anytime we can
+kind of frontload the thinking and the
+decision- making, so you do it before
+you get into a match, that's always
+going to be useful because you would
+think, okay, it can't be that hard.
+Yeah. But not only obviously should you
+flex a lot, but then when you're on
+stage under pressure, I've been in games
+where before it was dis, you know,
+before it was impossible to do, someone
+bought um two shielding items, Sterax
+and Hexrinker, so they just cancel each
+other out or two different sheen items
+and stuff like that. And you would never
+do it in the non- pressure game, but
+it's always better um from a coaching
+point of view to just frontload that
+thinking so that you can be a lot more
+efficient with the whole process. Yeah,
+that's really good to hear. I think I've
+seen this mistake and it's easy as a
+outside person to laugh at this. You're
+going to be like, well, these guys are
+being paid, you know, hundreds of
+thousands of dollars to play League and
+then they can't even get their
+optimization right. But when it comes
+down to a professional game, there's so
+many different things that you're
+thinking about. It's very easy to slip
+up on a mistake that kind of like would
+be considered foolish, but at the moment
+you're just thinking, oh, you know, I
+just need to buy something right now. I
+already have a let's say Iceborn
+Gauntlet on I don't know what would be a
+good example. But in the past, you used
+to be able to buy 21st and Iceborn
+Gauntlet. Uh, and maybe a Jax could have
+bought both. So, so then one of them
+gets canceled out. But but then nowadays
+the mistakes is something like not
+buying large dominics regards or or
+let's say buying mer threads versus a
+full ID com stuff like this like just
+just absolutely yeah uh and and kind of
+to support this process we are going to
+look at data from coachless and
+specifically in the latest update that
+we released yesterday we have now data
+on uh first purchases so so these are
+items that are um let's say epic items
+or large components because uh Riot's
+categorization doesn't include for
+example BF sword as a epic item since
+it's just a you know basic component. So
+for you know ADC champions such as
+Camille sorry Caitlyn uh stuff like BF
+sword would not be included if you only
+thought about epic items. But basically
+in the first purchase slot here what we
+have is is the estimate of the win
+probability added which is our metric
+for comparing items uh for every kind of
+large enough component purchase uh in
+the early game. And what we can see here
+already is that Caitlyn players
+previously have been abusing this
+symbiotic souls uh build. It is uh
+nerfed in 15.9 though as as mentioned
+here. It has been adjusted at patch. But
+what we're going to do first is we're
+going to look at Shen it optimization
+because that's the champion that I have
+the most experience on. And I'm just
+going to walk through kind of my thought
+process here because I think most people
+what they do if they even create an item
+set they kind of go like this. They're
+like okay well you know uh nowadays Axto
+has been saying that Dead Man's Blade is
+good. So, I'm going to put Dead Man's
+Blade there. And then, oh, you know,
+sometimes you have to go Sunfire.
+Sometimes you go Hollow Radiance. Uh,
+and then they go like, uh, I don't know,
+what are some health items? And then
+maybe put a couple of these. Oh, yeah.
+Sometimes you can go Stride Breaker or
+Titanic. Yeah. Yeah. And then kind of
+fill this up with some random items.
+Yeah. And that's like it starts becoming
+not even a set because there's so many
+choices there. Yeah. Yeah. There's too
+many choices. So, I think it's it's like
+valid. It's probably better to like have
+gone through the items beforehand and
+know kind of like, okay, these are the
+items that my champion can buy, right?
+But what I want to do is I want to
+create um specific builds for specific
+scenarios. So, in particular for Shen,
+what I'm looking at first of all is what
+is going to be my first legendary item.
+I think that's the most important choice
+that you're going to go into a game. And
+this one is, I think, heavily matchup
+dependent. And what I think is that you
+should try to choose one of the kind of
+like statistically supported best first
+items and then combine that with your
+knowledge as the champion, you know,
+expert or a pro player. You're like,
+"Okay, I've built this item before. It's
+good." And and here we can already see
+that if we think about what items are
+good on Shen, you can see that Dead
+Man's Plate and Titanic Hydra both are
+good first item options. And we can
+create builds around these two options.
+So in my preferred way we will look at
+dead man's plate first and and here's
+actually a kind of like innuend like
+small innuendo here is that uh Titanic
+Hydra and Dead Man's Blade the the stat
+that we measure here the win proity
+added it is it is the best me like the
+best estimate of the item's impact after
+it has been completed. So, what this
+says is that when you press that button
+here on Titanic Hydra and actually
+complete the item that cost 3,300 gold,
+how much that does that usually increase
+your win probability? But what this
+number does not yet um kind of explain
+is how do you get to that point, right?
+Uh like how good is the build path? And
+the first purchase uh slot here is going
+to give us a little bit of uh like
+information about that. And what I why I
+want to highlight this is that even
+though Titanic Hydra here has the
+highest win probability added, it might
+be a little bit flawed because of the
+fact that Diamat is so bad on Shen.
+Tiamat in general is an item that um
+doesn't have that many stats. But there
+are some good users like let's say Fior
+for example. I know for a fact that Fior
+would love to rush Diamat in most games
+just because FA makes much better use of
+the AD than Shen. Shen doesn't have any
+AD scalings. So if if we now choose to
+go dead mass plate route and here dead
+mass plate obviously having armor we can
+just qualitatively think that okay well
+it's an armor item it's going to be good
+versus physical damage opponents. So,
+I'm going to try to create a path around
+Dead Man's Blade. And and first thing I
+do is I will drag Dead Man's Blade into
+the block here. And then I will start
+thinking about, okay, what is going to
+be my build path towards Dead Man's
+Blade? Because in the early game, most
+of your backs are going to be on
+components like for the first 15
+minutes, right? Your first item is
+typically completed, you know, after
+maybe 13, 12 minutes. This depends a
+little bit on role play. Um, and then I
+start wondering that, okay, well, what
+is the best component for me to buy
+early, right? And if we do not filter by
+dead plate, but just in general look at
+all Shen games, we notice that winged
+moon plate is really high up here. And
+this kind of corresponds with my
+understanding of Wing Moon Plate.
+Because if we take a look at um this is
+one of my most used resources, League of
+Legends wiki. If you look at winged moon
+plate and the patch history on this
+item, what happened in 14.9 here is that
+its health got increased to 200 and it
+only lost 1% movement speed. And this is
+the big itemization patch where almost
+every item was nerfed. So while other
+items uh and components were nerfed,
+this item received a buff. And even
+though gold efficiency is like a little
+bit of a flawed metric, I still look for
+it in terms of components because these
+components don't have any unique uh
+effects, right? So it's easy to compare
+something like uh bummy cinder and wink
+moon plate because all they do is give
+stats. So what we can notice is is that
+you're paying 900 gold for an item that
+gives you the same health as ruby
+crystal. And even though bum cinder is
+really valuable in the first back, it
+might be more valuable to get that extra
+HP and that movement speed to trade with
+your opponent. Now, I might be going
+into too much detail here about Shen
+itemization in particular, but probably
+the the more like general approach that
+I that I want to highlight is that you
+should be thinking about okay, what's
+going to be my first legendary? And then
+the next question is what's going to be
+the strongest component towards that
+legendary? And in my mind, that's always
+going to be winged moon plate in most
+cases. No, I really like it. I think
+that's also one of the differences that
+you see working with players, not just
+pro to solo Q players, but sort of
+challenger master players to even
+diamond players, like considering the
+components to actually be a super
+valuable uh step along the process. So
+there's plenty of items that we see
+built in pro play and even when they're
+completed, they're not necessarily the
+best item to have completed, but it's
+because the build path was necessary for
+that moment. You know, in pro, it's even
+more simple. So it's like, okay, for
+before this, before third dragon, I do
+two and a half items, and it's like,
+okay, so the half item needs to be a
+useful half. Yeah. Exactly. Yeah. Yeah.
+And I think there's lots of examples of
+components that actually influence the
+game a lot. Uh, I think Tiamat was used
+previously here as a negative example,
+but if you think about Midame or or some
+like second item spike, having Tiamat on
+Trundle versus not having Tiamat on
+Trundle might be the difference between
+getting that tower as we saw in the game
+versus
+Los the towers started falling. So, so
+these small items can have a huge impact
+on how the game rolls out. Uh what I
+used on on Twitter as an example was uh
+Garin's early itemization because
+Berserker greaves have for a long time
+been this kind of like de facto purchase
+on Garin. I think like most most people
+just default, oh yeah, Garin, for ease,
+you know, spin damage, you go berserker
+griefs. And this is a remnant behavior
+of of like old times where berserker
+greaves used to be more gold efficient.
+And I think it's really important to
+always keep up to date with changes.
+Obviously, I think most pro players read
+the patch notes, but you can see here,
+oh yeah, 25% attack speed, 45 moves,
+pretty good. But what this item used to
+be is used to be 35 attack speed on on
+first item and then 10 attack speed more
+for the same gold. So it it was a very
+different item that provided a lot more
+damage. So nowadays it it's very
+important to just think about these item
+purchases and think about what's the
+most up-to-date information that you
+have. Uh statistics helps with that.
+Playing the game helps with that.
+Reading patch notes helps with that. So
+that's that's something I wanted to
+highlight. Um, and then even going into
+more micro itemization, the way I
+usually build now the the item set
+around these two, so the first component
+and the um first legendary is I then
+break it into the smallest components
+possible. And the reason I do this is
+that when I take a recall, I instantly
+have visible all the components that I
+would be interested in buying on a back.
+Because even if my objective is to go
+for winged moon plate uh as my first uh
+purchase, it might be that the gold
+amount on the recall is for example 700.
+And if that's the case, I can think
+about going for boots plus ruby crystal
+or cloth armor plus ruby crystal because
+these will be eventually working towards
+the dead man's blade. And and my
+personal preference is that I basically
+uh take all of the large components of
+the first legendary item and purposely
+put them in the item set. Uh, this is
+maybe a little bit of overkill, but
+because I'm playing Shen most of the
+time, I have many situations where I
+need to recall and instantly ultimate or
+teleport, for example. With top laners,
+obviously utilizing teleport, you need
+to be ready to buy the items as soon as
+possible because it can be the
+difference between losing like one or
+two minions. If you if you're waiting in
+base, you know, uh for five seconds more
+and you lose one experience, this one
+experience might be might be cost
+because you took too much time to find
+the items that you want from the item
+shop. So that's that's why that's why I
+do this. Um I don't know if this is
+something that pro players think about
+or something that you've thought about
+like kind of like I think I think first
+components and backs they think about a
+lot. Um and there's a lot of times where
+we'll like force people to stay. Hey, I
+mean bot lane is the one that's the kind
+of I think the one where it happens the
+most. We have people like Ezreal and
+versus a person who wants to get BF
+sword for example. Yeah. And it becomes
+actually quite a big game of like okay
+can you get to base for Sheen or can you
+even get to base for for tier first and
+if not like if if they ever sometimes
+there'll be a situation where the Ezreal
+player for example gets a perfect
+opportunity to get a really nice back.
+Uh maybe they've already got a back for
+the the tier and they want to back for
+the sheen or they want to back just for
+the sheen and skip the tier for now for
+that early power like we discussed
+earlier. Yeah. And if their base gets
+stopped by the BF sword user, it can be
+like that changes the lane completely
+because now by the time they're both
+back, now you're getting BF and suddenly
+you don't have that extra window where
+you can be really punishing. So in terms
+of building item sets, I I don't know
+many pros, if any. I've not seen them
+that that build it like that, but
+absolutely it's a massive component of
+the game at the at the highest level. Uh
+what you can get on backs, especially
+first back, um like you're showing and
+how big it is to kind of force someone
+back early and especially if you're a
+person who's going to be building, let's
+say, even a durk item first on AD. Yeah.
+You know, we can be more aggressive on
+early trades because you can always go
+back and get a long sword if both people
+need to base. Whereas if the BF sword
+user can't even get a pickaxe, you know,
+if if we if we play really aggressively
+on second and third wave, sometimes it
+can be a really good strategy to
+consider. Yeah. Yeah. 100%. I think BF
+sword is one of the probably the
+greatest examples just because it is so
+so big. It's so big. It's 1,300 gold and
+it's super hard to finish. But also if
+you just think about it like in terms of
+stat efficiency uh the B of sword is
+just um it gives more AD uh than similar
+items, right? So so the if the if the
+conversion is just you pay some gold to
+get X amount of AD, this this guy gives
+you just more AD than any other item in
+the game uh like component wise. So, if
+you're able to reach that threshold of
+1,300 gold, then uh you're basically
+just getting an extra reward for that.
+So, even if like on paper, the actual um
+trading that's happening in in game is
+like, okay, let's think both players
+lose the same amount of HP, both players
+um stay in lane for the exact same
+duration, depending on the itemization
+of the champion, that might result in an
+advantage for the opponent. So there's
+like hidden asymmetries that stem from
+actual itemization and not so much the
+champion itself.
+And that's where you see people like
+Kilisang or Mickey walk forward and
+ignite someone under tower. Yeah. It
+will either be it'll either be to stop
+to stop them being on time for a swap or
+it'll be to mess up their items. Yeah,
+that's a great example actually and and
+I love love that because that's
+something that uh might be overlooked uh
+as a viewer like okay well yeah he just
+stopped the base but there was more
+thought process behind that. I'm going
+to stop the base here so that both
+players remain in lane for longer in
+order to reach that item spike. Um to
+return to the topic of the Shen build
+here I'm just going to drop in a bum
+cinder here afterwards. This is just and
+this is now this is where comes like
+your personal understanding of the game,
+your understanding of your champion,
+your understanding of uh the game uh
+where bame cinder yeah it's a good item
+on Shen. The reason why we mix it in
+into this build is that we can earlier
+get opportunities for ultimates when we
+have that wave clear. So it's perfectly
+fine to rush dead man's plate on its
+own. But just what I've noticed from
+playing is that usually you miss out
+some ultimate opportunities or versus
+harder matchups where uh the opponents
+are pushing the wave really fast. You
+just you just need this in order to have
+some kind of priority. Um and then the
+build order still remains like I want to
+go wing plate first and then I want to
+mix in that personal preference of bum
+cinder finish up my dead man's plate.
+And I think here is now the question.
+Okay, I finished dead man's plate.
+what's going to be the divergent build
+path after this item. And for a long
+time, I built hollow radiance. But now,
+hollow radiance has been changed quite
+differently. And this is where I'm going
+to look at more general stats. So, in
+addition to looking at your champion
+specific stats and how good of a user
+your champion is on for a particular
+item, I I generally want to think about
+okay, what is the general balance trend
+of different items? And if we identify
+that, okay, hollow radiance is is like
+generally just here worse than the
+alternatives, like it's just a worse
+item balance-wise. This is basically
+looking at all champions uh across the
+board for last three patches. And if we
+see that there's a kind of systemic bias
+where Sunfire just is a better item or
+then we can think about AD bruiser items
+such as Titanic Hydra, um then I might
+not prefer this item even if my champion
+would be a good user of it. I think it's
+like important to clarify these two
+things where I think some champions you
+or people kind of default to specific
+items because you think oh well surely
+this champion must use this item. Um I'm
+trying to come up with an example so
+that we can illustrate this in
+conversation more but I think stuff like
+I'm I'm going to look for a bad item on
+purpose. Maybe even items such as like
+experimental hex plate where I think
+some champions synergize extremely well
+with this. Maybe a zer um Noturn. Noturn
+for Yeah, yeah, no is perfect example
+actually. So let's look at Nocturn. So
+we know for a fact that this item is
+just across the board kind of bad. Uh it
+it's it's just statistically not as good
+as the other items. And there's many
+reasons for that, but particularly the
+build path and how how the effect
+actually works. And then we think about
+Nocturn. It's like, oh well well surely
+like
+um Noctturn is going to be a good
+experimental hexplate user. Um do you
+see it? Okay, it's in the CTR here. But
+just because your champion synergizes
+well with the item doesn't necessarily
+mean that that's the best item to buy
+because there might be an item that
+doesn't have as much synergy with your
+champion like stridebreaker which I mean
+you know has a good synergy with noturn
+but uh it's just overall in a better
+state. I think this is I don't know if
+this point makes sense but kind of like
+dis disentangling those two things.
+Yeah. So how would you go about waiting
+those things? Because if let's say
+experimental hex plate if you went on to
+noturn and it was actually dramatically
+increasing your win probability. Let's
+say it wasn't minus.9. Let's say it was
+1.7. Yeah. Is that not enough stats in
+itself? Does it matter how bad the item
+is? I would say I would say if you have
+if you have a good sample size basically
+by sample size we mean the amount of
+games that have been played and
+basically if you're like oh we have good
+evidence that even though this item is
+bad in general on this particular
+champion it's good enough to warrant
+then yeah you know by all means go for
+it but if you have let's say any any
+doubts about it like hey you know I mean
+I see some synergy there but the item is
+overall in a bad state and and then you
+get evidence like this where basically
+we're just looking at Noctar first item
+and you see a massive difference uh
+almost 1% and for to some people this
+might sound okay 1% is that really going
+to matter but if you think about every
+item choice as an incremental kind of
+like optimization game if you every time
+gain a 1% lead then then over the course
+of a 100 games you just make those
+itemization choice it's it's huge that's
+that's the difference between you as a
+solo queue player being in grandmaster
+or being in low diamond right or or even
+like gold and diamond or something like
+is so so obviously I'm not saying that
+just by buying better items you're going
+to become a diamond player. What I'm
+saying is that there's like small
+optimizations to be made that can have a
+huge impact in the long term.
+Yeah. Um now I'm going to speed up here
+on the Shen part. Uh and what I'm going
+to do is I'm just going to fill in after
+my kind of like research my I'm playing
+the game a lot. I'm playing Shen a lot.
+I'm looking at different builds. I'm
+looking at stats. Then I'm going to come
+up with, okay, well, I really like to go
+spectral skull next year. And the reason
+why Spectral Skull is really good with
+Dead Man's Blade is that you've invested
+a lot of money into armor. And in 90% of
+the League games, you're going to have
+at least one AP champion on the enemy
+team. There's going to be magic damage,
+the magic damage that comes in. uh and
+you want to deal with that magic damage
+somehow, especially since Shen has
+innate tools in his kit to deal with out
+attacks through his W, but he doesn't
+have a way to reduce magic damage. So,
+getting a little bit of magic resistance
+is going to be really good. And this is
+going to be again kind of a situation
+where I think sometimes it's good to buy
+a component and not finish it. I was
+talking with um Yungos the the jungler
+of Nord esports now uh about spectral
+skull in particular where we were
+talking about Mundo itemization and
+obviously Mundo players would you know
+love to say that spirit vis is part of
+their core build because you know it's
+Mundo right you have healing yeah mo
+most healing in the entire game like
+surely spirit vis will be good and I do
+agree with that point but there's some
+games
+where the hex bite example again so well
+with the champion Yeah. Yeah. Yeah.
+Exactly. There's some games where you
+can be like, "Oh, I really want the
+increased healing, but you have to think
+about the trade-off that you're making.
+Okay, I'm using 2,700 gold to get the
+increased healing, but it's also gold
+away from armor." And let's say the
+opponents are working with a very
+physical damage heavy composition, and
+the and the magic damage dealer is
+someone who doesn't want to waste their
+burst on a Mundo, right? In many cases,
+there can be a single target mage or or
+like a very like snipe heavy mage, let's
+say a zeraf or something. The zeraf is
+not going to be hitting the mund. The
+seraf is going to try to ult you know
+small HP priority targets in the
+backline. So it can be okay to overgo
+the magic resistance, overgo the healing
+in order to get an item that better
+suits the needs of your champion. And in
+this case, it might be warranted to just
+go for a spectral skull and not upgrade
+it into anything. just get a little bit
+of magic resistance and then move on to
+items that have better priority uh for
+you.
+Uh any thoughts that arise from this? I
+think I think components in general
+there there are cases where one should
+think about the league items as like
+okay you have to use gold to get a
+specific amount of stats but it's also
+how do I use the slots in my inventory
+efficiently. So, in the early game, you
+can afford to use more of the slots, but
+when you get to later on, like you you
+have four slots filled, you can't just
+buy a spectral skull because it's going
+to feel, you know, it's going to fill
+your entire inventory, right? I don't
+know if it's too distracting, but the
+thing that as in off topic, but the
+thing that it instantly reminded me of
+is the two things that have happened
+recently with this Haunting Guys. Yeah.
+Yeah, I know what you're talking about.
+And the Giants Belt versus Heartsteel
+situation. So, how is there a way that
+you can bring in some stats to this or
+like because four four haunting guys is
+surely is too rare? Uh, I know I know
+what you're talking about. Now, I'm
+going to have to stomp on the haunting
+guys abusers right here. So, I I've seen
+this build on Zyra. Do you know other
+users of it? Uh, I've seen it on Lilia.
+I've seen it a couple of times on
+Singed, but obviously that's way less
+picked in pro play. Yeah, I've seen it
+on Aali two or three Haunting Guys.
+Although to be fair, in the Akali game,
+I think it was also versus loads of
+squishies. Yeah. And he went conqueror
+and three haunting geysers, which I
+think was just a terrible choice. Yeah.
+No matter what you're you're going.
+So yeah, I I think it's hard to evaluate
+the whole kind of like uh just just say,
+okay, four haunting guys, is it worth it
+or not? But what we can do is we can try
+to estimate how good of an item haunting
+guys is and then make our judgments from
+there. So, if you're looking at the
+aforementioned champions, we looked
+Rumble, then we see Zyra, and and we
+look at the Haunting Guys as a first
+purchase, then Lilia as well. We we see
+that it's pretty low there. Okay. Yeah.
+So, so what I'm thinking from like my
+own game understanding is that okay,
+well, this item increases damage
+percentually, right? You're in the early
+game, your champion's base abilities
+don't have like base damages are not
+that high. you don't have that much AP.
+Is it worth to itemize percentage
+increases? Someone is going to say,
+"Okay, well, you're missing the point
+because the haunting guys damage
+multiplications are scaling
+multiplicatively. So, you get more and
+more damage uh, you know, increases as
+you get more and more haunting guys."
+And that's a fine point to make. We
+don't see that in the stats because we
+are looking at an individual haunting
+guys. But if we compare that to
+something like a fated ashes, which if
+we assume that the items are relatively
+evenly balanced, which is not always the
+case in League of Legends, um I would
+choose in the early game the item that
+gives you flat damage, you know, instead
+of something that gives you percentage
+amplification on abilities that have low
+base damage the early game, right? and
+and then items such as lion restorment
+which increase uh kind of your damage
+output significantly, you start to think
+about the trade-off. So, first of all,
+okay, I'm not going fated ashes, so I'm
+missing out on the flat damage. I'm not
+completing my haunting guys into allian
+restorment, so I'm not getting the
+maximum health burn on uh jungle
+monsters. And jungle monsters have a
+very high base HP. So, getting a free 6%
+target max burn on on any jungle. I
+think if you look at any kind of like AP
+jungler, we're going to notice that the
+land restorment finish is like super
+good on them. Uh what was the what did
+we look at? Zyra and then Lilia. Zyra,
+Lilia. Yeah. Yeah. And this can be seen
+here like most champions abuse line
+restorment very well. And even top
+laners, I think Akali top lane line
+restorment is pretty high up there. Uh
+this item is just very good. And you're
+basically making a trade-off where like
+in theory it sounds very good to be
+like, "Oh, you know, they stack up
+multiplicatively, riot, this is so OP."
+Uh, but then you're missing out on a lot
+of uh like a lot of good items that
+you're not complating. I I think it's
+also people uh thinking a little bit
+like Riot was 5 10 years ago, maybe even
+more. That's just how old I am. I was
+thinking that there was a preseason
+where they made black cleaver shred
+armor and the armor shred wasn't wasn't
+unique and so six black cleavers became
+a legitimately one-shot build and
+they're just really waiting and hoping
+for those days to be back. That could be
+the case. That could be the case. And
+I'm obviously not saying that you should
+always ignore these kinds of builds. I'm
+saying you should you should test it
+out. You should look at stats. You
+should see what one tricks are doing. I
+think that's kind of my holy trinity.
+So, so the like the websites and this
+this website I'm not in particular kind
+of like affiliated with but I do love
+the one tricks GG website. This is what
+something that I use a lot. So when I
+just want to get a very fast
+understanding of okay what are best
+casadin players in the world building I
+I usually look at from this website.
+It's just a very nice interface and this
+is mostly optimized for looking at
+builds very quickly because they look
+like they show these kinds of item sets
+and and you get a good understanding of
+what's the meta build right. So, one
+tricks your own gameplay understanding
+and then stats. Obviously, I'm biased
+towards courses because I think these
+are these stats you cannot get from
+anywhere else. But, um I think any any
+stat website will kind of fulfill that
+role. Uh if if you if you believe that
+their stats are reliable. So, yeah, but
+of course, coach is the best one. Yes,
+you heard it from the man himself.
+I can say it because you don't you can't
+really Exactly. So, um, I'm I'mma finish
+up here so that we don't spend too much
+time on Shen itemization in particular.
+I'm just going to go to my previous item
+set. So, that's kind of the logic where
+I'm like thinking first legendary. I'm
+thinking what is my first component? I'm
+going to put in some small items uh in
+order to have those fast back so that I
+don't lose XP when I'm tping directly
+out of base. And what the end result
+will look like is something like this
+where I have a pre-planned item build.
+Notice here actually a small detail that
+I think is important. What I've done
+here is that uh item sets have the
+ability to select a preferred slot for
+each item. And I think this is the I
+like that. Yeah. This is something you
+know that. Yeah. Do people know that? Do
+do people use this? I I it could be that
+they do. Um I'm
+I guess even a strange example as a
+coach. I don't play the game almost at
+all. I play arena because it's fun. Um
+but I didn't know this. So it could
+be times where someone has wasted his
+wars or whatever it might be. Now this
+is again like someone is going to be
+thinking actually like listen man I'm
+stuck in gold three putting my diamond
+on number one key automatically is not
+going to get me out of that elo and
+that's completely valid point. Okay,
+this is some Twitter feedback that I got
+recently. But if you're trying to push
+for that minimal advantage, you're at a
+competitive level, you're trying to gain
+advantages anywhere uh you can, then in
+my philosophy, there's no reason why you
+shouldn't do something that is zero
+cost, you know, min minimal cost for
+you, like just to set up the item page,
+put your items in order, put your
+preferred slots there to get that small
+incremental advantage in the game. So
+that's the way I'm thinking and I'm
+going to go a little bit deeper. You
+might think actually why why are your
+boots and your cloth armors being set to
+these positions? And this is where we
+look at the room page that I'm running.
+Okay, I'm running biscuit delivery. And
+when I come from base, I need to know
+that there's going to be nothing on my
+uh three slot because I want to use my
+biscuit. That's smart. I want to use my
+biscuit from three slot. So I I need to
+make sure that all my components are
+going down. My Doran shield is going to
+be in my number one place so that that's
+always fulfilled. My refillable potion
+or uh uh health potion is going to be in
+this number two slot. And then my
+biscuits are going to always drop into
+the three slot automatically because
+that's going to be free and all the
+components are behind it. So I love
+that. So and I swear this is there's
+going to be one game in 100 games where
+you lose in one v one because your
+biscuits were on the wrong key. It might
+be even be more often. So, this is
+biscuits. Definitely more often. I think
+that's a really really good idea. I
+mean, obviously feel free in the edit to
+cut out this rant, but No, no, no. We
+talked about we talked about the first,
+you know, when we first started talking
+about like how important items are and
+the thing you were just saying like is
+it going to get you out of gold putting
+your item on the right slot? A really
+big thing for me in my approach to high
+performance and my approach to coaching
+in general is this idea of marginal
+gains which if you ever want to Google
+you can fall down the rabbit hole of
+that. It's something that people talk
+about all all the time. Um it was very
+famous by a guy called Sir Dave
+Braillesford and I think the best way to
+describe it which was actually one of
+the riders who talked about it rather
+than rather than the coach himself.
+Yeah. is that we come in with the idea
+that nothing is too small to be
+considered. Yeah. It's not that we
+should do everything because you only
+have a certain amount of time in the
+day, you know, to build these item slots
+or anything like that. And it's not that
+we should do everything because it might
+cost something. But something like this,
+which putting it on the right slot costs
+you so little if you think about your
+time spent playing League in total, let
+alone it's gonna take you it's going to
+take you 20 minutes to set this item
+page up and then you're going to play
+League for, let's say, 500 hours. So
+yeah, exactly. You're going to use a
+very minuscule percentile of that. Yeah.
+And and the where items get placed is
+the perfect example of this kind of
+philosophy. It's like, okay, it's going
+to make such a minute difference that
+people will say it's not worth trying,
+but really the way to think about it is
+what's the cost of doing it, which is a
+couple of seconds. Yeah. And therefore,
+there's just no reason not to. And and
+more importantly, a couple of seconds
+away from the game, right? Not during
+the game. So, you're not you're not even
+wasting your in-game decision-making
+time. You're actually creating in-game
+decision- making time, which for pro
+players if you want. Yeah. Exactly.
+Exactly. So, you're not realistically
+like I'm going to be honest. I know 95%
+of the players, me included, you're
+browsing YouTube shorts while you're in
+queue. So, you might as well be using
+you might you might as well be
+optimizing your item preferred placement
+like Yeah. Yeah. Uh and then I'm going
+to run through here. The idea here what
+I have is just I'm going to have
+refillable potion in there. Uh I don't
+usually like to buy this item, but in
+the aforementioned case where let's say
+I have to take a recall on uh 650 gold.
+650 gold for Shen in particular is kind
+of awkward because you're like, "Oh,
+well, what should I buy?" I mean, you
+can go boots, cloth armor. Okay, you can
+go a health potion or then you can go
+ruby crystal and refillable potion.
+you're leaving 100 gold unutilized, but
+ruby crystal is the best component in
+the early game for Shen because he
+benefits from HP and uh you're just
+going to have to buy something in
+addition to that in order to be stronger
+in the early game. I think there's an
+argument to be made for skipping
+refillable potion totally, but then
+you're leaving 250 gold unused. Uh so
+it's in in the early game that kind of
+things matters a lot. So that's why I
+have this kind of like first uh first
+slot here, which uh by the way having 10
+items uh fills an entire row on the
+actual league uh client uh like the
+league shop in game. So this is why I
+always have 10 items in in a block
+because otherwise they will flow to the
+next uh next row and this doesn't matter
+of your resolution. So it's it's
+independent of that. Um so basically
+what I have is I have two different
+build paths that I found. One I go
+versus physical damage opponents, one I
+go versus magic damage opponents. Uh
+these are not absolutes. I will defer
+from them if I feel like it. if I think
+there is a better item to be had. And
+this is why I have the last uh uh block
+here which is just strong items uh
+either through practice or through
+statistics that I found uh that have
+their cases, right? Like someone's going
+to say Shen is not not a good Mayas
+user. I think there's cases where that's
+not the case. You can actually buy it uh
+for sure stuff like redemption on
+locket. If we look here overall across
+all items on Shen top lane, we notice
+these two items even if their sample
+size is relatively low, they are strong
+items that have their spots, especially
+you can see both of these had the good
+with low gold tag. So what this means is
+that compared to purchases um of every
+other item in the game when you have low
+gold, these disproportionately increase
+your win probability. And I think that
+makes sense uh if you think about the
+game qualitatively where okay if you're
+already behind you're not gonna have you
+know you're not not gonna have the
+ability to kill opponents with a titanic
+hydra damage build whereas if you just
+buy a redemption that has flat value for
+your team it's going to increase your
+win probability by more that's kind of
+the qualitative understanding there. So,
+I have situational items that I think
+have their purpose and I have them ready
+here. And this is all just to make me
+not buy a bad item. That that's like the
+that's like the number one thing. Like I
+don't I don't even care about buying the
+optimal item in every game. But I know
+for a fact that if I don't have an item
+page set up, I can make the mistake of
+buying a bad item. Now, I I don't think
+there's many examples in my matches
+there because I'm kind of cooking here
+with no worry. But but in general, if
+you haven't prepared your item set, how
+are you going to make those decisions in
+the game itself when you don't have the
+ability to actually sit down, look at
+the data, think about what one tricks
+are doing, it's going to you just don't
+have the mental capacity, and what's
+going to happen is you're going to
+think, "Oh, I need magic resistance. Oh,
+uh, Force of Nature is good." No, no,
+it's not. It's not like you just you
+just chose an item. you weren't prepared
+to make that choice and that's going to
+cost you uh some chances of the game. I
+think that's that's the that's the
+fundamental thing that we're doing here.
+Okay. And then in terms of the item sets
+themselves, so I love the like building
+components and stuff like that.
+Would you recommend laying out like
+this? Because the other way that I'm
+thinking about it is you have your first
+set which is like your useful items in
+most games like your dead mans in this
+example and then could you just have a
+set of these are good magic resist items
+for Shen these are good tank armor ones
+for Shen because I really like that
+approach. I think again if we compare it
+to pro play which is obviously where I'm
+biased from
+the perfect item sometimes actually is
+absolutely gamebreaking and it might be
+weird. An example we had from our series
+against loss of tones is personally I
+think varys going zas was the absolute
+perfect item and it really did make the
+enemy have zero way to play the game
+anymore. Um but in general you would
+only like lose games by exactly what you
+say. I just bought bad items. Not the
+most optimal item we have to buy every
+single time but I just bought bad ones.
+So is it ever useful to just have okay
+here's just items which are currently
+good for MR for my champ? Yeah, I I
+think that's a completely valid approach
+and I think um uh these are like these
+are not absolutes, right? Because you
+you have 100 different ways of building
+these item sets. I think what the
+primary philosophy here is that you just
+need to have a way of being
+systematically prepared to make those
+choices. And if for you as a player, it
+is more convenient to have it laid out
+like this where you're like, "Oh, well,
+I have basically you can think of it
+like I have three magic resistant
+options." And this is now, you know,
+just based on data you you let's say we
+drop that. We might see a mask somewhere
+here. Oh, it's actually bad. Oh, never
+mind. But it's low sample size. I think
+a mass definitely has its games. And if
+you look at the situational stats, you
+can see when it's bought versus magic
+damage. And one thing that we are
+missing here is with magic damage,
+right? I I think I've legit won like
+couple of games just by buying this item
+because I have a fed Gwen on my team,
+right? And I all I need to do is provide
+12% increased damage to the incredibly
+fed AP carry in my team and I'm going to
+be useful, right? So let's say I prepare
+like this. I I have magic resist options
+and there's kind of like clear
+situations when I go for each. I might
+even write them down. I'm like abysol uh
+with AP carry, right? And then you might
+go uh Soraka
+Janna Ocean Soul, right? for spirit
+passage or something like this kind of
+like preparing out the conditions and
+these might be based on your qualitative
+game understanding where you know okay
+you know this item as well with uh
+healing or they might be based on stats
+which I think I think this is really in
+interesting to look at but if you take
+all champions and look at kicer here
+this is this is incredible item versus
+high AP comps just absolutely fantastic
+item it's providing a 1% uh 1%
+percentage point probability increase uh
+in winning versus magic damage comps.
+And this this classification is done by
+basically we looked at the damage
+distribution of an average League of
+Legends game. And we looked at the top
+uh 33% uh games where there was the most
+amount of magic damage, right? So you're
+kind of dropping this into three
+buckets. And and here you can see also
+that Kikru is being purchased more
+versus magic damage uh compositions
+whereas is being purchased less versus
+physical damage compositions. That was
+not my point. But the point was compared
+to other magic damage options uh where
+this is okay 0.6. That's still
+relatively high. Force of nature it's
+0.7. You might think forceful nature,
+well, this item grants the most magic
+resistance in the entire game, but it is
+conditional on stacking the item where
+you need to be immobilized or hit by
+spells, whereas Kicer just gives you 80
+magic resistance flat out and it gives
+you that mage bane magic damage shield.
+Uh so even something like a mask loses
+in favor of Kic Ruker in games where the
+opponents have a lot of uh magic damage.
+But then again, abby mask has the added
+benefit of let's say you have two damage
+uh two magic damage carries. So yeah. Um
+so so you might lay it out like this.
+Okay, these are my magic damage options,
+magic resistance options and I'm just
+going to conditionally choose between
+these three. And also what you can think
+about is oh I can think about the
+components. So I might drop in the
+components like this. The reason being
+um this way when I make that base I can
+also think about which component I can
+afford the best right and which
+component serves me the best in this
+particular scenario. So even if the game
+warrants a spirit v Mhm.
+Um because you have a healing support
+and you need magic resistance, it might
+be more more beneficial to build towards
+kaic rukern because you have a gold uh
+like you have a gold amount of 850 on
+your recall and you need magic
+resistance for your next fight, right?
+It's just going to be a big fight. Yeah.
+Yeah. Exactly. There's there's a dragon
+fight coming. You only have armor until
+now and you know they have a fed uh you
+know AP damage dealer. So even if you
+want Spirious V, you would either have
+either have to go for Kindle gem for
+that particular fight or you would have
+to just buy a null magic mantle which
+gives you 25 less magic resistance. It
+might cause you to die. It might cause
+you to not get a kill, lose the dragon.
+So then the incremental benefit of
+having that synergy with your healing
+champion is kind of like overweighed by
+the better build path of the other item.
+So, so I think something like this could
+work really well where you have the
+build path visible and you have a kind
+of uh let's say classification of of of
+items.
+Yeah. Um, great. Yeah. Any any closing
+thoughts?
+Um, no. I mean, I had some questions
+written down before we came in, but you
+kind of answered most of them. I love
+the approach of you should think about
+stats, you should think about what one
+tricks are doing, and you should very
+importantly think for yourself. Yeah.
+based on your own game game and game
+understanding and preferences and stuff
+like that. I think that's really good.
+Um the one question I have which I
+assume you get all the time is how do
+you know what stats to ignore other than
+ones that you've already filtered out
+for low sample size because you do on
+coaches have the option to to re read in
+ones with super low sample size. I think
+this how do you find that? Yeah. Yeah.
+No no just just just that is the
+question. I I think this raises a couple
+of thoughts. I will say one thing that I
+really like looking at this this I'm
+going to answer your question after this
+but I just had it in mind is this um
+purchase time trend of items and this is
+best seen when you take the item across
+all champions and this is related to the
+sample size thing. So if in particular
+I'm interested in Shen itemizations, the
+problem with the naive approach of
+filtering items by I only want to look
+at Kicerard only on Shen in a specific
+item slot is that for these particular
+data points that we see here, it's going
+to be like oh maybe there's thousand
+data points here, thousand data points
+here, right? Like there's there's just a
+little bit of data. And we actually made
+some experiments to see how the VPA uh
+like the win probability added uh is
+influenced by by the sample size. And we
+noticed that after like let's say 3,000
+4,000 5,000 games, it becomes relatively
+stable. But during the first samples of
+of,000 to 3,000 games, it's still uh
+relatively volatile. So something like
+this where frozen heart has a thousand
+samples as I'm I'm not going to trust
+that. like if I have good intuition on
+why this is not good on Shen where you
+know you're wasting mana on the champion
+there might be a situation where it's
+good I'm not going to trust that right
+so so I'm looking generally for game
+counts of up to you know more than 5,000
+games as preferably you know more is
+better or rather more is more reliable
+right there there might be cases where
+where you have I think I think a good
+example is like when you start filtering
+by by matchup even let's say you're
+interested in Arthrox, Atrox versus
+Tanks, right? And the the number of
+games goes down significantly when you
+filter. Okay, I know for a fact I'm
+going Sunund Sky first item. And now you
+see, okay, well, if we filter by Atrox
+versus Tanks and I know first item is
+100 sky, the game counts start to become
+relatively low. And now you say, okay,
+expert, you said you don't trust this
+number because it's less than 3,000. Um
+but if the context is narrowed down
+enough and I have the ability to look
+outside of the context as well and I see
+okay if you don't filter by that sterox
+is still good if we filter by that
+sterox becomes even better and then if
+we don't filter by the matchup we see
+okay sterox is still good right then I
+have the uh combination of oh in general
+this item is a good second item and when
+we narrow down the context it remains a
+good item so it seems relatively stable
+Right. So then I start to trust that
+number more. Uh this is something that
+is I think kind of like a big design
+issue for us where we need to go through
+the numbers. We need to actually think
+about what's going to be reliable for
+the end user where for example I I this
+particular button I think a lot of
+players will use it or users will use it
+but it's going to just create issues
+where this number is just not going to
+be trustworthy. Right? And that's that's
+the reason why I usually hide this
+because I don't want to look at that
+number that I know for a fact just has
+no like meaning, right? It's it's like
+mostly noise. So So it's it's a very
+hard design issue of like how do we
+create stats that can be instantly
+trusted, but also how do we educate the
+user on what to trust and what to not.
+And I think it's something that requires
+its own on own on own thoughts. Um I'm
+quickly going to return to the Kic Rukan
+case because I just wanted to show you
+this. Oh, I can search for that there.
+Um I want to show you that this
+particular item scales really well with
+um time. So there are certain items like
+abusal mask that are already I mean this
+one I wouldn't like we would have to
+implement of like how how much samples
+has this has here to trust that. But
+like some items have a very clear trend
+of being worse in the early game and
+being better in the late game. And these
+trends are best visible when you take
+the highest data set possible. So you
+know across all champions. Then there
+are items like um ragelade for example.
+Ragelade is a fantastic item in the
+early game but what happens is that it
+efficient its efficiency goes down
+extremely uh as the game goes on. And
+this is not this is not intuitive by the
+way. Like you you might think that oh
+it's like retroactively intuitive. It's
+not intuitive until you look at the
+stats because you just that's a key word
+right there. The retroactively
+intuitive. After you've seen this stat
+you can make the argument in your head.
+I thought about that. Yeah. Yeah. This
+this item gives you flat on hit damage.
+It gives you uh AD, AP, and a lot of
+attack speed in the early game where
+fights are actually longer in the early
+game than they are in the late game.
+Right. Yeah. Because it's harder to sit
+and stack up that item in the late game
+when anything one shots you. Exactly.
+But in the early game, you can hit the
+wave and have sething strike stacked up
+all the time, right? And even though as
+a design, this is like a on hit capstone
+item cuz you think, oh my late game.
+Yeah, exactly. you're like my own hits
+are going to be multiplied. So when I
+have my blade of the ruined king, right,
+when when I have my terminos, then then
+the ragelade is going to go really well,
+right? But but that's not the case at
+all. Whereas it's a very good one item
+spike. And you can see this for static
+ship as well. Uh where static sh is is
+like a very strong wave clear early
+spike, but because it deals flat damage,
+it's just not going to be useful as the
+game goes on. And then you take an item
+such as Lord Dominic's regards and
+you're going to, you know, obviously it
+hasn't been purchased in the early game
+at all because no one yet is brave
+enough to go LDR first item. Although I
+think Ba is doing it on white top lane,
+but but but this particular item shines,
+you know, for the whole mid to late game
+uh situation and then something like
+Guardians Angel is something that gets
+better as the game goes on. But but
+looking at these kind of like item
+specific trends, it's better to take the
+large sample size across all champions
+rather than the added specificity of
+this item on your particular champion
+because you can you can see the trends
+better when the sample size is large. Um
+yeah. Okay, that's really cool. That's
+like changed my thinking on race baiting
+even now. It's Yeah, but when when you
+when you seen when you've seen this stat
+and you start thinking about it, I think
+you will notice it in game where it's
+like, oh, this ragelade it it is super
+strong first item like a Kog'ma with
+ragelade first item, bars with rage
+blade first item. Very there those are
+massive champions, but late game it's
+just going to get blown up immediately,
+right? It's it's also as well like it's
+how much is the item and how much is the
+the champion or something else where
+okay, Cogmore and one item raised blade
+is insane. Yeah, late game Cogmore is
+also really good. So you think ragelade
+is good, but it actually might not be.
+And then actually maybe there's an
+example play when you've got six items,
+often times your AD ends up being still
+the one to clear the waves because just
+the time it takes to clear the waves is
+really important and you can be swapping
+out items. And I never would have don't
+think anyone has ever thought, well,
+rage blade's bad in late game so I'm
+swapping it out on something like
+Cogmore. Maybe it is, you know. Yeah,
+exactly. It It might be worth to go
+Terminus. Uh maybe a guardian angel like
+the Zonas that we talked about
+previously. It would it would never be
+the item that I would sell intuitively
+to to swap for a luxury item like Zyas,
+but that's actually really that's really
+interesting. Yeah. Okay. But I think
+we'll wrap it up there. I think this is
+topic that we could talk about for hours
+and hours, but um if if if the viewers
+have a preference for more content, we
+can do that. But I think we got a good
+discussion going on here about item
+sets, uh, items in general, stats, uh,
+and the general, uh, philosophy of
+optimizing performance.
+Yeah, great. Thanks for having me. Yeah,
+of course.

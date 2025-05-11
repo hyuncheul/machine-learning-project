@@ -1,0 +1,618 @@
+[Applause]
+Ah, yes. The Nintendo 64. Nintendo's
+bold leap into the world of 3D gaming.
+It's a console remembered for many
+things. Its legendary library of games,
+that wild three-prong controller, but
+also for one notorious flaw, the control
+stick. Over time, it gets loose, wobbly,
+and downright inaccurate, eventually
+turning into a sloppy gaming experience.
+And without fail, the module ends up
+filled with plastic dust. A clear result
+of all that wear and tear. Over the
+years, there have been promised
+solutions that often resulted in
+disappointment and controversy. But now,
+it appears we have a solution, and it's
+this. the all-new all- metal precision
+CNC machine control stick replacement
+kit that's tighter, tougher, and most
+importantly, more accurate than the
+original. This is the Renaissance N64
+stick. Let's check it out.
+[Music]
+Hey everyone, how's it going? My name is
+Tito and welcome to another episode of
+Retro Renew. Today I'm really excited
+because we get to take a look at a mod
+that promises to fix one of the biggest
+design flaws of the Nintendo 64. This is
+the Renaissance control stick
+replacement. A kit that not only
+replaces but upgrades the major
+components of the N64 control stick
+module. This gives us a way to make our
+old controller like new again with some
+added customizable features. But first,
+let's get into a bit of background on
+the N64 analog stick or control stick as
+Nintendo referred to it as. Because you
+see, it actually has some major
+advantages over all modern analog sticks
+that we use today. Now, I know you're
+thinking, "Tito, I thought you just said
+it has a major design flaw." And yes, it
+definitely does. But the technology it
+uses is better than nearly all modern
+analog sticks in almost every way. So,
+stick drift is a major problem we've
+been hearing a lot about, especially in
+recent years, because basically every
+modern analog stick will eventually have
+this problem. Well, the N64 control
+stick will never get stick drift because
+it uses different technology. Nearly all
+modern analog sticks, such as the ones
+found in the Nintendo Joy-Cons or the
+PS5 controller, use something called
+potentiometers to measure how far you're
+pushing the stick in any particular
+direction. These potentiometers degrade
+over time, resulting in the infamous
+stick drift. On the other hand, the
+Nintendo 64 uses optical discs that pass
+through an optical encoder to measure
+the distance traveled on the stick.
+These never wear out, are more accurate,
+and are impervious to problems like
+stick drift. So then, what exactly is
+the fatal flaw of the Nintendo 64
+control stick? To help break it down, I
+actually spoke with Cali, a high-ranking
+Super Mario 64 speedrunner who knows the
+quirks and pitfalls of the N64 control
+stick better than almost anyone. Now,
+me, I'm just a casual Nintendo 64 user.
+But Cali, on the other hand, puts many
+N64 controllers through some serious
+stress on a daily basis. So, let's hand
+it over to him for some insight into the
+issues with the original N64 control
+stick.
+Hey Tito, thanks for having me on. For
+those who don't know, I'm Cali, a top
+level Super Mario 64 speedrunner, and I
+have a lot of experience with the N64
+controller. Now, the N64 controller
+actually has a design that promotes a
+lot of good characteristics, things that
+are desirable, especially competitively.
+Things such as high accuracy, high
+precision, and good feel. Unfortunately,
+it is created entirely out of plastic,
+which results in very quick wear. And
+this wear gets rid of those
+characteristics which obviously is not
+desirable. For example, I had a steel
+bowl when I first started speedrunning
+and a steel bowl will reduce the rate of
+wear on an OEM stick and even then I was
+replacing the stick maybe once every 6
+months. So during those 6 months, the
+stick was constantly wearing the values
+and feel were changing. I constantly was
+adapting and then I would have to
+replace the stick entirely with another
+one, which one, it's hard to get your
+hands on just another stick. that's of
+good quality. Two, OEM parts vary
+considerably from part to part. So,
+you're going to have to adjust all over
+again
+completely. That's not good. You want
+consistency. You want to be able to rely
+on the controller and not have to
+constantly be readjusting and fighting
+it. The Renaissance project addresses
+all of these concerns and gets rid of
+them, and it has been great. Back to
+Tito and he'll tell you more. Awesome.
+Thanks so much for that, Cali. So yeah,
+while the N64 control stick does have
+some great qualities like impressive
+accuracy and precision, unfortunately
+durability isn't one of them due
+primarily to its all plastic
+construction. And like he mentioned,
+there have been some attempted solution
+over the years, but many of them fell
+short. We've seen failed crowdfunding
+campaigns, limited production runs, and
+monthslong wait lists, making it nearly
+impossible for most people to actually
+get their hands on these upgrades.
+There's actually a really great video by
+Retromeister that dives deep into the
+full history of these attempts. I'll
+have that link down below in the video
+description if you want to check it out.
+Well, fast forward to today and it looks
+like that the Renaissance kit might
+finally be the accessible long-term fix
+that Nintendo 64 fans have been waiting
+for. The creator of the Nintender,
+Rocker Gaming, who I featured on this
+channel before, has teamed up with TA to
+develop this highquality replacement
+that upgrades the core components of the
+original Nintendo 64 control stick. It's
+super easy to install and I'll be
+showing you how to do it in just a
+minute. Each kit includes a precision
+machined stick with removable thumb cap,
+a highly polished hardened steel bowl
+housed in a newly injection molded
+composite carrier, a brand new injection
+molded gate, and a full set of tools for
+installation and finetuning. So, how
+does this new kit solve Nintendo's fatal
+flaw? Well, it all starts with the
+materials. The original design was made
+entirely of plastic components. plastic
+rubbing against plastic over time. That
+constant friction produces a fine dust
+which only increases resistance and
+accelerates wear and tear. It's a recipe
+for self-destruction. This is why you
+want materials that exhibit low wear and
+have minimal friction. The Renaissance
+kit utilizes a plastic nub on the end of
+the all- metal control stick, which will
+glide over the highly polished hardened
+steel bowl, which is extremely resilient
+and scratch resistant, meaning it can
+withstand a ton of abuse without
+degrading. And I have to say, when
+installed, the results are night and
+day. It's firm, responsive, and buttery
+smooth. So, with that, let me show you
+just how easy it is to install the
+Renaissance kit into your Nintendo 64
+controller. But before we jump into
+that, let me first tell you about the
+sponsor of today's video, PCB Way. If
+you have an idea for a new mod or want
+to assemble an open-source project, PCB
+Way provides you with the tools to make
+them a reality. from 3D printing
+services in an array of materials all
+the way to other services like CNC
+machining, injection molding, and of
+course PCB and flex ribbon fabrication.
+So, when it comes to taking your retro
+mods to the next level, PCB Way is the
+place to make that happen. Check out the
+link in the description for PCB Way to
+get $5 off your first order. And again,
+a huge thank you to PCB Way for
+sponsoring this video. All right, with
+that out of the way, let's go ahead and
+get started installing the Renaissance
+kit. All right, so today's subject is
+this Atomic Purple controller, which has
+a control stick that would be considered
+tight, but does have a bit of wobble.
+So, before installing it, let's do a
+quick test to see what condition it's
+currently in, so we can later compare it
+to the Renaissance kit we're about to
+install. This here is a pretty cool
+little Nintendo 64 controller tester
+that Rocker Gaming made when developing
+the Renaissance Kit. You can actually
+download a ROM that does the same thing
+using a Nintendo 64 flash cart. So, you
+can also do your own testing and dial in
+the settings that you want. Anyway,
+after running through a few of the
+control stick tests, we can see that
+this is quite a bit off from what a
+quote perfect stick would perform like.
+Ideally, we want 85s in all of the
+cardinal directions and 45s for each of
+the diagonals. Diagonals look pretty
+decent, but the cardinal directions are
+all over the place, running from 79 all
+the way to 91. Okay, so we got our test
+results. Now, let's replace it. To
+start, we'll flip the controller over
+and remove all nine screws, two of which
+are inside of the accessory
+[Music]
+port. Once the shell is out, we can
+remove the Z button PCB and membrane
+from the control stick module.
+Now we can go ahead and unplug the
+control stick from the controller PCB
+and remove the three screws securing it
+to the top
+shell. With the module out, remove this
+single screw here on the bottom. And
+then very gently lift the two tabs,
+which is all that's left securing the
+gate. So be careful not to break these
+because we will be reusing that bottom
+piece. Okay, with the top off, we can
+really see all this plastic dust and
+debris inside of the bowl, which is
+basically caused by all that plastic on
+plastic wear and tear. And it's pretty
+bad. This is actually quite a bit worse
+than I thought it was going to look.
+Anyway, we'll need to remove this
+gear, the encoder
+PCB, and the
+bowl. Next, we're going to need to
+remove the encoder wheels. For this,
+just pull the retaining tabs out, and
+then they should just come out.
+Next, we'll need to push in the tension
+spring so we can twist and pull out the
+control stick. This will allow us to
+grab the remaining parts that we'll need
+to reuse, which is the gear, retaining
+nylon
+washer, and the tension
+spring. And as you can see, yet again,
+all these parts are layered in plastic
+dust, which just further exacerbates
+wear and tear.
+Okay. So, here you can see all the parts
+that we'll be reusing, which are the
+gears, encoder wheels, tension spring,
+washer, encoder PCB, and the lower
+housing. Now, before we reassemble the
+control stick with the new parts, I
+decided to use the ultrasonic cleaner to
+give them a very deep clean. This is
+completely optional, and you can simply
+use something like a microfiber towel to
+remove all that plastic dust. I mean,
+just look at all of that debris coming
+off of these parts. Man, these things
+were really
+dirty. And I'm actually really happy
+with how clean these came out. Anyway,
+once the parts are completely dry, we
+can start to reassemble. The first thing
+we're going to grab is the hardened
+steel bowl, which does come very nicely
+packaged. Here's a close-up of the
+polished finish of the bowl, which is
+pretty remarkable. I mean, just look at
+that reflection. So, to prep everything,
+we're going to go ahead and add some
+plastic safe grease to a few of the
+contact points. I'm personally using
+Molly Coat, but I'll leave a few links
+to some other greases that Rocker Gamer
+recommends. So, the first place we're
+going to add grease will be for the
+encoder wheels shown here. You'll only
+need a very small amount. Less is more
+for these
+applications. Now, we can go ahead and
+slide these encoder wheels back onto the
+bowl. And you can see that there are
+channels here that allows you to slide
+them into place.
+[Music]
+Now we can go ahead and place the bowl
+into the lower housing. It's a bit of a
+tight fit, but it does snap nicely into
+place.
+Next, we're going to place some more
+grease at these four pivot points for
+the gears. While this is optional, it is
+strongly recommended as this will allow
+the gears to last for a longer time and
+perform better. And again, less is
+more. And the last place we'll lubricate
+is the bowl itself. You just want to add
+a very light
+coating. Okay, now we can grab the gate
+and begin to remove the set screw. I
+really like that they added a brass
+insert here, which really shows the
+attention to detail in all aspects of
+this kit. Nicely done. Next, just grab
+the stick and install it into the gate
+as
+shown. Now, grabbing the tension spring,
+you'll notice that this side is wider
+and this side is narrower. You want the
+narrow side to be placed inside the gate
+like this.
+Then you can grab the nylon washer and
+ensure that this lip here is facing down
+on the inside part of the spring and
+that this flat part here on the ring is
+aligned with that brass
+insert. All right, so here you can see
+we have the short gear and on top we
+have the long gear. Let's go ahead and
+grab the short gear. You'll want to
+install it as shown and pivot it on its
+axis so that it locks in place.
+Then you'll need to carefully align this
+part of the gear here with again the
+brass insert, ensuring that the stick
+does remain locked in while doing
+so. You want this elongated part of the
+bottom of the stick to be perpendicular
+to the
+gear. Now we can go ahead and drop in
+the long gear, making sure it's centered
+in the
+bowl. Next, we'll put the two halves
+together. And we want to make sure that
+this part of the stick goes right here
+into the center of the gear.
+[Music]
+And lastly, once it's snapped in and the
+stick appears to be centered and
+working, use the set screw to secure the
+module. Just remember to not
+overtighten. All right, the Renaissance
+kit is installed. Now it's just a matter
+of putting it all back together.
+[Music]
+[Music]
+Fantastic. stick. And that's how easy it
+is to install the Renaissance
+kit. Now, like I alluded to earlier in
+the video, this makes just an absolute
+night and day difference in how the
+control stick feels. So, from a pearly
+tactile standpoint, it's already a
+worthwhile upgrade in my opinion. Just
+comparing it to the original one that I
+have makes me never want to go back. But
+now, let's see if that improved feel
+translates into better performance. To
+find out, we're going to run through the
+controller test sweep just a few more
+times. So here we can see we got some
+fantastic results. All our cardinal
+directions are close to or beyond the
+range of a perfect factory stick with
+results greater than 85 and our
+diagonals are very close to the 45°
+mark. Just as a reminder, this is what
+we had with the original stick before
+replacing it and what would typically be
+considered tight if sold on a
+marketplace like eBay. Again, a perfect
+stick would have 85s in all of the
+cardinal directions with 45s at each of
+the diagonals. The cardinal directions
+on the older stick is just all over the
+place, ranging from 79 all the way to 91
+and with the diagonals not being too bad
+with downright just being a bit off the
+mark. So, a definite tangible
+improvement even before making some
+tweaks which the Renaissance kit allows
+you to do. But don't take my word for it
+because I'm again a very casual Nintendo
+64 user. I was able to reach out to
+another speedrunner named Trey Bardau
+who ranks in the top 10 of several
+speedrunning categories for Mario 64 and
+he's been using the Renaissance kit for
+a while now and this is what he had to
+say. Big thanks to Tito for having me.
+I've been on the Renaissance stick for
+about a month now around 60 hours in and
+honestly it's incredible. The
+performance hasn't dropped one bit and
+it's still as precise as it was on the
+first day that I used it. My favorite
+part is that I'm able to tweak the
+angles all without even opening the
+controller. As a speedrunner who's gone
+from cheap Amazon controllers to OEM
+sticks, this is the closest to
+perfection that I've found. It saves
+money, saves time, with minimal
+maintenance, and no replacements. And
+with OG N64 controllers getting more
+scarce over time, this is a total
+gamecher. No more playing the controller
+lottery. No more spending $70 plus
+dollars just for a chance at a good
+controller. I really couldn't recommend
+it more. Anyways, thank you so much,
+Tito. Back to you. Awesome. Thanks for
+that, Trey. Honestly, if the Renaissance
+is good enough for both Calli and Trey
+Bardau, who put their N64 controllers
+through the ringer on a daily basis,
+then it's definitely good enough for me.
+Anyway, the Renaissance kit is shipped
+ready to be used with no tweaking
+necessary. However, if you want to
+further dial in the feel and
+performance, the Renaissance kit allows
+you to do this, which brings me to the
+features. So, I kind of want to adjust
+my control stick to be more in line with
+a perfect OEM controller, which is again
+represented by that teal colored
+octagon. As you can see, my performance
+results are marked with the green
+octagon and is outside of the teal
+colored one, which in many regards is
+better than OEM as it makes the
+controller have a wider range and more
+precision. So, what we're going to do is
+remove the cap from the stick with the
+included Torx driver.
+And then we're also going to want to
+remove the bottom of the shell so we can
+eventually remove the control stick
+module. We're going to leave it plugged
+into the controller because I will be
+measuring my changes as I make them. You
+can actually download a ROM to measure
+all the changes you're making and is
+very similar to the device that Rocker
+Gaming let me borrow for this video.
+Anyway, the first adjustment we can do
+is by taking the included Allen key and
+fitting it inside of the stick like
+this. By twisting it to the right, it
+pushes the nub outward, increasing the
+range of motion and extending it beyond
+the teal octagon. For certain games,
+that extra range can actually be an
+advantage. Twisting it to the left
+allows the nub to be pushed inward,
+decreasing the range, giving the
+opposite effect. Now, you'll notice that
+my range is a bit lopsided towards the
+right. So, another adjustment we can do
+is by loosening the set screw on the
+bottom of the module and slightly
+shifting the gate and then retightening.
+By messing with these adjustments, I was
+eventually able to get a pretty tight
+adjustment that's very close to what's
+considered to be a perfect stick. So,
+adjustability is just another one of the
+great features of the Renaissance kit,
+giving the user the exact feel and range
+of motion they desire for better overall
+performance. Now, another great feature
+are the materials used. The all- metal
+design of the stick and bowl ensure that
+these components last a very long time
+and maintain that tight and responsive
+feel. So, overall, it's a fantastic kit
+with some fantastic features. But now,
+let's get into the pros and cons.
+Starting with the pros, I think
+durability is right up there at the top.
+This thing will probably last forever
+with proper maintenance for an average
+user like me. It was designed with
+speedrunners in mind, which are probably
+the people who are going to be the
+hardest on these sticks. Another pro is
+the adjustability of the sticks. Being
+able to change the range of motion with
+the internal set screw is pretty
+incredible with further minor tweaking
+to the gates position. Additionally, the
+nub, which is a wear item, is
+replaceable with non-proprietary parts,
+meaning you can buy it for just a few
+cents from other companies, and it'll
+likely be in production for the
+foreseeable future. Rucker Gaming will
+also be selling these nubs on his store,
+but there are other options. Also, the
+removable cap allows you to further
+customize the control stick. Right now,
+I think only black and clear are
+available, but I can see other styles,
+like perhaps a concave design or maybe
+one with a rubberized material for
+better grip coming down the road.
+Another big plus is availability.
+Previous kits often stumbled here. They
+were notoriously hard to get your hands
+on, but I'm told these will be regularly
+in stock and ready to be purchased. That
+said, we'll have to wait and see how it
+plays out. I'm told that the initial
+orders will take around 3 weeks to
+fulfill, but that turnaround time is
+expected to improve moving forward. Of
+course, with the current environment,
+it's anyone's guess how these supply
+chains will hold up, but I'm hopeful
+that these will be readily available.
+And it does seem like Rocker Gaming and
+Tao are making availability a top
+priority. And the last pro, the looks. I
+mean, come on, these things just look
+awesome on the N64 controller. That
+clean machine metal finish just gives a
+very premium vibe. I'm a total sucker
+for metal replacement parts and this one
+definitely delivers. Anyway, those are
+the pros, but now let's get into the
+cons. And really, I just have one. And
+guys, I'm not going to sugarcoat it for
+you. This thing is pretty expensive. The
+Renaissance kit, which includes the
+bowl, stick, cap, injection molded gate,
+and the tools, will cost
+$16464, which is wicked expensive. But
+hear me out. To get an analog stick that
+remotely feels close to this and
+performs as good, you would most likely
+need to buy a brand new Nintendo 64
+controller, which obviously is in short
+supply and getting smaller by the day
+and is pretty darn expensive in and of
+itself. Coupling that with the fact that
+they wear out pretty quick, makes this a
+pretty good proposition. Now, if you're
+just a casual gamer like me, a mod like
+this may be overkill, but think of it
+this way. The control stick is your
+primary interface with nearly all
+Nintendo 64 titles. So, why settle for
+this when you could have this? So, where
+can you pick one of these up? For now,
+Rocker Gaming is selling these
+exclusively at his Etsy store, which
+I'll link down below. He also has some
+other cool stuff there, like, of course,
+the Nintender, as well as other
+customizing accessories and mods for the
+Nintendo 64 controller. Actually, really
+dig this stand that he sent over with
+the kits, which are perfect for
+displaying that newly installed
+Renaissance stick. Also, be sure to
+follow Rocker Gaming on Twitter for all
+the latest updates on the Renaissance
+kit, and keep an eye out for future
+upgrades from him. Word is he's working
+on replacement gears as well. That means
+yet another part will be able to swap
+out in case yours ever wears out. Well,
+folks, there you have it. The
+Renaissance kit from Rocker Gaming and
+Tao, the last control stick you'll
+likely ever need for your Nintendo 64
+controller. Now, also just as a
+reminder, I do have a second channel
+which I'll have linked in the video
+description. So, definitely check that
+out. I have other content there, a
+little bit more casual, and I go over
+sort of smaller mods that I wouldn't
+necessarily cover on this channel. So,
+again, I'll have that link down below
+for you to check out. Now, if you
+enjoyed this video, I really think
+you'll like this one here, so check it
+out. And as always, thank you all so
+much for tuning in today, and I'll catch
+you again next time.
+[Music]

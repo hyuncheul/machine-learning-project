@@ -1,0 +1,678 @@
+Nintendo just released a big Switch OS
+update, firmware
+20.0, and it seems to be the big update
+to get us ready for Switch 2. Are you
+excited? Yes, we are one step closer to
+the Switch 2. That is absolutely the
+feeling that I got after this and I was
+scrolling through the patch notes that
+they put out and thought, "Oh, there's
+there's actually a lot in this." And
+obviously, uh, Nintendo had kind of
+given themselves this deadline of the
+end of the month to roll out this
+virtual game card feature, and they did,
+but there's a lot of other cool stuff in
+there, too. So, it's fun to poke around.
+Yes, we're going to dig through this
+pretty big update and go through all the
+little details. There might be a few
+things in here that you may not have
+realized was in here. Um, and yeah, it's
+exciting to see that we are getting
+stuff ready on our switch ones for the
+eventual transfer. If you're getting a
+switch two for the eventual transfer to
+switch two. So, yeah, it just means
+we're getting closer, I guess. But first
+big update is the Switch home screen.
+Yeah. Bam. Right out of the gate, you
+can see there's a whole bunch more icons
+that are on that bottom row. And a lot
+of those same icons that if you look at
+the Switch 2 home menu, oh, now the two
+look actually quite similar, right?
+Because they have added uh the game
+share icon, which is the one kind of
+right there in the middle with those
+like data waves line things feeding into
+it. And then the virtual game cards is a
+little bit more on the right, the little
+game card with the arrow on it. So now
+that now the two oss look quite similar,
+right? Right. And of course, those are
+the two big features that Nintendo has
+been talking about for Switch 2. It's
+good that there's sort of some
+interconnectivity between the two in
+case you got friends that haven't quite
+switched over yet. Um, you can still
+share your games, and yeah, that that's
+pretty nice. Yeah. So, there's four big
+things that, well, I don't know if we
+can call them all big, but four things
+in here that we want to talk about. the
+virtual game cards, the game sharing,
+what they added for the system transfer
+to the Switch 2, and then also a little
+a little behind thescenes work they did
+to the eShop as well that we want to
+check out. But let's start talking about
+these virtual game cards, which I know
+when when the Nintendo Direct happened
+at the end of March, you seem to be a
+little confused about what these are.
+So, I I'm just curious about your your
+your level of understanding of this now
+because I'll admit it is a complicated
+feature. So I think it's like we can
+talk through this ourselves and try and
+come to grips with what exactly this is.
+Yeah. On the surface I was actually
+really excited about this feature and
+you know you and
+I literally you and I um would be will
+be using this feature I think a lot
+because before we would have you know
+for a game that maybe one person just
+wanted to dabble a little bit and one
+person had um this is a great feature
+for us but there is a lot of fine print.
+It really is. And that is where I
+started to get a little bit confused
+because again, on the surface, it sounds
+great. Sounds like a a cool thing for
+you to have with your friends, being
+able to share games virtually, but I I
+do want to go through the fine print
+because I still just want to make sure
+that I'm completely clear on how this
+feature works. Yeah. And um and it's a
+case where even the fine print has its
+own fine print. So, good. I think the
+best thing to do honestly is like if you
+still have questions like just try it
+out for yourself and see what you can
+and can't do because your your eyes
+could get loopy like reading all of the
+wait oh wait oh I have to do that oh
+wait no it works this way oh because
+there's just so much of that oh my gosh
+what kind of games can you share with me
+today but
+basically it dep depends on what I want
+to share um it basically allows for
+sharing of digital games the same way
+that you would with a physical game I
+thought they had a nice little graphic
+for it in the Nintendo Direct in that
+little trailer that they had where you
+see the virtual game pop out of the
+system of one and then like and go right
+into the others. Um, so on on the
+surface it's like, oh well that's a
+that's a nice feature that adds some
+cool convenience to it. But yeah, let's
+go through the specifics of how it works
+and see if we can make sense of this. So
+you can share a game. You can share a
+game for 14 days, at which point it gets
+returned to you. Uh I do believe if you
+want it back sooner than 14 days, you as
+the owner, you can hit a button and do
+that. Uh once the game is shared, it's
+off of your system. So if I share a game
+with you, I don't have access to it
+anymore. You cannot play it while I have
+it. Right? Like a game card, there's
+only one thing that's getting passed
+around both ways. And if you need the
+game for a lot of people are like,
+"Well, what if it's a really long game
+and I need it for more than 14 days." I
+I believe you can reshare it. Yeah. For
+another 14 days. You do it in 14-day
+increments, right? And your save data as
+the recipient lo the looney or the
+loner. Oh, no. I don't know. But the
+person Yes. You you you make new save
+data and that save data stays on your
+system. Yes. Even if you give the game
+back. So that's nice. Um, you can only
+do one game at a time with a person. I
+can't loan out my whole library to you,
+unfortunately. And you can do this with
+up to three systems at a time. So, some
+basic limitations there. Um, you know,
+they want people focused on an
+individual game at a time. That's fine.
+So, you have to be part of the same
+Nintendo Switch family group. This is
+the area where I was a little bummed out
+by because we do have a wonderful
+thriving community that this feature
+would actually be pretty awesome to use.
+Um, but unfortunately it is limited to
+your Switch family group which I I
+believe is also has a limited number of
+people that you can put into it, right?
+And then there's also this other point
+that I've seen people talking about. I
+haven't had a chance to to try this
+feature myself yet, unfortunately. But
+people are saying you it's saying you
+need to be in close proximity of
+somebody else to do the shares. So this
+does really narrow down the potential
+use case of this, but I can understand
+why they did it. It's like, look, this
+is not the public library. This is not
+and I I you can imagine all sorts of
+scenarios. Somebody, oh, I'm running a
+game rental business off of my Switch.
+Pay me however much. I'll let you borrow
+my games. Like I I can just imagine the
+economy the economy around game share
+all of these scenarios that Nintendo
+must have thought of like oh well we
+have to draw the line at this or if
+somebody does this that's not a scenario
+that we want. So they've put some guard
+rails on this but I think the being in
+close proximity stuff like it kind of
+hurts the point of the family. It's like
+well what if my brother is on the other
+side of the country? That's the that's
+the thing. Yeah. Then you kind of can't
+do that. So that's that's a bit of a
+bummer. So, how are you feeling now
+after going through some of this fine
+print? It's cool, but not as cool as I
+thought. Definitely. Um I I really
+thought, you know, when I first saw
+this, I was like, "Oh, great. We can
+have like sort of a kitten Christa, you
+know, sharing kind of community. We can
+all share games. That's going to be
+cool." Um, but yeah, it's a little bit
+more limited than I thought. Good thing
+you and I are in close proximity and are
+part of the same family group. I I do
+think you're probably the person that
+I'll be sharing games with the most. Um
+you look like you don't want to, but
+whatever. I don't care. Uh so I I I hope
+that people at least have a few friends
+sort of that meet this criteria that
+they they can, you know, use this
+feature with because it's a nice
+feature. And and the other thing that's
+really cool about this is that the DL
+DLC can also be shared. Yes. That's like
+a standalone thing. So if if you have
+the game but not the DLC, that can be
+shared. So there is some some
+flexibility with that. Um in if you go
+into that new menu that they added, you
+can see your whole library Yeah. of all
+your stuff. And it said that I had like
+489 individual things. Please share
+those with me. And I was a little bit
+confused of like, oh, you need to load
+this or load that to have it appear on
+your home screen. It's like, well, I
+already had the stuff that was on my
+system on my home screen. So again,
+that's that's one of those things where
+it's like I just need to spend a bit
+more time actually poking around in it,
+clicking through it to see what it
+actually does because I I mean I already
+had a full system with with stuff on it.
+Not everything. Uh I can't fit 480
+something pieces on there, but yeah,
+there was stuff was already there. So,
+something people have been talking about
+and lamenting is that there was
+previously another way that was a little
+bit under the radar, but that Nintendo
+did talk about on their support page for
+some time, a way to share a game with
+two systems that were both online at the
+same time. And again, like it's a pretty
+specific use case, so it's not something
+that everybody needed to do. And and
+honestly, I don't know if you ever did
+this. I I didn't never do this. I never
+did this. Yeah. It was more more so like
+I feel like it wasn't really like a
+consumerfacing feature that they were
+talking about. It was for like a very
+specific kind of situation that you may
+find yourself in. Yeah. But there was a
+way to do that and it seems that now
+with this update that that is no longer
+available. So there are some people who
+are upset saying like oh that actually
+worked perfectly for my use case and
+this is not quite as good. So I have
+seen some chatter about that.
+So I think just to to wrap up our
+discussion on this feature, I I am
+curious to ask like why do you think
+they added this feature in the first
+place? They want people to buy
+games. Why are they adding this feature
+where maybe you now don't need to buy a
+game? Yeah, I think this is all a bigger
+picture thing in their strategy of this
+long-term thing they have to do now to
+move this like mass audience that is on
+switch one to switch two. We've talked
+about this transition endlessly and
+there's lots of different ways you can
+do that, but one thing is is pretty
+certain for Nintendo is this is going to
+take some time. Um, this is not going to
+be like overnight June fli, you know,
+5th, flip the Switch, 150 million people
+are going to be playing Switch 2. So, I
+do think that this is a way for them to
+kind of keep the Switch One player base
+active. like some people might need a
+little bit more time to move over to
+Switch 2. This way they still feel like
+they're sort of part of the bigger
+ecosystem. Um and and then slowly
+Nintendo can like incentivize them to
+move over. So I do think that's the
+first step and they do show a lot of
+this like interconnectivity between
+Switch One and Switch 2 to kind of like
+prove that point. Yeah. Yeah. And I
+think it's it's a positive for them to
+have people who aren't yet moving over
+to a Switch 2 to keep playing their
+Switch cuz that's probably the one of
+the best things that you could do to
+make people want a Switch of like, "Oh,
+I'm playing these Nintendo games. I'm
+enjoying these Nintendo games, but I
+know there's this bigger thing, this
+newer thing that I can aspire to and and
+hopefully get to." And it's like, you
+know, Doug Bowser said in his own words,
+"And not everybody can afford a Switch
+to Doug. Everybody's got different
+reasons uh for for making the decision
+of when they want to move over, but you
+know, they've touted that so much. Oh,
+so many people are still playing. Over
+100 million people are still playing.
+They want to keep that number high
+because they know that's going to be an
+incentive for people to move over. I
+think it's also for them having people
+buy digital games is best case scenario.
+It's really profitable for them. They
+make the most money on that. They don't
+have they don't have to create a
+physical thing. They don't have to put
+it on a piece of memory. They don't have
+to ship it out. They don't have to deal
+with a retailer who's taken a cut. They
+they get it all themselves, right? So,
+this does make a digital game more
+appealing a little bit more appealing
+than it was before. So, some people who
+are on the fence of like, well, I don't
+know what to do. Um, yeah, just just
+just get it digital. You can share it
+with your friend. Don't worry about it.
+Just buy it. Exactly. I think this is
+also like a big push for them. And
+they've been doing like slowly doing I
+don't think they're going to be like
+ever, you know, digital only. They're
+definitely going to still have physical
+carts and physical games. Um, that's an
+important thing for them. But they do
+want to incentivize you where you can
+where they can to have people that are
+sort of on the fence about whether to
+choose digital or physical to choose
+digital because it is way more
+profitable for them. So that is, you
+know, that's why they had a big push
+behind the eShop. That's why they're
+doing such, you know, so much more
+around, you know, digital this digital
+game share stuff. later on there's going
+to be, you know, we're gonna be talking
+about virtual game cards, all that
+stuff. You know, that that is um a thing
+that they know that they can make a lot
+of money off of us. Yeah. So, yeah. So,
+that's a feature we'll be spending some
+time with when we get back together. Uh,
+game share is the next feature. And this
+is this is really a tease because
+there's actually nothing that you can do
+with this feature now, but in the
+future, this is going to be basically
+like the Nintendo DS download play for
+people who remember that where one
+person who has a game can kind of beam
+some the just the right amount of data
+for other people on another system to
+play that with them. And it's only going
+to work for supported games. Clubhouse
+game was the big example that they were
+touting in the Nintendo Direct when they
+were showing this off. And I do wonder
+in the future how many games are going
+to support this because it it's a little
+bit of extra work for the developer. But
+for multiplayer, I mean DS download play
+was a really nice feature. So I I hope
+we used it a lot. I hope that they overd
+deliver on that. But the way it works is
+the game share must be initiated from a
+switch too. So again, right now you have
+the button on your system, but there's
+no switch two out there to actually give
+you the data. So now you can you can you
+can tap it. You can look longingly at
+it. I press the button to say receive
+from Switch 2, and it kind of There's no
+Switch 2 to receive from. There was no
+Switch 2 in my proximity. So I I did
+nothing with it. Oh well. I do remember
+a cool feature that people that Nintendo
+did back in the DS download play days
+was that you could beam it from like if
+you were at a store that had a Switch 2
+or a DS, you could beam the game from
+the store and test out a demo that way.
+That was a pretty cool feature.
+This is a cool feature. Um, again, this
+is, you know, a thing where if you have
+someone in your circle that has a Switch
+2, this is a great showcase of like,
+"Wow, look at the brand new shiny fancy
+thing." And if you're on a Switch One,
+maybe this will incentivize you to move
+over, but it also makes it so it's easy
+for you to, you know, play a multiplayer
+game that you don't have with someone in
+your friend circle, which is a nice it's
+a nice thing. Yeah. Um I do wonder like
+you were saying, you know, they they
+sort of touted Clubhouse Games as the
+big example for this. I do wonder what
+caliber of game will be getting this
+feature because obviously, you know,
+they have to balance that with while
+this game is is a little too premium for
+us to put on a game share. You're you're
+going to have to pay $80 for that to
+play it. Or who knows, maybe there's
+games that technically like, oh, this
+game is so fast, like it's not going to
+be a good We don't know yet. We don't
+know. Yeah. Does Mario Kart World have
+game share
+or do you have to pay, you know, $80 for
+for just Well, we're all going to be
+paying $80. I paid $50.
+Good for you. I paid $50. You keep
+telling yourself that. Uh the switch to
+system transfer is the next feature. And
+this is buried a little bit. This is if
+you go into the system settings and then
+the system um menu, you can find this
+kind of down at the bottom. And there's
+a couple different things that you can
+do. Some of which are interesting. I'm
+not sure one of these things that we
+knew you'd be able to do this before.
+Yeah. So, they they do just have the
+hey, if you have both systems, hit this
+button and and the share will happen. We
+we've all done that before. Will tiny
+Pikmin come and carry my data? I mean,
+we can we can dream that the Tiny Pikmin
+will be better. That's my that's my only
+my only time where I like the Pikmin
+car. You said that they have uh cooked
+up an efficient way to do this, which I
+I hope is true because I I remember some
+truly harrowing moments doing this on on
+different 3DS systems. But I the Switch
+the Switch take on this has been a lot
+better. I will admit. I'm always
+terrified every time. Well, if you want
+to get a little bit more terrified, you
+can try this new feature. This one I was
+like, "No way." So now there is, you
+know, they they have envisioned
+scenarios where people are going to be
+selling their Switch before they get the
+Switch 2. Maybe they need the money to
+buy a Switch to the tradein stuff. Yeah.
+GameStop was really talking about how
+much money you get for the trade in. So
+this is a feature you can literally do
+right now, which is you can upload your
+data to the cloud and have it waiting
+for you to download when you finally get
+your Switch 2. I was buttoning through
+this this morning. I came dangerously
+close. I was like, "Oh, no." I'm like
+right at the moment. I like, "No, no,
+no, no, no. Get me out of here. I'm
+terrified." Ah, bail out. Yeah, bail
+out. Oh my gosh. But you can do this
+now. It will be safely in the cloud.
+Will it? It looks like you can you can
+set an expiration date for up to one
+year. And yeah, we got some images of
+this. It goes to the server. That's kind
+of the the middle ground for it. And
+then eventually when you've got your
+Switch 2, you can have it go there. What
+is your confidence? What is your
+confidence level in doing this? And we
+should say after you do this, your
+switch is wiped. Oh, I have. It's like a
+factory reset. Will you be doing this?
+No. No. Why would I do this? A terrible
+scary prospect. I don't know if it's
+terrible. I mean, it could be useful,
+but hopefully it works. Um, I am pretty
+nervous about this one. I mean, maybe it
+works. Maybe I'm just not, you know,
+technologically savvy savvy enough to
+understand the back end of how this
+works that to to give me that
+confidence. But on the surface,
+especially with Nintendo stuff and
+Nintendo servers, I'm like not very
+trusting of something like this. I can
+only imagine a a variety of scenarios
+where like what if the server goes down
+and you can't get your stuff back? What
+if someone hacks the server and then
+like deletes all your stuff? Like I
+don't know. Does that is that possible?
+Is that a possibility? My mind is racing
+Anything is possible. My mind is racing.
+Anything is possible. Jeez. So I I mean
+I'm not trading in so I'm I'm I'm going
+to not do this. Well, so so to the point
+of tradeins, GameStop did say that they
+were running this program where you
+could do this. And I know we had a few
+people in our community talk to their
+GameStop about, hey, how how exactly is
+this going to work? and a lot and most
+of them came back saying we don't know.
+So maybe this is the intended use and I
+don't I don't know how GameStop's going
+to space it out if you're if you're
+buying from them where I don't know if
+it's like hey you need to have done this
+beforehand or or hey you can do this
+from the store. I don't know if they
+want people squatting in the store for
+however long it takes to upload. Ah, I
+wonder about that. But I don't know. May
+maybe we will be learning more about
+that soon. If you are buying from
+GameStop and if you intend to trade kind
+of how that sequence of events will work
+to officially get your switch to I hope
+they don't force you to do this thing
+though. This like upload to the cloud
+upload to Well, how else are you going
+to do it? I hope they let you do it in
+the store with your system and then just
+hand them your your, you know, Well,
+hopefully they give you a tiny folding
+chair because it could take a while.
+Hopefully you bring your own tiny
+folding. This could take a while. I
+don't know. Yeah. I mean, it could take
+a while, but I think it's safer
+than, you know, putting it out there and
+then like giving yourself a deadline and
+then wiping your entire system and then
+hope hoping it works. Christa's Krista's
+calling in from her Amish community
+today cuz she doesn't trust technology.
+This is nerve-racking. She's very
+excited for the switch, too. We're
+moving on to something very exciting.
+The eShop is now red. Oh my gosh.
+Breaking news. The eShop is now red. I
+repeat, the eShop is red. ESHOP had been
+orange. Orange for a long time since the
+3DS. Since its conception in the early
+2010s, it is now red. Thoughts on this?
+Fine. Fine. You don't care. I don't
+care. Uh, it does look slightly ominous.
+The color of red. You think it's scary?
+I mean, Nintendo is red. The wipes of
+red go back and forth. It's like, oh,
+okay. Blood splirt.
+Ultimately, ultimately, who cares? But
+we do have to pull one out for our tiny
+orange u an anamorphic whatever the word
+is. Uh bag friend who we our bag friend
+we will know goodbye forever. Well bag
+friend is still there just white now.
+Well white on red. Our bag friend had
+actually been gone for a while but in in
+orange form we sh seeing it ever again.
+A bag friend. I bag friend. Some people
+have claimed that after this update the
+ehop loads a little bit faster. And I
+checked this out for myself. I don't
+know, guys. That initial that initial
+screen where it is kind of swiping back
+and forth, I thought, well, maybe that
+was a tiny bit faster, but as I was
+going through the actual eShop itself, I
+didn't really see a difference. So, this
+is not something effect. This is not
+something that Nintendo is touting. I
+don't know. Maybe Digital Foundry will
+have a 2-hour video. Uh, stop watching
+them going through the eShop. But for
+now, I'm like I I don't really know. I
+really think it's placebo. It's like
+it's quite possible. It's like this this
+is here, hold this rock. This rock will
+will make sure you don't get attacked by
+a bear. Yes, this rock will change your
+life. This rock will change your life.
+Uh high hopes that the switch to ehop uh
+will run great, but that has nothing
+that has nothing to do with this update
+that we're talking about here. Right.
+Right. I think I think so. Finally. Oh
+my gosh. File this under miscellaneous.
+Uh many player icons have been updated.
+most notably Donkey Kong, who now has
+been updated to his new look, his new
+design in both 3D form and the 2D
+handdrawn icons. Yes, the 2D The 2D
+version doesn't look that different, I
+will say. I'm like very closely looking.
+How angular are his eyebrows is really
+the only difference. Yes, he looks a
+little menacing in the 2D version. In
+the in the old style, in the new one, he
+looks friendly. There's some other like
+look at this this blue Pikmin that has
+fallen down now. You can better see him.
+His face crashing eyes. Yeah. Um, yellow
+Pikmin's head is a little higher up.
+What if we What is the difference
+between the two question blocks? Your
+face is getting very close to the
+screen. This is like the Highlights
+magazine. Like the difference. The shade
+of yellow is slightly shade of yellow.
+It's slightly different. Yeah, some of
+these are more subtle than others. But
+look at look at the eyes. Look at
+Luigi's eyes. I could stare into Luigi's
+eyes all day now. A his expression is is
+just gorge. I love it. Yeah. Mario.
+Yeah. Less shadowy from the hat. Yes,
+Yoshi is very cute. The different green.
+As a true narcissist, my player icon is
+my me and I don't plan to change it
+anytime soon. Oh, yeah. Mine is
+definitely my me. This means nothing to
+me. But interesting stuff. So, there you
+have it. Pretty big update. More than we
+expected. But again, most importantly,
+it feels like, oh, we're getting so
+close. We're we're about we're just
+about like a month away now. So, it's
+like it's like, oh, we're getting
+tantalizingly close. I like we're
+getting close. The transitions are
+slowly happening. You know, Nintendo is
+definitely slowly transitioning us.
+They're kind of doing this like double
+thing with the Switch One and Switch 2.
+So, we'll probably be seeing this kind
+of stuff for a little while um as we get
+closer. Yeah, we're both we've both been
+so curious about what the month of May
+is going to feel like because April was
+just a wild ride um of so many things
+that happened. May could be a little bit
+lighter as we approach June 5th. Um, you
+know, more things could happen in May.
+Who knows? Uh, but yes, it does feel
+like we're getting tantalizingly close
+to the launch of Switch 2, which is very
+exciting. All right, there you have it.
+Big up. There you have it. Hopefully
+you, if you have a Switch one, you have
+downloaded um your firmware update. Tell
+us in the comments how many
+things you have in your system. Do you
+have more than me? Kit has how many? 48.
+89, I think. Okay. I haven't checked
+mine yet, but see if you can beat Kit.
+Let us know in the comments how many
+things you have. Um, all right. We're
+going to wrap this video up and see you
+guys later. Bye bye.
+[Music]
+[Music]
