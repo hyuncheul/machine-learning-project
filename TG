@@ -10,7 +10,7 @@ import json
 import random
 
 # -------------------- 설정 값 -------------------- #
-API_KEY = 'AIzaSyCzTDt8mVszaZQoaRTIsjrrEf7M_dOEREE'
+API_KEY = ''
 if not API_KEY:
     print("오류: API_KEY가 설정되지 않았습니다. API 키를 입력해주세요.")
     exit()
