@@ -20,9 +20,10 @@ SEARCH_KEYWORDS = [
     'FC온라인', '오버워치', '배틀그라운드', '던전앤파이터',
     '서든어택', '로스트아크', '메이플스토리', '스타크래프트', '스팀'
 ]
-MAX_TOTAL_VIDEOS_TO_COLLECT = 200
+MAX_TOTAL_VIDEOS_TO_COLLECT = 10
 VIDEOS_PER_REQUEST = 50
 PUBLISHED_AFTER_DATE = "2024-01-01T00:00:00Z"
+PUBLISHED_BEFORE_DATE = "2024-04-01T00:00:00Z"
 MINIMUM_VIDEO_DURATION_SECONDS = 480  # 8분
 MAX_VIDEO_DURATION_SECONDS = 7200     # 2시간
 
@@ -34,7 +35,7 @@ BASE_FOLDER_PATH = os.path.join(os.path.expanduser("~"), 'Desktop', 'youtube-ML'
 os.makedirs(BASE_FOLDER_PATH, exist_ok=True)
 
 # 자막 폴더 및 CSV 파일 경로 설정
-TRANSCRIPTS_FOLDER_NAME = os.path.join(BASE_FOLDER_PATH, f'transcripts')
+TRANSCRIPTS_FOLDER_NAME = os.path.join(BASE_FOLDER_PATH, f'transcripts_api')
 CSV_FILE_NAME = os.path.join(BASE_FOLDER_PATH, f'game_api_data.csv')
 
 # API 할당량 추적을 위한 카운터 초기화
@@ -89,7 +90,8 @@ def get_popular_game_videos(youtube, search_query, page_token=None):
             regionCode="KR",
             relevanceLanguage="ko",
             publishedAfter=PUBLISHED_AFTER_DATE,
-            order="viewCount",
+            publishedBefore=PUBLISHED_BEFORE_DATE,
+            order="relevance",
             pageToken=page_token,
             fields="nextPageToken,items(id(videoId),snippet(channelId,channelTitle,publishedAt,title))"
         ).execute()
