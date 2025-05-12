@@ -5,7 +5,7 @@ import datetime
 import isodate  # duration 처리용
 
 # ✅ API Key 입력
-api_key = 'API KEY'
+api_key = 'API_KEY'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # ✅ 날짜 계산 (최근 3개월)
