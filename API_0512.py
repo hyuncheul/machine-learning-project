@@ -16,14 +16,14 @@ if not API_KEY:
     exit()
 
 SEARCH_KEYWORDS = [
-    '리그오브레전드', '마인크래프트', '발로란트', 
+    '롤', '리그오브레전드', '마인크래프트', '발로란트', 
     'FC온라인', '오버워치', '배틀그라운드', '던전앤파이터',
     '서든어택', '로스트아크', '메이플스토리', '스타크래프트', '스팀'
 ]
-MAX_TOTAL_VIDEOS_TO_COLLECT = 10
+MAX_TOTAL_VIDEOS_TO_COLLECT = 50
 VIDEOS_PER_REQUEST = 50
-PUBLISHED_AFTER_DATE = "2024-01-01T00:00:00Z"
-PUBLISHED_BEFORE_DATE = "2024-04-01T00:00:00Z"
+PUBLISHED_AFTER_DATE = "2024-07-01T00:00:00Z"
+PUBLISHED_BEFORE_DATE = "2024-10-01T00:00:00Z"
 MINIMUM_VIDEO_DURATION_SECONDS = 480  # 8분
 MAX_VIDEO_DURATION_SECONDS = 7200     # 2시간
 
@@ -280,6 +280,7 @@ def main():
                 save_transcript_to_file(video_id, transcript_text)
 
                 video_data.append({
+                    '수집일자': today_str,
                     '영상ID': video_id,
                     '영상제목': title,
                     '영상설명': description,
