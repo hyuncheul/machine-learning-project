@@ -1,0 +1,131 @@
+#초기 분석 및 시각화
+
+# Google Colab에서 실행하기 위한 초기 설정
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+from datetime import datetime
+import warnings
+warnings.filterwarnings('ignore')
+
+# 한글 폰트 설정 (Colab에서 한글 깨짐 방지)
+!apt-get update -qq
+!apt-get install fonts-nanum* -qq
+import matplotlib.font_manager as fm
+font_path = '/usr/share/fonts/truetype/nanum/NanumGothic.ttf'
+fm.fontManager.addfont(font_path)
+plt.rcParams['font.family'] = 'NanumGothic'
+plt.rcParams['axes.unicode_minus'] = False
+
+# 파일 업로드 (Colab에서 CSV 파일 업로드)
+# from google.colab import files
+# uploaded = files.upload()
+
+# 업로드된 CSV 파일 읽기 (파일명은 실제 파일명으로 변경 가능)
+# 예: 'game_api_data_Q1_2024.csv' 또는 'game_api_data.csv'
+df = pd.read_csv("game_videos_2025_05_11.csv")
+
+# 데이터 기본 정보 확인
+print("데이터 기본 정보:")
+print(df.info())
+print("\n데이터 상위 5개 행:")
+print(df.head())
+
+# 결측치 확인
+print("\n결측치 개수:")
+print(df.isnull().sum())
+
+# 기술 통계량 확인
+print("\n기술 통계량:")
+print(df.describe())
+
+# 날짜 데이터 변환 (게시일)
+df['게시일'] = pd.to_datetime(df['게시일'])
+df['게시월'] = df['게시일'].dt.month
+df['게시요일'] = df['게시일'].dt.day_name()
+
+# 분석 및 시각화
+
+# 1. 조회수 분포 히스토그램
+plt.figure(figsize=(10, 6))
+sns.histplot(df['조회수'], bins=50, kde=True)
+plt.title('조회수 분포')
+plt.xlabel('조회수')
+plt.ylabel('빈도')
+plt.xscale('log')  # 조회수 분포가 왜곡될 수 있으므로 로그 스케일 적용
+plt.show()
+
+# 2. 영상 길이와 조회수의 상관관계 (산점도)
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='영상길이(초)', y='조회수', data=df, alpha=0.5)
+plt.title('영상 길이와 조회수의 관계')
+plt.xlabel('영상 길이(초)')
+plt.ylabel('조회수')
+plt.yscale('log')  # 조회수 로그 스케일
+plt.show()
+
+# 3. 게시월별 조회수 평균 (막대그래프)
+monthly_views = df.groupby('게시월')['조회수'].mean().reset_index()
+plt.figure(figsize=(8, 5))
+sns.barplot(x='게시월', y='조회수', data=monthly_views)
+plt.title('게시월별 평균 조회수')
+plt.xlabel('게시월')
+plt.ylabel('평균 조회수')
+plt.show()
+
+# 4. 게시요일별 조회수 평균 (막대그래프)
+day_views = df.groupby('게시요일')['조회수'].mean().reset_index()
+# 요일 순서 정렬 (월요일부터 일요일까지)
+day_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+day_views['게시요일'] = pd.Categorical(day_views['게시요일'], categories=day_order, ordered=True)
+day_views = day_views.sort_values('게시요일')
+plt.figure(figsize=(10, 6))
+sns.barplot(x='게시요일', y='조회수', data=day_views)
+plt.title('게시요일별 평균 조회수')
+plt.xlabel('게시요일')
+plt.ylabel('평균 조회수')
+plt.xticks(rotation=45)
+plt.show()
+
+# 5. 상위 10개 채널별 조회수 합계 (막대그래프)
+top_channels = df.groupby('채널명')['조회수'].sum().sort_values(ascending=False).head(10)
+plt.figure(figsize=(12, 6))
+sns.barplot(x=top_channels.values, y=top_channels.index)
+plt.title('상위 10개 채널별 총 조회수')
+plt.xlabel('총 조회수')
+plt.ylabel('채널명')
+plt.show()
+
+# 6. 조회수와 좋아요수의 상관관계 (산점도)
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='조회수', y='좋아요수', data=df, alpha=0.5)
+plt.title('조회수와 좋아요수의 상관관계')
+plt.xlabel('조회수')
+plt.ylabel('좋아요수')
+plt.xscale('log')
+plt.yscale('log')
+plt.show()
+
+# 7. 상관계수 히트맵 (숫자형 변수 간 상관관계)
+numeric_cols = ['조회수', '좋아요수', '댓글수', '영상길이(초)', '구독자수', '채널총조회수', '채널업로드영상수']
+correlation_matrix = df[numeric_cols].corr()
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', center=0)
+plt.title('숫자형 변수 간 상관계수 히트맵')
+plt.show()
+
+# 추가 분석: 조회수 상위 10개 영상 정보 출력
+print("\n조회수 상위 10개 영상:")
+top_videos = df.nlargest(10, '조회수')[['영상제목', '채널명', '조회수', '게시일', '영상길이(표시)']]
+print(top_videos)
+
+# 추가 분석: 구독자수와 조회수의 관계
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='구독자수', y='조회수', data=df, alpha=0.5)
+plt.title('구독자수와 조회수의 관계')
+plt.xlabel('구독자수')
+plt.ylabel('조회수')
+plt.xscale('log')
+plt.yscale('log')
+plt.show()
