@@ -10,7 +10,7 @@ import json
 import random
 
 # -------------------- 설정 값 -------------------- #
-API_KEY = 'AIzaSyBqI8uXCYoFahxvT2d3Dj7YQq90nz9GF7o'
+API_KEY = '' # 여기에 본인의 API 키를 입력하세요.
 if not API_KEY:
     print("오류: API_KEY가 설정되지 않았습니다. API 키를 입력해주세요.")
     exit()
@@ -18,7 +18,7 @@ if not API_KEY:
 SEARCH_KEYWORDS = [
     '롤', '리그오브레전드', '마인크래프트', '발로란트', 
     'FC온라인', '오버워치', '배틀그라운드', '던전앤파이터',
-    '서든어택', '로스트아크', '메이플스토리', '스타크래프트', '스팀'
+    '서든어택', '로스트아크', '메이플스토리', '스타크래프트'
 ]
 MAX_TOTAL_VIDEOS_TO_COLLECT = 2000
 VIDEOS_PER_REQUEST = 50
@@ -311,6 +311,11 @@ def main():
             if not next_page_token:
                 break
             time.sleep(random.uniform(1.0, 2.5))
+            
+            # ✅ 키워드 단위 사용량 출력
+            print(f"\n📊 '{search_query}' 키워드 수집 후 누적 API 사용량: {api_quota_usage['total_cost']}/10,000 단위\n")
+            time.sleep(random.uniform(1.5, 3.0))  # 다음 키워드 전 대기
+
 
     if video_data:
         df = pd.DataFrame(video_data)
