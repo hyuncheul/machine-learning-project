@@ -16,15 +16,14 @@ if not API_KEY:
     exit()
 
 SEARCH_KEYWORDS = [
-    '롤', '리그오브레전드', '마인크래프트', '발로란트', 
-    'FC온라인', '오버워치', '배틀그라운드', '던전앤파이터',
-    '서든어택', '로스트아크', '메이플스토리', '스타크래프트', '스팀'
+    '롤|리그오브레전드|LOL', '발로란트|발로', 
+    'FC온라인|피파', '배틀그라운드|배그','서든어택|서든' 
 ]
-MAX_TOTAL_VIDEOS_TO_COLLECT = 50
+MAX_TOTAL_VIDEOS_TO_COLLECT = 10
 VIDEOS_PER_REQUEST = 50
 PUBLISHED_AFTER_DATE = "2024-07-01T00:00:00Z"
-PUBLISHED_BEFORE_DATE = "2024-10-01T00:00:00Z"
-MINIMUM_VIDEO_DURATION_SECONDS = 480  # 8분
+PUBLISHED_BEFORE_DATE = "2024-07-10T00:00:00Z"
+MINIMUM_VIDEO_DURATION_SECONDS = 480  # 8분 #사용하지않음
 MAX_VIDEO_DURATION_SECONDS = 7200     # 2시간
 
 # 오늘 날짜 가져오기
