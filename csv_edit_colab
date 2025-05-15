@@ -1,0 +1,61 @@
+# 게임 데이터 5개만 분류
+import pandas as pd
+
+# 1. CSV 파일 불러오기
+df = pd.read_csv('game_api_data.csv')
+
+# 2. 게시일을 datetime으로 변환
+df['게시일'] = pd.to_datetime(df['게시일'], errors='coerce')
+
+# 3. 2024년도 자료만 필터링
+df_2024 = df[df['게시일'].dt.year == 2024]
+
+# 4. 영상제목에 특정 게임명(롤, 발로, 피파, 배그, 서든) 포함된 행만 남기기
+keywords = ['롤', '발로', '피파', '배그', '서든']
+pattern = '|'.join(keywords)
+df_filtered = df_2024[df_2024['영상제목'].str.contains(pattern, na=False)]
+
+# 5. 결과를 새 파일로 저장 (덮어쓰기)
+df_filtered.to_csv('game_api_data.csv', index=False, encoding='utf-8-sig')
+
+print(f"필터링 후 데이터 개수: {len(df_filtered)}")
+print(df_filtered[['영상제목', '게시일']].head())
+  
+#########################################################
+
+# 이미 수집된 csv파일에 게임명 컬럼추가
+import pandas as pd
+from google.colab import files
+import re
+
+# 파일 업로드
+uploaded = files.upload()
+filename = list(uploaded.keys())[0]
+
+# 데이터 로드
+df = pd.read_csv(filename)
+
+# 게임명 매핑 규칙
+game_patterns = {
+    '리그오브레전드': r'(리그오브레전드|롤|LOL)',
+    '발로란트': r'(발로란트|발로|Valorant)',
+    'FC온라인': r'(FC온라인|피파|FIFA)',
+    '배틀그라운드': r'(배틀그라운드|배그|PUBG)',
+    '서든어택': r'(서든어택|서든|Sudden)'
+}
+
+# 게임명 추출 함수
+def detect_game(title):
+    for game, pattern in game_patterns.items():
+        if re.search(pattern, title, flags=re.IGNORECASE):
+            return game
+    return '기타'
+
+# 게임명 컬럼 추가
+df['게임명'] = df['영상제목'].apply(detect_game)
+
+# 변경사항 저장 (기존 파일 덮어쓰기)
+df.to_csv(filename, index=False, encoding='utf-8-sig')
+
+# 다운로드 (필요시)
+#files.download(filename)
