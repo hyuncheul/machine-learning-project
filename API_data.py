@@ -16,14 +16,14 @@ if not API_KEY:
     exit()
 
 SEARCH_KEYWORDS = [
-    '롤|리그오브레전드|LOL', '발로란트|발로', 
+    '리그오브레전드|롤', '발로란트|발로', 
     'FC온라인|피파', '배틀그라운드|배그','서든어택|서든' 
 ]
-MAX_TOTAL_VIDEOS_TO_COLLECT = 10
+MAX_TOTAL_VIDEOS_TO_COLLECT = 1000
 VIDEOS_PER_REQUEST = 50
-PUBLISHED_AFTER_DATE = "2024-07-01T00:00:00Z"
-PUBLISHED_BEFORE_DATE = "2024-07-10T00:00:00Z"
-MINIMUM_VIDEO_DURATION_SECONDS = 480  # 8분 #사용하지않음
+PUBLISHED_AFTER_DATE = "2024-08-10T00:00:00Z"
+PUBLISHED_BEFORE_DATE = "2024-08-20T00:00:00Z"
+MINIMUM_VIDEO_DURATION_SECONDS = 480  # 8분
 MAX_VIDEO_DURATION_SECONDS = 7200     # 2시간
 
 # 오늘 날짜 가져오기
@@ -297,7 +297,8 @@ def main():
                     '구독자수': int(channel_stat_info.get('subscriberCount', 0)),
                     '채널총조회수': int(channel_stat_info.get('viewCount', 0)),
                     '채널업로드영상수': int(channel_stat_info.get('videoCount', 0)),
-                    '자막유형': transcript_type
+                    '자막유형': transcript_type,
+                    '게임명': search_query
                 })
 
                 successfully_collected += 1
