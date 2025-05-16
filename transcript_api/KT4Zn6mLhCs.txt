@@ -1,0 +1,257 @@
+[Music]
+hi my name is George I'm A 3 artist
+working in the game industry for more
+than four years already I worked on such
+games as serial Sam the alos principal
+and a lot of different small projects
+for mobile phones and PC and I'm going
+to show you how 3D art works in the
+industry from the inside I'll show you
+tips and tricks which artists are using
+what programs they use what tools what
+plugins what they eat what they drink
+and what kind of f are they like and by
+day I mean myself of course and today's
+first game which style we are going to
+inspect closely is League of Legends but
+first of all let's start from the
+instruments we're going to use for it
+and which programs are used in the
+industry by artist at RI games as we're
+trying to be a 3D artist today will need
+a 3D software for modeling of course and
+I personally use blender for it it's
+free it has a lot of amazing plugins and
+a lot of free tutorials on YouTube so
+for this video Let's imagine that you
+know the basics of it already and I
+won't be showing you my every step while
+modeling let's focus just on texturing
+for today you might also know a
+different program for 3D modeling for
+example Maya or 3ds Max and that's cool
+there's no shame in using expensive and
+not well optimized programs that crash
+every 10 minutes for no reason but you
+can use them if you want that's on you
+besides blender you'll also need a copy
+of Photoshop and I don't think I need to
+explain what this program is used for
+like come on who doesn't know Photoshop
+but our main program for today which
+we're going to use for making a model
+looks like it belongs to League of
+Legends is 3D Cod it's used in the
+industry for making hand painted
+textures this program is also capable
+for a lot of different tasks like
+modeling sculpting uvn wrapping rapology
+and blah blah blah but we are going to
+use it only for hand painting maybe you
+want to show your knowledge and ask me
+why not substance painter well you can
+use it if you want and it's even used in
+the industry to speed up the process of
+painting by generating the base of your
+texture but most of the time 3D quity is
+the main program used by artists for
+hand painting there are a few main
+reasons why 3D Cod is better for hand
+painting than substance first of all as
+I said before substance painter was made
+for generating texture than painting
+them by hand there are a lot of amazing
+instruments for generating textures by
+using masks smart materials Etc but just
+a few poor instruments for hand painting
+and the coolest thing about 3D code is
+that it's a rer based program while
+substance painter is a vector based and
+Photoshop is also a Ruster program
+that's why I said we'll need it for this
+video there's a cool trick in 3D code
+where you can connect it directly to
+photoshop and jump back and forth
+between these two programs while
+painting your texture and see it updates
+in real time in both of them but we'll
+get back to it a bit later so that's the
+reason why we using 3D code instead of
+substance painter oh and you'll need a
+tablet for this tutorial you can draw
+with a mouse but I wouldn't recommend
+[Music]
+it let analyze the art style of League
+of Legends for a bit what exactly makes
+you look at the screenshot and say I
+know where is it from it's from League
+of Legends you can say that it's just a
+stylized cartoonish looking game but
+there are many different types of
+stylization that might look pretty
+similar but with a closer look there's a
+huge difference between them that is why
+we need to analyze it a bit more deeply
+so our final model doesn't look like
+it's from World of Warcraft for example
+because these two games are stylized and
+hand painted but they have some
+difference between them both League of
+Legends and World of Warcraft tend to
+focus on a larger shapes all in game
+props looks chunky with easily reading
+Silhouettes but the main difference
+between these games is how artists work
+with colors and details World of
+Warcraft has more like a third person
+view camera which allows the player to
+zoom in pretty closely to any object
+they want and see all the cracks sares
+and damages on them but league is a
+mobile game which has a top down View
+Camera plays pretty far and player is
+not allowed to zoom in that closely
+compared to Warcraft and because of this
+artist from Bri games work more with
+gradients and a very small amount of
+micro details as player won't see them
+anyway if model has too many small
+details is going to look noisy from the
+in-game camera view we need to keep this
+all in mind when we're going to start
+working on our model and from time to
+time to zoom out and view prop from the
+angle and distance which from it would
+be seen from the inside of the game just
+to make sure it still reads well
+well here's a quick concept art I made
+for this video now let's jump into
+blender and start
+modeling when I work using concept art I
+import my image directly to blender and
+model with it on background it helps to
+keep shapes of the prop as close to
+concept as possible but sometimes you
+have to make some adjustments to the
+model that might be against your concept
+art and that's okay because we as a
+three artists need to optimize our model
+for the game engine keep your mesh as
+low poly as possible as it's not going
+to be seen closely anyway some details
+you can even paint on the texture
+instead of modeling it also when working
+with head painted models it's important
+to mirror some parts of the mesh to save
+your time while texturing it later and
+it also helps to keep our texture size
+lower but you need to do it carefully
+always keep in mind which part of the
+model will be more visible to the player
+cuz we don't want to see visual errors
+on the most noticeable parts of the
+model after you're done with modeling
+you need to event wrap it to save our
+time once again when texturing and make
+that process more comfortable try to
+make as less seams as POS possible and
+hide them in places where a player won't
+see them the less UV seems you have the
+less amount of UV Island you'll get it's
+easier to draw a texture when it's just
+one big U Island then there are hundreds
+of them separated and try to straighten
+each carved UV Island you can possibly
+do just like I did here it helps to draw
+straight lines on your texture much
+easily after you unwrapped it you just
+need to pack your UV Islands nice and
+tight apply your materials and Export
+this m as OBG format because 3D code
+doesn't work well with fbx sometimes and
+that's it for the modeling part we are
+ready to import it to 3D code and start
+painting import your model using paint
+UV M mesh and it's ready to go now let's
+see the basic instruments we'll start
+from the brush by pressing e on the
+keyboard you can see this menu pops up I
+use only basic brush and nothing else
+there's also this window where you can
+select the shape of your brush I use
+Simple rounded one with C edges now you
+can create a layer and start painting
+right on your model by holding control
+when paint you'll start erasing it in
+the same menu by pressing e you can
+fight this little triangle it allows you
+to fill polygons of your model with
+selected color but sometimes you need to
+fill the whole mesh with one color so
+instead of filling each individual
+polygon you can select a bucket tool and
+by the way you can load your reference
+here by selecting image instead of color
+wheel you can pick every color from here
+and use it from this point you already
+know enough to paint everything you can
+imagine as you can see not a lot of
+instruments you need to learn in this
+program to be able to paint your model
+so just go for
+[Music]
+it
+[Music]
+[Music]
+and I'm not going to lecture you about
+color theory but I'm begging you please
+never use clean black and clean white
+colors while texturing colors from this
+area on your color wheel used in a very
+rare occasions when you know how and
+when to use it most of the time using
+these colors just make your texture look
+dirty and ugly even in the real world
+you won't easily find completely pitched
+black or clean white colors there's
+always something that affects any
+objects that could be lighting or
+weather condition which makes any color
+a bit shifted to some kind of tinted a
+little bit plus we are making a Stylz
+prop so it should has more vibrant and
+clean colors you can also upload a
+background image to see how this prop
+looks compared to League of Legends
+environment to make sure it not stands
+out of
+[Music]
+it after some painting it's time to move
+to photoshop just press crl p and magic
+happens you can see your u in Photoshop
+that's why we spent so much attention to
+UI unwrapping before now we need to work
+directly on it and it's much easier when
+everything is organized straighten and
+have not too many UV Islands just pain
+here and press contrl s to save it and
+you can see it also appears in 3D code
+now you just need to jump between this
+program and draw where it's more
+comfortable to you that was basically
+all the instruments of 3D Cod you need
+for the beginning of your career as 3D
+artist just paint your mes slowly check
+it from the distance don't use over
+saturated colors and you're good you
+know the basics of 3D code
+congratulations now you can put this
+model into your portfolio and get hired
+by r games let me know what kind of
+topic you'd like to see for the next
+video in case if you want to get a job
+with Blizzard or Microsoft whatever and
+that's it for this video and now leave a
+like And subscribe to my
+channel
+bye-bye

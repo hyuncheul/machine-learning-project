@@ -1,0 +1,239 @@
+hey guys welcome back to the channel
+this is my new updated 2024 version on
+how to play League of Legends on your
+steam deck this is either using the
+trackpads and buttons or connecting to a
+dock and using a keyboard and mouse on
+your monitor or even just a
+USBC uh dock with a keyboard and mouse
+plugged in so first thing you want to do
+is go to the desktop mode which can be
+done by going to the power option and
+steam game and heading to the desktop
+and then from there you're going to go
+down to the Discover store at the bottom
+of the screen there and you're going to
+download heroic games launcher okay so
+the way we're going to be playing League
+of Legends is through epic games so you
+will need to make an epic games account
+for the epic game store now not all of
+you going to want to do that and that's
+fair enough but trying to find the
+simplest easiest way to play it this to
+me is the way so what we're going to do
+here is we're going to add heroic to our
+steam Library I've already got it in my
+G in my epic Library uh steam Library so
+I'm not going to re-edit again of course
+uh that's your first step is to do that
+and then load it up here from the
+desktop mode um as you can see here I'm
+already logged into my epic account so
+for you you'll go through a um Signum
+process uh so make sure you've already
+got your epic account made or you can do
+it now I guess but primarily pretty easy
+to pre-make your epic account uh and
+then you're going to go to the Epic
+store within heroic or if you've already
+done it on your PC and you're going to
+search up League of Legends and add it
+to your
+library um it's a pretty straightforward
+process if you're following along slow
+it down pause uh
+and see how you go okay so that's I
+found it and I'm going to add it to my
+library I already have it in mind but
+this would be the the stages you'd go
+through so um if some of this seems a
+bit silly and a bit drawn out it's
+simply because I want this video to be
+accessible to everybody and I've noticed
+that it's easier to have all the steps
+involved just so everybody knows where
+to look okay I just go down to find it
+and I'm like there's a lot of games in
+here it's easier just to search for it
+but it's now in my library now once it's
+uh downloaded we can go back into game
+mode which is at the top left hand side
+of the desktop mode of steam
+um you can see here I've got my heroic
+has got a fancy screen and title that's
+not necessary that's just me being fancy
+but if you're looking for it you go to
+your library and in non steam you'll
+find heroic
+launcher then you just going to load it
+up and it'll go to your library which
+you'll have League of Legends in it uh
+but the first thing you're going to want
+to do is go to the wine manager okay and
+from here at the top you'll see there's
+three different uh to pick from you want
+to go for wi G
+LOL wine lol and you're going to want to
+download the latest one 27 now I'm going
+to preface this video now that whenever
+Riot updates League of Legends client
+there is a chance it breaks this guide
+okay so um just be aware with live games
+this may break all right so it may work
+now it may work for 3 months may work
+for months it may only work 2 weeks Le
+Riot may do a massive update and break
+the game okay so just keep that in mind
+now it's going to ask you to install
+it's going to say it doesn't work which
+is technically true but with the low GE
+update it will work make sure you select
+it down the bottom there and then click
+to install all
+right um and you'll want to use it as
+your default I didn't select it there
+but you want to make this your default
+wine so it doesn't ask you this it's
+going to give me a warning here saying I
+haven't selected a default wine um after
+it does this miniature install so make
+sure you do set it as your default and
+then it will always work and make sure
+you change it for other games though
+because this uh proton is only for
+league so we're going to go to play here
+and it's going to say we could not find
+the selected y version to launch but we
+found the other one that you've
+downloaded which is the LOL one we're
+going to go yes and it's going to load
+up momentarily here I've got this on two
+times speed okay so um this process is
+going to be slightly slower than what
+you're seeing here but I did want to
+keep it in there is going to be some
+Cuts further on into this because the
+install does take quite some time over
+Wi-Fi I could have plugged it into my
+dock but I was deciding to be lazy and
+lay on the couch um please comment below
+if you're finding this guide helpful if
+you want more of these or some other
+content do you want me to do a guide on
+how I've got my controller scheme set up
+um that could be the next video I do is
+showing you how I've got the controller
+set up um so next thing is you're going
+to want to download install it but don't
+sign in okay big thing don't sign in let
+it download and then quit and make sure
+you close the app
+entirely by clicking playing to stop as
+you can see the right launch is still
+open you want make sure this is green
+and then you want to
+play
+okay really important that you
+completely close out once you've
+downloaded and installed League of
+Legends otherwise we may run into issues
+later on again I've got this at two
+times speed so this will take slightly
+longer to load than what it looks like
+here but don't worry it will
+load you can see I'm signing in so make
+sure you sign in once the installer is
+is
+complete you will have to get your email
+and do the verification
+code this will only take a few
+[Music]
+seconds I'm pretty sure it's safe to put
+that code in because it only works for
+20 minutes and this video is a lot later
+than that you want to
+play and you're going to be a way
+laughing now I've got my um controller
+set up for League of Legends on my steam
+deck that's why I'm able to click
+through quite easily um so make sure in
+the settings on you push the steam
+button and change it to um keyboard and
+mouse so you can use the thumb pad
+easily to click through
+stuff again if you if you need more help
+with the controller setup if you want to
+play it from your steam deck let me know
+in the comments below and I'll do an
+updated controller guide for playing
+league but this is more so if you're
+just using a keyboard or Mouse but you
+want it on your steam deck okay and I'm
+just going to load into a
+um practice just so you can see that
+it's running in game um and that it
+works I won't go into a live game here
+but it definitely works
+live cuz I was playing a game
+beforehand um I wouldn't recommend
+playing ranked on your steam deck
+playing Norms just don't tell people
+that you're playing with a key uh on on
+a controller or they might get a bit
+crumpy at you um but yeah as you can see
+it's loading up it takes a little bit of
+time
+here and we'll be in
+momentarily there we are we're now in
+game and we're playing League of Legends
+on our steam deck how cool is that now
+uh I won't go over my controls here but
+they are all set up and they are usable
+if you want to use them I will put a
+link uh if you search in the in the
+steam controller store is not controller
+store but in the controller section if
+you look for King salami League of
+Legends uh you should find my controller
+set up there and basically how I've got
+it is the d-pad has your abilities so um
+it'll be like
+Q uh your your three main abilities be
+left up and right on the d-pad while
+down is your
+ultimate um and I just set everything to
+high here and put it on 80 frames I
+start on 60 but I put it 80 just to show
+you could go higher um and you do want
+to lock your screen to your character
+otherwise it gets a little bit messy on
+if you're playing on Steam deck
+um but there's plenty of things to set
+up I've got recoil on the back buttons
+I've got the ax Y andb is 1 2 3 and four
+for using um consumables or abilities on
+your items the triggers left and right
+trigger your f key and your
+um your other activatable key for your
+abilities like flash and teleport are on
+your triggers and the bumpers is left
+and right click so you're using
+the right thumb
+Pad Plus the right bumper to move click
+attack and then your left bumper for
+buying items and you know clicking on
+stuff in the UI
+so that's going to conclude this video I
+really appreciate it hopefully this
+guide has helped you this is by far the
+easiest method so far to playing League
+of Legends on a steam deck um we've
+definitely gone through multiple
+variations this is our third variation
+on playing League of Legends first time
+was using lutrus second time was using
+bottles and this time it's using heroic
+launcher which I think most people
+already have on their steam decks so
+there we are thank thanks guys

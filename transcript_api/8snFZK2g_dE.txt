@@ -1,0 +1,4 @@
+head
+shot double
+kill revenge
+shot

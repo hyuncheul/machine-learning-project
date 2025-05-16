@@ -1,0 +1,224 @@
+let's do a quick mechanics check before
+we get into the video try to keep your
+mouse on the target dummy or Trace with
+your finger if you're on
+mobile let's do that again with a
+different camera movement but this time
+I'll help you out make it a little bit
+easier and highlight the target for
+you one last time might be a little bit
+difficult but try your
+best so the whole point of that was to
+demonstrate the relationship between
+Target s and camera movement first we
+had lock screen then pushing the camera
+of the mouse and finally leaving the
+camera still now I'm going to take a
+guess as to which one was the easiest
+and if I'm right you have to do me a
+favor and subscribe all right you ready
+lock screen do that surprise you it must
+have been the easiest because for some
+reason everyone locks their
+[Music]
+F so the default binds and League of
+Legends are absolute garbage in my
+opinion the qwr part is fine it's just
+that they use the entire number Row for
+items and trinket when you're almost
+never going to have have this many items
+also your pointer finger is absolutely
+overloaded with both Summoners being
+there as well as being responsible for
+your e and r key if you're a normal
+person I mean if you're a four-finger
+player like this I immediately suggest
+you just take off the bib and join us in
+the adult World save that pinky for
+modifiers and keep your hand in a better
+position the FKS to select your allies
+are also absolutely ridiculous how do
+any riers expect this to be used when
+most people just AFK their fingers on
+QDR the entire game okay but in the
+interest of time I'm not going to go
+over every single gripe I'll just show
+you my binds and we'll go from there
+first we need to put our camera on wsd I
+mean [ __ ] obviously right that's the
+title so make sure your camera Moon
+speed is also not zero for some reason
+it starts at zero just move it to 50 by
+default Now set up your abilities on 1 2
+3 4 and your Summoners on QE this
+offloads your non- flash bind to your
+ring finger your flash must be on E this
+is non-negotiable your pointer must have
+the most important bind because your
+other fingers are probably worthless in
+dexterity in comparison there's no flash
+on D or F it's e [ __ ] the items
+are the only place I'm okay with people
+doing Alternatives they tend to not be
+used too much and even when they do five
+and six are okay for me because I have
+long fingers and I play Tetris but if
+you're a noob with low APM and or short
+fingers you can just bind them to a
+closer button or even like a mouse
+Button as for your trinket just use the
+middle Mouse button saves you a bind now
+before I give you tips on how to use
+these binds you need to understand a
+couple of things so you know why you're
+using these binds now before we go any
+further we first have to talk about DPI
+DPI stands for Dots per inch and to put
+it super super simply it's basically
+just how quickly your cursor moves
+relative to how much you're moving the
+actual physical Mouse again to put it
+really simply a lower DPI means that you
+have to move your wrist SL arm if you're
+disciplined a lot more but the slower
+cursor movement allows you to be a lot
+more accurate and a higher DPI means you
+don't have to move as much but you'll
+probably be a lot less accurate given
+that your cursor jumps around a lot
+faster ultimately it's a preference
+thing but I will recommend that you
+become a lower DPI player around 800 or
+so especially with these binds and just
+get used to picking up your mouse if you
+have low mouse pad space and
+incorporating the arm a lot more to take
+the load off your wrist for longevity
+just for example this is how much I have
+to move to get my cursor from one side
+of the screen to the other the reason
+why I recommend this is because if you
+don't have to move the camera with your
+mouse anymore you can place your cursor
+where it needs to be at all times in the
+game accurately with the lower DPI now
+remember at the start of the video where
+I had you track people with your mouse I
+want you to watch some of the gameplay
+clips and just pay attention to where my
+character camera and cursor are and I
+think you'll understand this a little
+bit better if you'll notice I rarely
+have to move my cursor away from my
+character and the reason why this is
+really important is something I'll go
+into the future video but put a simply
+I'm always ready to move my character to
+dodge to change direction or aim at my
+opponent and the advantage I have over
+lock screen players is that I can see a
+lot more of what I need to see for
+example right here I land a spear and
+there's no point looking to my right so
+I pan to the left and back to an earlier
+example with a Varys I don't need to
+look at anything behind me here I simply
+need to look at where Ezreal is actually
+going to go or possibly go and I
+basically hold my cursor where I think
+he'll e almost like uh almost like I'm
+playing valerant you know waiting to
+click ahead the advantage I have over
+Mouse pushers is that on top of the [ __ ]
+I mentioned earlier I can be a lot more
+accurate with my camera movement as to
+where it goes because holding a button
+down is different than holding your
+mouse at the edge of the screen as well
+as the most obvious difference which is
+that I have a button for each Direction
+while you have to move your mouse back
+and forth if you wanted to pan between
+two directions here's a Quick Clip I
+filmed to demonstrate this look at this
+[ __ ] you Mouse pushers I can move four
+directions whenever I want because I
+have four buttons look right and then
+left right and left down up whatever I
+can go up and the right meanwhile you
+have to do this you have to do this you
+have to push you have to push I need to
+look here now oh I need to look here now
+I got to push my [ __ ] how can I EQ and
+do that at the same time [ __ ] you also
+for the people who hold down space bar
+the entire time to Center camera and
+releas it when needed first of all what
+the [ __ ] but also if you're used to that
+kind of jarring movement absolutely go
+ahead that's totally fine but I would
+just generally recommend a smoother
+process okay to summarize we have three
+distinct ways of playing I'm not saying
+that they're the only ways to play I'm
+just making it simple you can obviously
+do a combination of things and I'll link
+you this time stamp if you're nitpicking
+so you can shut the [ __ ] up all right we
+have have peral lock screen pushing the
+camera while censoring space bar and WD
+bance here are the pros and cons lock
+screen allows you to never worry about
+moving the mouse to the edge of the
+screen but you'll inevitably Miss
+details off screen because you're too
+busy staring at yourself pushing the
+camera manually while centering with
+space bar allows you to see more but
+your cursor will have to constantly
+readjust to the centering as well as
+pushing which means you'll inevitably
+have some bad inputs like if you're
+pushing the screen to the right but you
+have to move your character to the left
+at the same time WD gives you both
+camera control as well as cursor
+placement now the only downside is a big
+one it's entirely dependent on your
+skill so how do you actually get good at
+this well simple make sure you're
+resting postures on WD and whenever you
+need to use abilities just move your
+hand up to 1234 seriously that's that's
+it just move your hand back and forth
+between wsd and 1234 you don't have to
+do both at the same time as long as you
+are constantly pushing your camera to
+where it needs to be before the action
+happens if for some reason your camera
+is entirely off your character character
+you can still use a space bar the center
+camera if you absolutely need it okay
+and with that I hope you go and try
+these sort of things it'll make you a
+way better player I promise you
+seriously this is the best coaching
+advice I can ever give anyone you have
+terrible camera control I can almost
+guarantee it the moment you get that
+down you're going to be a way better
+player you're going to miss a lot less
+details and lower your DPI okay good
+luck and also Starcraft 2 is a free
+download go work on that APM okay thanks
+you reached the end of the video give me
+a like comment subscribe after Arena
+viewership boom gone absolutely gone so
+gameplay commentaries probably not stons
+at all I'm going to just go ahead and do
+all these meta reports and like little
+analysis videos on how to play better or
+something that's probably all I'm going
+to do okay until until next R thanks for
+watching click one of these thingies or
+something I don't know
