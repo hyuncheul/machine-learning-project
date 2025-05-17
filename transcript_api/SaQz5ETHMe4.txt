@@ -1,0 +1,5 @@
+one enemy
+remaining
+out
+wait
+out

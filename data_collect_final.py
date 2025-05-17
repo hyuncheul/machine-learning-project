@@ -6,7 +6,7 @@ import pandas as pd, os, time, random, sys, re
 from datetime import datetime, timedelta
 
 # ─────────── 설정 ──────────── #
-API_KEY = ""            # ⚠️ 입력
+API_KEY = "AIzaSyDPvRKZPzQXnYdOonKEJ8y7J0Ufc5zMuXA"            # ⚠️ 입력
 CSV_NAME, TXT_DIR = "game_api_data.csv", "transcript_api"
 os.makedirs(TXT_DIR, exist_ok=True)
 
@@ -29,8 +29,8 @@ TOPIC_ID = {
 DATE_WINDOWS = [(d.strftime("%Y-%m-%dT%H:%M:%SZ"),
                  (d + timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ"))
                 for d in rrule.rrule(freq=rrule.DAILY, interval=3,
-                                    dtstart=dtp.parse("2024-01-01"),
-                                    until=dtp.parse("2024-01-31"))]
+                                    dtstart=dtp.parse("2024-02-01"),
+                                    until=dtp.parse("2024-02-29"))]
 
 COST = {"search.list":100, "videos.list":1, "channels.list":1}
 quota, LIMIT = 0, 9_500
