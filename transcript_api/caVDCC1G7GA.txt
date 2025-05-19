@@ -1,9 +1,0 @@
-shot double
-kill double kill
-kill head shot double
-kill
-[Music]
-yeah double
-kill
-[Music]
-kill
