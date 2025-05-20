@@ -29,7 +29,7 @@ except ImportError:
         class TooManyRequests(Exception):                           # fallback
             """Placeholder for missing TooManyRequests exception"""
             pass
-
+        
 from dateutil import parser as dtp
 from datetime import datetime
 from collections import defaultdict
@@ -257,8 +257,8 @@ def collect_game(game, query, api_key, start_date, end_date, exist_ids):
 # ────────── 진입점 ────────── #
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--start", required=True, help="2024-01-01")
-    parser.add_argument("--end",   required=True, help="2024-01-31")
+    parser.add_argument("--start", required=True, help="YYYY-MM-DD")
+    parser.add_argument("--end",   required=True, help="YYYY-MM-DD")
     args = parser.parse_args()
 
     try:

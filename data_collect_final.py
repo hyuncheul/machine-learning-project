@@ -14,17 +14,17 @@ from dateutil import rrule, parser as dtp
 import isodate, pandas as pd, os, time, random, re
 from datetime import datetime, timedelta
 
-API_KEY   = "AIzaSyB8xrapCqROGfnt8hBkBmSncG1rtZu2Wfw"           # ← 본인 키 입력
+API_KEY   = "AIzaSyDRE48qtjqYwxNnypL8nZn62qqcuIW7BZQ"           # ← 본인 키 입력
 CSV_NAME  = "game_api_data.csv"
 TXT_DIR   = "transcript_api"
 os.makedirs(TXT_DIR, exist_ok=True)
 
 GAME_QUERIES = {
-    "롤":          "리그오브레전드|롤|league of legends|LOL",
-    "서든":        "서든어택|서든",
-    "FC온라인":    "FC온라인|피파온라인|피파|EA FC Online",
-    "배틀그라운드": "배틀그라운드|배그|PUBG",
-    "발로란트":    "발로란트|발로|VALORANT",
+    "롤":          "롤",
+    "서든":        "서든",
+    "FC온라인":    "피파",
+    "배틀그라운드": "배그",
+    "발로란트":    "발로",
 }
 TOPIC_ID = {
     "롤": "/m/04n3w2r",
@@ -36,10 +36,10 @@ TOPIC_ID = {
 
 DATE_WINDOWS = [
     (d.strftime("%Y-%m-%dT%H:%M:%SZ"),
-     (d + timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ"))
-    for d in rrule.rrule(freq=rrule.DAILY, interval=1,
-                         dtstart=dtp.parse("2024-01-16"),
-                         until=dtp.parse("2024-01-30"))
+     (d + timedelta(days=3)).strftime("%Y-%m-%dT%H:%M:%SZ"))
+    for d in rrule.rrule(freq=rrule.DAILY, interval=3,
+                         dtstart=dtp.parse("2024-03-01"),
+                         until=dtp.parse("2024-03-28"))
 ]
 
 # ▶ 길이 제한: 4 분(240 s) ~ 2 h(7200 s)
@@ -108,11 +108,13 @@ def main():
                 while True:
                     resp = s_list(
                         yt, part="id", q=query, type="video",
-                        # (videoDuration 미지정: any → 4m 미만도 포함되지만 seconds 필터로 제외)
+                        videoDuration="medium", 
+                        #videoDuration="long", 
                         videoCategoryId="20", 
                         topicId=t_id,
                         regionCode="KR", relevanceLanguage="ko",
-                        order="date", publishedAfter=frm, publishedBefore=to,
+                        #order="videoCount", 
+                        publishedAfter=frm, publishedBefore=to,
                         maxResults=50, pageToken=nxt,
                         fields="nextPageToken,items/id/videoId"
                     )
