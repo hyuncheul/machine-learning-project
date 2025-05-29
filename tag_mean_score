@@ -1,0 +1,28 @@
+import pandas as pd
+
+# 1. 영상별 데이터 로드
+video_df = pd.read_csv("game_api_data_sum.csv", encoding="cp949")
+
+# 2. 태그별 평균 조회수 데이터 로드
+tag_stats = pd.read_csv("game_tag_view_stats.csv", encoding="utf-8-sig")  # 인코딩 필요시 cp949
+
+# 3. 딕셔너리 형태로 변환 (태그 → 평균 조회수)
+tag_mean_dict = tag_stats.set_index('tag_list')['mean'].to_dict()
+
+# 4. 태그 컬럼 전처리 (NaN → 빈문자열 → 리스트 변환)
+video_df['태그'] = video_df['태그'].fillna('').astype(str)
+video_df['tag_list'] = video_df['태그'].apply(lambda x: [tag.strip() for tag in x.split(',') if tag.strip()])
+
+# 5. 태그 평균 조회수 계산 함수
+def calc_tag_mean_score(tag_list, tag_dict):
+    values = [tag_dict.get(tag, 0) for tag in tag_list]
+    return sum(values) / len(values) if values else 0
+
+# 6. 영상별 tag_mean_score 생성
+video_df['tag_mean_score'] = video_df['tag_list'].apply(lambda tags: calc_tag_mean_score(tags, tag_mean_dict))
+
+# 7. 결과 저장 (선택)
+# video_df.to_csv("video_with_tag_score.csv", index=False, encoding="utf-8-sig")
+
+# 8. 결과 미리보기 (선택)
+# print(video_df[['영상제목', 'tag_mean_score']].head())
