@@ -1,0 +1,552 @@
+# csv배포용 0602, (나중에 csv수집하고 변수 삭제 및 수정 해야함, 쓸모없는 컬럼이나 0이 많음)
+!pip install easyocr deepface opencv-python pandas numpy requests matplotlib pillow mtcnn scikit-image
+
+import pandas as pd
+import numpy as np
+import cv2
+import requests
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+import io
+import easyocr
+from deepface import DeepFace
+import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
+from tqdm import tqdm
+import re
+from collections import Counter
+import json
+import concurrent.futures
+from threading import Lock
+import gc
+from skimage import filters, morphology, measure
+from scipy import ndimage
+
+class ThumbnailAnalyzer:
+    def __init__(self):
+        self.reader = easyocr.Reader(['ko', 'en'], gpu=True, verbose=False)
+        try:
+            self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+        except:
+            self.face_cascade = None
+        self.lock = Lock()
+
+    def download_image(self, url):
+        """URL에서 이미지 다운로드"""
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+            response = requests.get(url, timeout=15, headers=headers)
+            if response.status_code == 200:
+                return Image.open(io.BytesIO(response.content))
+            return None
+        except Exception as e:
+            print(f"이미지 다운로드 실패: {e}")
+            return None
+
+    def advanced_image_preprocessing(self, image):
+        """고급 이미지 전처리 - 텍스트 인식률 극대화"""
+        try:
+            opencv_image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+
+            height, width = opencv_image.shape[:2]
+            if width < 1200:
+                scale_factor = 1200 / width
+                new_width = int(width * scale_factor)
+                new_height = int(height * scale_factor)
+                opencv_image = cv2.resize(opencv_image, (new_width, new_height), interpolation=cv2.INTER_CUBIC)
+
+            gray = cv2.cvtColor(opencv_image, cv2.COLOR_BGR2GRAY)
+            denoised = cv2.GaussianBlur(gray, (3, 3), 0)
+
+            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
+            enhanced = clahe.apply(denoised)
+
+            kernel_sharpening = np.array([[-1,-1,-1],
+                                        [-1, 9,-1],
+                                        [-1,-1,-1]])
+            sharpened = cv2.filter2D(enhanced, -1, kernel_sharpening)
+
+            binary_methods = []
+            binary1 = cv2.adaptiveThreshold(sharpened, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                                          cv2.THRESH_BINARY, 11, 2)
+            binary_methods.append(binary1)
+
+            binary2 = cv2.adaptiveThreshold(sharpened, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
+                                          cv2.THRESH_BINARY, 15, 3)
+            binary_methods.append(binary2)
+
+            _, binary3 = cv2.threshold(sharpened, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+            binary_methods.append(binary3)
+
+            inverted = cv2.bitwise_not(sharpened)
+            _, binary4 = cv2.threshold(inverted, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+            binary_methods.append(binary4)
+
+            processed_images = []
+            for binary in binary_methods:
+                kernel_close = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
+                closed = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel_close)
+
+                kernel_open = cv2.getStructuringElement(cv2.MORPH_RECT, (1, 1))
+                opened = cv2.morphologyEx(closed, cv2.MORPH_OPEN, kernel_open)
+                processed_images.append(opened)
+
+            return processed_images + [sharpened]
+        except Exception as e:
+            print(f"이미지 전처리 실패: {e}")
+            return [cv2.cvtColor(np.array(image), cv2.COLOR_RGB2GRAY)]
+
+    def extract_text_with_multiple_methods(self, image):
+        """다중 방법으로 텍스트 추출"""
+        try:
+            img_array = np.array(image)
+            processed_images = self.advanced_image_preprocessing(image)
+
+            all_results = []
+            confidence_threshold = 0.2
+
+            try:
+                results_original = self.reader.readtext(img_array, detail=1,
+                                                      width_ths=0.5, height_ths=0.5)
+                all_results.extend(results_original)
+            except:
+                pass
+
+            for i, processed_img in enumerate(processed_images):
+                try:
+                    results = self.reader.readtext(processed_img, detail=1,
+                                                 width_ths=0.3,
+                                                 height_ths=0.3,
+                                                 paragraph=False,
+                                                 slope_ths=0.3,
+                                                 ycenter_ths=0.7,
+                                                 mag_ratio=1.5)
+                    all_results.extend(results)
+                except Exception as e:
+                    print(f"전처리 이미지 {i} OCR 실패: {e}")
+                    continue
+
+            extracted_texts = []
+            text_boxes = []
+            confidence_scores = []
+
+            def normalize_text(text):
+                return re.sub(r'[^\w가-힣]', '', text.lower().strip())
+
+            seen_texts = set()
+            for (bbox, text, confidence) in all_results:
+                text_clean = text.strip()
+                text_normalized = normalize_text(text_clean)
+
+                if (confidence > confidence_threshold and
+                    len(text_clean) > 0 and
+                    len(text_normalized) > 0 and
+                    text_normalized not in seen_texts):
+
+                    extracted_texts.append(text_clean)
+                    expanded_bbox = self.expand_text_bbox(bbox, image.width, image.height, 0.2)
+                    text_boxes.append(expanded_bbox)
+                    confidence_scores.append(confidence)
+                    seen_texts.add(text_normalized)
+
+            merged_boxes = self.merge_nearby_boxes(text_boxes, merge_threshold=50)
+
+            full_text = ' '.join(extracted_texts)
+            keywords = self.extract_advanced_keywords(full_text)
+
+            return {
+                'extracted_text': full_text,
+                'keywords': keywords,
+                'text_boxes': merged_boxes,
+                'text_count': len(extracted_texts),
+                'avg_confidence': np.mean(confidence_scores) if confidence_scores else 0,
+                'total_detections': len(all_results)
+            }
+        except Exception as e:
+            print(f"텍스트 추출 실패: {e}")
+            return {
+                'extracted_text': '',
+                'keywords': [],
+                'text_boxes': [],
+                'text_count': 0,
+                'avg_confidence': 0,
+                'total_detections': 0
+            }
+
+    def extract_advanced_keywords(self, text):
+        """고급 키워드 추출"""
+        try:
+            words = re.findall(r'[가-힣a-zA-Z0-9]+', text)
+            filtered_words = [word for word in words if 1 < len(word) < 20]
+            word_freq = Counter(filtered_words)
+            top_keywords = [word for word, count in word_freq.most_common(20)]
+            return top_keywords
+        except:
+            return []
+
+    def expand_text_bbox(self, bbox, img_width, img_height, expand_ratio=0.2):
+        """텍스트 바운딩 박스 확장 개선"""
+        try:
+            x_coords = [point[0] for point in bbox]
+            y_coords = [point[1] for point in bbox]
+
+            min_x = int(min(x_coords))
+            max_x = int(max(x_coords))
+            min_y = int(min(y_coords))
+            max_y = int(max(y_coords))
+
+            width = max_x - min_x
+            height = max_y - min_y
+            expand_x = int(width * expand_ratio)
+            expand_y = int(height * expand_ratio)
+
+            expanded_min_x = max(0, min_x - expand_x)
+            expanded_max_x = min(img_width, max_x + expand_x)
+            expanded_min_y = max(0, min_y - expand_y)
+            expanded_max_y = min(img_height, max_y + expand_y)
+
+            return [[expanded_min_x, expanded_min_y], [expanded_max_x, expanded_min_y],
+                    [expanded_max_x, expanded_max_y], [expanded_min_x, expanded_max_y]]
+        except:
+            return bbox
+
+    def merge_nearby_boxes(self, text_boxes, merge_threshold=40):
+        """근접한 텍스트 박스들을 병합 개선"""
+        if len(text_boxes) <= 1:
+            return text_boxes
+
+        merged_boxes = []
+        used_indices = set()
+
+        for i, box1 in enumerate(text_boxes):
+            if i in used_indices:
+                continue
+
+            boxes_to_merge = [box1]
+            used_indices.add(i)
+
+            x1_coords = [point[0] for point in box1]
+            y1_coords = [point[1] for point in box1]
+            center1_x = sum(x1_coords) / 4
+            center1_y = sum(y1_coords) / 4
+
+            for j, box2 in enumerate(text_boxes):
+                if j in used_indices:
+                    continue
+
+                x2_coords = [point[0] for point in box2]
+                y2_coords = [point[1] for point in box2]
+                center2_x = sum(x2_coords) / 4
+                center2_y = sum(y2_coords) / 4
+
+                distance = np.sqrt((center1_x - center2_x)**2 + (center1_y - center2_y)**2)
+
+                horizontal_overlap = (abs(center1_y - center2_y) < merge_threshold * 0.5)
+                vertical_overlap = (abs(center1_x - center2_x) < merge_threshold * 0.5)
+
+                if distance < merge_threshold or horizontal_overlap or vertical_overlap:
+                    boxes_to_merge.append(box2)
+                    used_indices.add(j)
+
+            all_x = []
+            all_y = []
+            for box in boxes_to_merge:
+                for point in box:
+                    all_x.append(point[0])
+                    all_y.append(point[1])
+
+            merged_box = [[min(all_x), min(all_y)], [max(all_x), min(all_y)],
+                         [max(all_x), max(all_y)], [min(all_x), max(all_y)]]
+            merged_boxes.append(merged_box)
+
+        return merged_boxes
+
+    def calculate_text_ratio(self, image, text_boxes):
+        """텍스트가 차지하는 비중 계산"""
+        try:
+            if not text_boxes:
+                return 0
+
+            image_area = image.width * image.height
+            text_area = 0
+
+            for bbox in text_boxes:
+                x_coords = [point[0] for point in bbox]
+                y_coords = [point[1] for point in bbox]
+
+                width = max(x_coords) - min(x_coords)
+                height = max(y_coords) - min(y_coords)
+                text_area += width * height
+
+            text_ratio = (text_area / image_area) * 100
+            return round(text_ratio, 2)
+        except Exception as e:
+            print(f"텍스트 비중 계산 실패: {e}")
+            return 0
+
+    def detect_faces_multiple_methods(self, image):
+        """다중 방법으로 얼굴 검출"""
+        img_array = np.array(image)
+        faces = []
+
+        if self.face_cascade is not None:
+            try:
+                gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+                haar_faces = self.face_cascade.detectMultiScale(
+                    gray, scaleFactor=1.05, minNeighbors=3, minSize=(20, 20)
+                )
+                for (x, y, w, h) in haar_faces:
+                    faces.append({'x': x, 'y': y, 'w': w, 'h': h, 'method': 'haar'})
+            except:
+                pass
+
+        for backend in ['opencv', 'mtcnn', 'retinaface']:
+            try:
+                analysis = DeepFace.analyze(
+                    img_array,
+                    actions=['emotion'],
+                    detector_backend=backend,
+                    enforce_detection=False
+                )
+                if isinstance(analysis, list):
+                    for face in analysis:
+                        region = face.get('region', {})
+                        if region:
+                            faces.append({
+                                'x': region.get('x', 0),
+                                'y': region.get('y', 0),
+                                'w': region.get('w', 0),
+                                'h': region.get('h', 0),
+                                'method': backend,
+                                'emotion': face.get('dominant_emotion', 'unknown'),
+                                'emotion_scores': face.get('emotion', {})
+                            })
+                else:
+                    region = analysis.get('region', {})
+                    if region:
+                        faces.append({
+                            'x': region.get('x', 0),
+                            'y': region.get('y', 0),
+                            'w': region.get('w', 0),
+                            'h': region.get('h', 0),
+                            'method': backend,
+                            'emotion': analysis.get('dominant_emotion', 'unknown'),
+                            'emotion_scores': analysis.get('emotion', {})
+                        })
+                break
+            except:
+                continue
+
+        return faces
+
+    def analyze_emotion(self, image):
+        """개선된 얼굴 감정 분석"""
+        try:
+            faces = self.detect_faces_multiple_methods(image)
+
+            if not faces:
+                return {
+                    'dominant_emotion': 'unknown',
+                    'emotion_scores': {},
+                    'face_detected': False,
+                    'face_count': 0,
+                    'face_area_ratio': 0
+                }
+
+            largest_face = max(faces, key=lambda x: x['w'] * x['h'])
+
+            if 'emotion' in largest_face:
+                return {
+                    'dominant_emotion': largest_face['emotion'],
+                    'emotion_scores': largest_face['emotion_scores'],
+                    'face_detected': True,
+                    'face_count': len(faces),
+                    'face_area_ratio': round((largest_face['w'] * largest_face['h']) / (image.width * image.height) * 100, 2)
+                }
+
+            img_array = np.array(image)
+            x, y, w, h = largest_face['x'], largest_face['y'], largest_face['w'], largest_face['h']
+            expand = 0.15
+            x_exp = max(0, int(x - w * expand))
+            y_exp = max(0, int(y - h * expand))
+            w_exp = min(image.width - x_exp, int(w * (1 + 2 * expand)))
+            h_exp = min(image.height - y_exp, int(h * (1 + 2 * expand)))
+
+            face_region = img_array[y_exp:y_exp+h_exp, x_exp:x_exp+w_exp]
+
+            analysis = DeepFace.analyze(face_region, actions=['emotion'], enforce_detection=False)
+            if isinstance(analysis, list):
+                analysis = analysis[0]
+
+            return {
+                'dominant_emotion': analysis['dominant_emotion'],
+                'emotion_scores': analysis['emotion'],
+                'face_detected': True,
+                'face_count': len(faces),
+                'face_area_ratio': round((w * h) / (image.width * image.height) * 100, 2)
+            }
+
+        except Exception as e:
+            print(f"감정 분석 실패: {e}")
+            return {
+                'dominant_emotion': 'unknown',
+                'emotion_scores': {},
+                'face_detected': False,
+                'face_count': 0,
+                'face_area_ratio': 0
+            }
+
+    def create_debug_image(self, image, text_boxes, faces):
+        """디버그용 박스 표시 이미지 생성"""
+        try:
+            debug_img = image.copy()
+            draw = ImageDraw.Draw(debug_img)
+
+            for bbox in text_boxes:
+                points = [(point[0], point[1]) for point in bbox]
+                draw.polygon(points, outline='red', width=3)
+
+            for face in faces:
+                x, y, w, h = face['x'], face['y'], face['w'], face['h']
+                draw.rectangle([x, y, x+w, y+h], outline='blue', width=4)
+
+            return debug_img
+        except:
+            return image
+
+    def analyze_thumbnail(self, url, save_debug=False):
+        """썸네일 종합 분석"""
+        image = self.download_image(url)
+        if image is None:
+            return self.get_empty_result()
+
+        try:
+            text_analysis = self.extract_text_with_multiple_methods(image)
+            text_ratio = self.calculate_text_ratio(image, text_analysis['text_boxes'])
+            emotion_analysis = self.analyze_emotion(image)
+
+            debug_image_path = None
+            if save_debug:
+                faces = self.detect_faces_multiple_methods(image)
+                debug_img = self.create_debug_image(image, text_analysis['text_boxes'], faces)
+                debug_image_path = f"debug_{hash(url) % 10000}.jpg"
+                debug_img.save(debug_image_path)
+
+            return {
+                **text_analysis,
+                'text_ratio': text_ratio,
+                **emotion_analysis,
+                'analysis_success': True,
+                'debug_image_path': debug_image_path
+            }
+        except Exception as e:
+            print(f"분석 중 오류 발생: {e}")
+            return self.get_empty_result()
+
+    def get_empty_result(self):
+        """분석 실패 시 기본값 반환"""
+        return {
+            'extracted_text': '',
+            'keywords': [],
+            'text_boxes': [],
+            'text_count': 0,
+            'avg_confidence': 0,
+            'total_detections': 0,
+            'text_ratio': 0,
+            'dominant_emotion': 'unknown',
+            'emotion_scores': {},
+            'face_detected': False,
+            'face_count': 0,
+            'face_area_ratio': 0,
+            'analysis_success': False,
+            'debug_image_path': None
+        }
+
+def main():
+    from google.colab import files
+
+    uploaded = files.upload()
+    csv_filename = list(uploaded.keys())[0]
+
+    df = pd.read_csv(csv_filename)
+    print(f"총 {len(df)}개의 데이터를 분석합니다.")
+
+    analyzer = ThumbnailAnalyzer()
+
+    results = []
+
+    for idx, row in tqdm(df.iterrows(), total=len(df), desc="썸네일 분석 중"):
+        thumbnail_url = row['썸네일URL']
+
+        print(f"\n분석 중 ({idx+1}/{len(df)}): {row.get('영상제목', 'Unknown')}")
+
+        save_debug = idx < 5
+        analysis_result = analyzer.analyze_thumbnail(thumbnail_url, save_debug=save_debug)
+
+        result_row = {
+            '수집일자': row.get('수집일자', ''),
+            '게임명': row.get('게임명', ''),
+            '영상ID': row.get('영상ID', ''),
+            '영상제목': row.get('영상제목', ''),
+            '썸네일URL': thumbnail_url,
+            '조회수': row.get('viewCount', 0),
+            '좋아요수': row.get('likeCount', 0),
+            '댓글수': row.get('commentCount', 0),
+            '추출된_텍스트': analysis_result['extracted_text'],
+            '키워드': ', '.join(analysis_result['keywords']),
+            '텍스트_개수': analysis_result['text_count'],
+            '텍스트_신뢰도': analysis_result['avg_confidence'],
+            '총_검출수': analysis_result['total_detections'],
+            '텍스트_비중': analysis_result['text_ratio'],
+            '주요_감정': analysis_result['dominant_emotion'],
+            '얼굴_감지여부': analysis_result['face_detected'],
+            '얼굴_개수': analysis_result['face_count'],
+            '얼굴_비중': analysis_result['face_area_ratio'],
+            '분석_성공여부': analysis_result['analysis_success']
+        }
+
+        for emotion, score in analysis_result['emotion_scores'].items():
+            result_row[f'감정_{emotion}'] = round(score, 2) if isinstance(score, (int, float)) else 0
+
+        results.append(result_row)
+
+        if idx % 15 == 0:
+            gc.collect()
+
+    result_df = pd.DataFrame(results)
+    output_filename = 'thumbnail_analysis_results.csv'
+    result_df.to_csv(output_filename, index=False, encoding='utf-8-sig')
+
+    print(f"\n분석 완료! 결과가 '{output_filename}'에 저장되었습니다.")
+
+    print(f"총 분석된 썸네일: {len(result_df)}")
+    print(f"분석 성공: {result_df['분석_성공여부'].sum()}개")
+    print(f"평균 텍스트 비중: {result_df['텍스트_비중'].mean():.2f}%")
+    print(f"평균 텍스트 신뢰도: {result_df['텍스트_신뢰도'].mean():.2f}")
+    print(f"평균 총 검출수: {result_df['총_검출수'].mean():.1f}")
+    print(f"얼굴 감지된 썸네일: {result_df['얼굴_감지여부'].sum()}개")
+    print(f"평균 얼굴 비중: {result_df['얼굴_비중'].mean():.2f}%")
+
+    emotion_counts = result_df['주요_감정'].value_counts()
+    print(f"\n주요 감정 분포:")
+    for emotion, count in emotion_counts.items():
+        print(f"  {emotion}: {count}개")
+
+    all_keywords = []
+    for keywords_str in result_df['키워드']:
+        if keywords_str:
+            all_keywords.extend(keywords_str.split(', '))
+
+    keyword_freq = Counter(all_keywords)
+    print(f"\n상위 키워드:")
+    for keyword, count in keyword_freq.most_common(15):
+        print(f"  {keyword}: {count}회")
+
+    files.download(output_filename)
+
+    return result_df
+
+if __name__ == "__main__":
+    result_df = main()
