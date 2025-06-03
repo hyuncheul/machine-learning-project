@@ -1,0 +1,446 @@
+# (나중에 csv수집하고 변수 삭제 및 수정 해야함, 쓸모없는 컬럼이나 0이 많음)
+# 얼굴 나옴 0603
+# ==============================
+# 1. 필수 라이브러리 설치 (코랩 전용)
+# ==============================
+!pip install --upgrade pip
+!pip install tensorflow==2.15.0
+!pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+!pip install easyocr
+!pip install deepface
+!pip install opencv-python-headless
+!pip install tqdm scikit-image joblib
+!pip install tf-keras
+
+# ==============================
+# 2. 환경설정 및 GPU 확인
+# ==============================
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'  # GPU 강제 지정
+os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
+
+import tensorflow as tf
+
+# GPU 메모리 설정 개선
+try:
+    gpus = tf.config.experimental.list_physical_devices('GPU')
+    if gpus:
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+        print(f'GPU 설정 완료: {len(gpus)}개 GPU 사용 가능')
+    else:
+        print('GPU를 찾을 수 없습니다. CPU 모드로 실행됩니다.')
+except RuntimeError as e:
+    print(f'GPU 설정 오류: {e}')
+
+# ==============================
+# 3. 라이브러리 임포트
+# ==============================
+import pandas as pd
+import numpy as np
+import cv2
+import requests
+from PIL import Image, ImageEnhance, ImageFilter
+import io
+import easyocr
+from deepface import DeepFace
+from tqdm import tqdm
+import re
+from collections import Counter
+import gc
+import warnings
+warnings.filterwarnings('ignore')
+
+# ==============================
+# 4. 얼굴 인식 및 감정 분석 클래스 
+# ==============================
+class EnhancedThumbnailAnalyzer:
+    def __init__(self):
+        self.reader = easyocr.Reader(['ko', 'en'], gpu=True, verbose=False)
+        self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+        
+        # DeepFace 모델 초기화 방식 완전 변경
+        self.emotion_model_loaded = False
+        self.emotion_backends = ['opencv', 'ssd', 'mtcnn']  # retinaface 제외
+        
+        print("DeepFace 모델 초기화 중...")
+        self._initialize_deepface_models()
+
+    def _initialize_deepface_models(self):
+        """DeepFace 모델 초기화 함수"""
+        try:
+            # CPU 모드로 강제 실행하여 초기화
+            with tf.device('/CPU:0'):
+                # 간단한 테스트 이미지로 모델 초기화
+                test_img = np.ones((48, 48, 3), dtype=np.uint8) * 128
+                
+                # 각 백엔드별로 테스트
+                working_backends = []
+                for backend in self.emotion_backends:
+                    try:
+                        result = DeepFace.analyze(
+                            test_img, 
+                            actions=['emotion'], 
+                            detector_backend=backend,
+                            enforce_detection=False,
+                            silent=True
+                        )
+                        working_backends.append(backend)
+                        print(f"✓ {backend} 백엔드 초기화 성공")
+                        break  # 하나만 성공하면 충분
+                    except Exception as e:
+                        print(f"✗ {backend} 백엔드 초기화 실패: {str(e)[:50]}...")
+                        continue
+                
+                if working_backends:
+                    self.emotion_backends = working_backends
+                    self.emotion_model_loaded = True
+                    print(f"DeepFace 감정 모델 초기화 성공! 사용 가능한 백엔드: {working_backends}")
+                else:
+                    print("모든 DeepFace 백엔드 초기화 실패")
+                    
+        except Exception as e:
+            print(f"DeepFace 초기화 전체 실패: {e}")
+
+    def detect_faces_opencv(self, image):
+        """OpenCV만을 사용한 얼굴 검출"""
+        img_array = np.array(image)
+        gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+        
+        # 여러 스케일로 얼굴 검출 시도
+        faces = []
+        scale_factors = [1.05, 1.1, 1.2, 1.3]
+        min_neighbors = [3, 4, 5, 6]
+        
+        for scale in scale_factors:
+            for neighbors in min_neighbors:
+                detected = self.face_cascade.detectMultiScale(
+                    gray, 
+                    scaleFactor=scale, 
+                    minNeighbors=neighbors,
+                    minSize=(20, 20),
+                    maxSize=(300, 300)
+                )
+                
+                if len(detected) > 0:
+                    for (x, y, w, h) in detected:
+                        faces.append({
+                            'x': int(x), 'y': int(y), 
+                            'w': int(w), 'h': int(h), 
+                            'method': 'opencv_haar',
+                            'confidence': scale * neighbors  # 간단한 신뢰도 점수
+                        })
+                    break
+            if faces:
+                break
+        
+        # 중복 제거 (겹치는 영역이 50% 이상인 경우)
+        unique_faces = []
+        for face in faces:
+            is_duplicate = False
+            for existing in unique_faces:
+                overlap = self._calculate_overlap(face, existing)
+                if overlap > 0.5:
+                    is_duplicate = True
+                    break
+            if not is_duplicate:
+                unique_faces.append(face)
+        
+        return unique_faces
+
+    def _calculate_overlap(self, face1, face2):
+        """두 얼굴 영역의 겹침 비율 계산"""
+        x1, y1, w1, h1 = face1['x'], face1['y'], face1['w'], face1['h']
+        x2, y2, w2, h2 = face2['x'], face2['y'], face2['w'], face2['h']
+        
+        # 교집합 영역 계산
+        x_overlap = max(0, min(x1 + w1, x2 + w2) - max(x1, x2))
+        y_overlap = max(0, min(y1 + h1, y2 + h2) - max(y1, y2))
+        overlap_area = x_overlap * y_overlap
+        
+        # 합집합 영역 계산
+        area1 = w1 * h1
+        area2 = w2 * h2
+        union_area = area1 + area2 - overlap_area
+        
+        return overlap_area / union_area if union_area > 0 else 0
+
+    def preprocess_image_for_emotion(self, image):
+        """감정 분석을 위한 이미지 전처리"""
+        # PIL을 numpy로 변환
+        if isinstance(image, Image.Image):
+            img_array = np.array(image)
+        else:
+            img_array = image
+        
+        # RGB로 변환 (DeepFace는 RGB를 기대함)
+        if len(img_array.shape) == 3 and img_array.shape[2] == 3:
+            # 이미 RGB라고 가정
+            pass
+        else:
+            # 그레이스케일인 경우 RGB로 변환
+            if len(img_array.shape) == 2:
+                img_array = cv2.cvtColor(img_array, cv2.COLOR_GRAY2RGB)
+        
+        return img_array
+
+    def analyze_emotion_cpu(self, image, faces):
+        """CPU 모드로 감정 분석 (안정성 향상)"""
+        result = {
+            'dominant_emotion': 'unknown',
+            'emotion_scores': {},
+            'face_detected': len(faces) > 0,
+            'face_count': len(faces),
+            'face_area_ratio': 0
+        }
+        
+        if not self.emotion_model_loaded or not faces:
+            return result
+        
+        try:
+            # 가장 큰 얼굴 선택
+            largest_face = max(faces, key=lambda x: x['w'] * x['h'])
+            x, y, w, h = largest_face['x'], largest_face['y'], largest_face['w'], largest_face['h']
+            
+            # 얼굴 영역 비율 계산
+            img_array = self.preprocess_image_for_emotion(image)
+            total_pixels = img_array.shape[0] * img_array.shape[1]
+            result['face_area_ratio'] = round((w * h) / total_pixels * 100, 2)
+            
+            # 얼굴 영역 추출 및 확장
+            expand_ratio = 0.2  # 20% 확장
+            x_exp = max(0, int(x - w * expand_ratio))
+            y_exp = max(0, int(y - h * expand_ratio))
+            w_exp = min(img_array.shape[1] - x_exp, int(w * (1 + 2 * expand_ratio)))
+            h_exp = min(img_array.shape[0] - y_exp, int(h * (1 + 2 * expand_ratio)))
+            
+            face_region = img_array[y_exp:y_exp+h_exp, x_exp:x_exp+w_exp]
+            
+            # 얼굴 영역이 너무 작으면 전체 이미지 사용
+            if face_region.size == 0 or min(face_region.shape[:2]) < 32:
+                face_region = img_array
+            
+            # CPU 모드로 강제 실행
+            with tf.device('/CPU:0'):
+                for backend in self.emotion_backends:
+                    try:
+                        analysis = DeepFace.analyze(
+                            face_region,
+                            actions=['emotion'],
+                            detector_backend=backend,
+                            enforce_detection=False,
+                            silent=True
+                        )
+                        
+                        # 결과 처리
+                        if isinstance(analysis, list) and len(analysis) > 0:
+                            analysis = analysis[0]
+                        
+                        if isinstance(analysis, dict):
+                            result['dominant_emotion'] = analysis.get('dominant_emotion', 'unknown')
+                            result['emotion_scores'] = analysis.get('emotion', {})
+                            
+                            # 감정 점수 정규화
+                            if result['emotion_scores']:
+                                total_score = sum(result['emotion_scores'].values())
+                                if total_score > 0:
+                                    result['emotion_scores'] = {
+                                        k: round(v/total_score*100, 2) 
+                                        for k, v in result['emotion_scores'].items()
+                                    }
+                            break
+                        
+                    except Exception as e:
+                        print(f"감정 분석 오류 ({backend}): {str(e)[:50]}...")
+                        continue
+                        
+        except Exception as e:
+            print(f"감정 분석 전체 오류: {e}")
+        
+        return result
+
+    def analyze_thumbnail(self, url):
+        """썸네일 분석 메인 함수"""
+        result = {
+            'extracted_text': '',
+            'keywords': [],
+            'text_count': 0,
+            'avg_confidence': 0,
+            'total_detections': 0,
+            'text_ratio': 0,
+            'dominant_emotion': 'unknown',
+            'emotion_scores': {},
+            'face_detected': False,
+            'face_count': 0,
+            'face_area_ratio': 0,
+            'analysis_success': False
+        }
+        
+        try:
+            # 이미지 다운로드
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            response = requests.get(url, timeout=20, headers=headers)
+            response.raise_for_status()
+            
+            image = Image.open(io.BytesIO(response.content)).convert('RGB')
+            
+            # 이미지 크기 조정
+            min_size = 150
+            if image.width < min_size or image.height < min_size:
+                scale = max(min_size / image.width, min_size / image.height)
+                new_width = int(image.width * scale)
+                new_height = int(image.height * scale)
+                image = image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+            
+            # 이미지 품질 향상
+            enhancer = ImageEnhance.Contrast(image)
+            image = enhancer.enhance(1.1)
+            
+            # 텍스트 추출
+            try:
+                text_results = self.reader.readtext(np.array(image), detail=1)
+                if text_results:
+                    texts = [res[1] for res in text_results if res[2] > 0.4]
+                    confidences = [res[2] for res in text_results if res[2] > 0.4]
+                    
+                    if texts:
+                        result['extracted_text'] = ' '.join(texts)
+                        result['text_count'] = len(texts)
+                        result['avg_confidence'] = round(np.mean(confidences), 2)
+                        result['total_detections'] = len(text_results)
+                        result['text_ratio'] = round(len(result['extracted_text']) / (image.size[0] * image.size[1]) * 10000, 2)
+                        
+                        # 키워드 추출
+                        nouns = re.findall(r'[\w\(\)]+', result['extracted_text'])
+                        counter = Counter(nouns)
+                        result['keywords'] = [word for word, _ in counter.most_common(5) if len(word) > 1]
+            except Exception as e:
+                print(f"텍스트 추출 오류: {e}")
+            
+            # 얼굴 및 감정 분석
+            try:
+                faces = self.detect_faces_opencv(image)
+                emotion_result = self.analyze_emotion_cpu(image, faces)
+                result.update(emotion_result)
+                
+                if result['face_detected'] and result['dominant_emotion'] != 'unknown':
+                    print(f"✓ 감정 분석 성공: {result['dominant_emotion']} (얼굴 {result['face_count']}개)")
+                
+            except Exception as e:
+                print(f"얼굴/감정 분석 오류: {e}")
+            
+            result['analysis_success'] = True
+            
+        except Exception as e:
+            print(f"썸네일 분석 전체 오류 ({url}): {e}")
+        
+        return result
+
+# ==============================
+# 5. 메인 처리 함수
+# ==============================
+def main():
+    input_csv = 'game_api_data_test.csv' # 바꿔야함
+    output_filename = 'thumbnail_analysis_results.csv'
+    
+    print(f"입력 파일: {input_csv}")
+    print(f"출력 파일: {output_filename}")
+
+    try:
+        df = pd.read_csv(input_csv)
+        print(f"총 {len(df)}개의 데이터를 분석합니다.")
+        
+        # 이미 완료된 데이터 확인
+        completed_video_ids = set()
+        if os.path.exists(output_filename):
+            try:
+                completed_df = pd.read_csv(output_filename)
+                completed_video_ids = set(completed_df['영상ID'].values)
+                print(f"이미 {len(completed_video_ids)}개의 데이터가 분석 완료되었습니다.")
+            except Exception as e:
+                print(f"기존 결과 파일을 읽는 중 오류 발생: {e}")
+
+        # 분석기 초기화
+        analyzer = EnhancedThumbnailAnalyzer()
+        results = []
+        
+        # 기존 결과 로드
+        if os.path.exists(output_filename):
+            try:
+                results_df = pd.read_csv(output_filename)
+                results = results_df.to_dict('records')
+                print(f"이전 분석 결과 {len(results)}개를 로드했습니다.")
+            except Exception as e:
+                print(f"이전 분석 결과를 로드하는 중 오류 발생: {e}")
+
+        # 데이터 분석
+        for idx, row in tqdm(df.iterrows(), total=len(df), desc="썸네일 분석 중"):
+            video_id = row.get('영상ID', '')
+            if video_id in completed_video_ids:
+                continue
+                
+            thumbnail_url = row.get('썸네일URL', '')
+            if not thumbnail_url:
+                continue
+            
+            # 썸네일 분석
+            analysis_result = analyzer.analyze_thumbnail(thumbnail_url)
+            
+            # 결과 정리
+            result_row = {
+                '수집일자': row.get('수집일자', ''),
+                '게임명': row.get('게임명', ''),
+                '영상ID': video_id,
+                '영상제목': row.get('영상제목', ''),
+                '썸네일URL': thumbnail_url,
+                '조회수': row.get('viewCount', 0),
+                '좋아요수': row.get('likeCount', 0),
+                '댓글수': row.get('commentCount', 0),
+                '추출된_텍스트': analysis_result['extracted_text'],
+                '키워드': ', '.join(analysis_result['keywords']),
+                '텍스트_개수': analysis_result['text_count'],
+                '텍스트_신뢰도': analysis_result['avg_confidence'],
+                '총_검출수': analysis_result['total_detections'],
+                '텍스트_비중': analysis_result['text_ratio'],
+                '주요_감정': analysis_result['dominant_emotion'],
+                '얼굴_감지여부': analysis_result['face_detected'],
+                '얼굴_개수': analysis_result['face_count'],
+                '얼굴_비중': analysis_result['face_area_ratio'],
+                '분석_성공여부': analysis_result['analysis_success']
+            }
+            
+            # 감정 점수 추가
+            emotion_labels = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
+            for emotion in emotion_labels:
+                score = analysis_result['emotion_scores'].get(emotion, 0)
+                result_row[f'감정_{emotion}'] = round(score, 2) if isinstance(score, (int, float)) else 0
+            
+            results.append(result_row)
+            completed_video_ids.add(video_id)
+            
+            # 5개 단위로 중간 저장
+            if len(results) % 5 == 0:
+                pd.DataFrame(results).to_csv(output_filename, index=False, encoding='utf-8-sig')
+                print(f"\n중간 저장 완료! {len(results)}개의 데이터가 '{output_filename}'에 저장되었습니다.")
+            
+            # 메모리 정리
+            if idx % 10 == 0:
+                gc.collect()
+                
+    except Exception as e:
+        print(f"메인 처리 중 오류 발생: {e}")
+    
+    finally:
+        # 최종 저장
+        if results:
+            pd.DataFrame(results).to_csv(output_filename, index=False, encoding='utf-8-sig')
+            print(f"\n최종 저장 완료! {len(results)}개의 데이터가 '{output_filename}'에 저장되었습니다.")
+
+# ==============================
+# 6. 실행
+# ==============================
+if __name__ == "__main__":
+    main()
