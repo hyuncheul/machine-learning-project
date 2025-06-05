@@ -1,0 +1,23 @@
+import pandas as pd
+
+# 1. 원본 데이터 불러오기 (예: game_api_data_sum.csv)
+df = pd.read_csv("game_api_data_sum.csv", encoding='utf-8')
+
+# 2. 필요한 컬럼 선택 (게임명, 키워드, 조회수)
+df_keywords = df[['게임명', '키워드', 'viewCount']].dropna()
+
+# 3. 키워드가 여러 개일 경우 분리 (쉼표로 구분된 경우)
+df_keywords['키워드'] = df_keywords['키워드'].astype(str).str.split(',')
+
+# 4. explode: 키워드 하나씩 분리
+df_keywords = df_keywords.explode('키워드')
+df_keywords['키워드'] = df_keywords['키워드'].str.strip()
+
+# 5. 키워드별 평균 조회수 및 등장 횟수 계산
+grouped = df_keywords.groupby(['게임명', '키워드'])['viewCount'].agg(['count', 'mean']).reset_index()
+
+# 6. 컬럼 이름 정리
+grouped = grouped.rename(columns={'count': 'count', 'mean': 'mean_view'})
+
+# 7. 저장
+grouped.to_csv("keyword_mean_view_by_game.csv", index=False, encoding='utf-8')
