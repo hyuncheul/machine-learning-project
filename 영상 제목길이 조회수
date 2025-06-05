@@ -1,0 +1,29 @@
+import pandas as pd
+
+# ✅ 1. 데이터 불러오기 (CP949 인코딩)
+df = pd.read_csv("모든영상_제목길이_조회수.csv", encoding='cp949')
+
+# ✅ 2. 제목 길이 사분위수 기준으로 구간 나누기
+q1, q2, q3 = df['제목길이'].quantile([0.25, 0.5, 0.75])
+
+def get_quantile_group(length):
+    if length <= q1:
+        return f'~{int(q1)}자'
+    elif length <= q2:
+        return f'{int(q1)+1}~{int(q2)}자'
+    elif length <= q3:
+        return f'{int(q2)+1}~{int(q3)}자'
+    else:
+        return f'{int(q3)+1}자~'
+
+df['제목길이구간(사분위기반)'] = df['제목길이'].apply(get_quantile_group)
+
+# ✅ 3. 구간별 평균 조회수 계산
+grouped = df.groupby('제목길이구간(사분위기반)')['조회수'].mean().reset_index()
+grouped = grouped.rename(columns={'조회수': '평균조회수'})
+
+# ✅ 4. 평균 조회수 기준으로 정렬
+grouped_sorted = grouped.sort_values('평균조회수', ascending=False)
+
+# ✅ 5. 정렬된 결과를 CSV로 저장
+grouped_sorted.to_csv("제목길이구간_평균조회수_정렬.csv", index=False, encoding='cp949')
